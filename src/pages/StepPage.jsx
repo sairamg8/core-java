@@ -99,10 +99,14 @@ export default function StepPage() {
   const [status, setStatusState] = useState(() => getStatus(n))
 
   useEffect(() => {
+    document.getElementById('main-content')?.scrollTo(0, 0)
     setLastVisited(n)
-    if (getStatus(n) === 'not-started') {
+    const current = getStatus(n)
+    if (current === 'not-started') {
       setStatus(n, 'in-progress')
       setStatusState('in-progress')
+    } else {
+      setStatusState(current)
     }
   }, [n])
 
