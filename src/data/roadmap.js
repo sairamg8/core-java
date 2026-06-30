@@ -199,6 +199,26 @@ import topic197 from './core/basics/topic197CreatingAndDeletingDatabases'
 import topic198 from './core/basics/topic198DataTypes'
 import topic199 from './core/basics/topic199CreatingTablesInTheDatabase'
 import topic200 from './core/basics/topic200InsertingDataIntoTheTable'
+import topic201 from './core/basics/topic201InsertingMultipleRows'
+import topic202 from './core/basics/topic202PrimaryKeyConstraint'
+import topic203 from './core/basics/topic203SQLConstraints'
+import topic204 from './core/basics/topic204SelectCommand'
+import topic205 from './core/basics/topic205SelectWithWhereClause'
+import topic206 from './core/basics/topic206ANDORNOTOperators'
+import topic207 from './core/basics/topic207INOperator'
+import topic208 from './core/basics/topic208BETWEENAndNOTBETWEENOperators'
+import topic209 from './core/basics/topic209SelectWithORDERBY'
+import topic210 from './core/basics/topic210DISTINCTKeyword'
+import topic211 from './core/basics/topic211UpdatingRecords'
+import topic212 from './core/basics/topic212DeletingRecords'
+import topic213 from './core/basics/topic213COMMITAndROLLBACKCommands'
+import topic214 from './core/basics/topic214PRIMARYKEYAndFOREIGNKEYConstraints'
+import topic215 from './core/basics/topic215INNERJOIN'
+import topic216 from './core/basics/topic216LEFTJOIN'
+import topic217 from './core/basics/topic217RIGHTJOIN'
+import topic218 from './core/basics/topic218CROSSJOIN'
+import topic219 from './core/basics/topic219ALTERCommand'
+import topic220 from './core/basics/topic220DROPAndTRUNCATECommands'
 import programmingFundamentals from './core/basics/programmingFundamentals'
 import javaIntro from './core/basics/javaIntro'
 import jvmSection from './core/basics/jvm'
@@ -680,6 +700,10 @@ export const STAGES = [
         sections: [
           topic190, topic191, topic192, topic193, topic194, topic195,
           topic196, topic197, topic198, topic199, topic200,
+          topic201, topic202, topic203, topic204, topic205,
+          topic206, topic207, topic208, topic209, topic210,
+          topic211, topic212, topic213, topic214, topic215,
+          topic216, topic217, topic218, topic219, topic220,
           sqlBasics, sqlJoins,
         ],
       },
