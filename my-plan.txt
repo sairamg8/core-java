@@ -1,0 +1,649 @@
+1. Course Introduction
+2. Use the Course Resources
+3. [Important] Access for Source Code and Learner Community
+4. Projects in the Course
+5. Fundamentals of Programming
+6. Memory Unit in a Computer
+7. Platform and Platform Dependency
+8. How Java Became Platform Independent (WORA)
+9. Introduction to Java
+10. JDK and IDE Download
+11. JDK Installation
+12. VS Code Installation
+13. IntelliJ IDEA Installation
+14. Eclipse Installation
+15. First Code in Java
+16. How Java Works
+17. Variables
+18. Data Types
+19. Literal
+20. Type Conversion
+21. Arithmetic Operators
+22. Relational Operators
+23. Logical Operators
+24. If Else
+25. If-Else-If
+26. Ternary Operator
+27. Switch Statement
+28. Need for Loops
+29. While Loop
+30. Do-While Loop
+31. For Loop
+32. Which Loop to Use
+33. Class and Object Theory
+34. Class and Object Practical
+35. JDK, JRE, and JVM
+36. Methods
+37. Method Overloading
+38. Stack and Heap
+39. Need for an Array
+40. Creation of an Array
+41. Multidimensional Array
+42. Jagged and 3D Arrays
+43. Drawbacks of Arrays
+44. Array of Objects
+45. Enhanced For Loop
+46. What Is a String?
+47. Mutable vs. Immutable Strings
+48. StringBuffer and StringBuilder
+49. Encapsulation
+50. Getters and Setters
+51. this Keyword
+52. Constructor
+53. Default vs. Parameterized Constructor
+54. Static Variable
+55. Static Method
+56. Static Block
+57. Naming Conventions
+58. Anonymous Object
+59. Need for Inheritance
+60. What Is Inheritance?
+61. Single and Multilevel Inheritance
+62. Multiple Inheritance
+63. this and super Methods
+64. Method Overriding
+65. Packages
+66. Access Modifiers
+67. Polymorphism
+68. Dynamic Method Dispatch
+69. final Keyword
+70. Object Class: equals(), toString(), and hashCode()
+71. Upcasting and Downcasting
+72. Wrapper Class
+73. Project 1- Introduction
+74. Project 1- QuestionService and Question class
+75. Project 1- Hard Coded Questions and Display them
+76. Project 1- Play Quiz
+77. Project 1- Calculate Score
+78. Abstract Keyword
+79. Inner Class
+80. Anonymous Inner Class
+81. Abstract and Anonymous Inner Class
+82. What Is an Interface?
+83. More on Interfaces
+84. Need for an Interface
+85. What Is an Enum?
+86. Enum with if and switch
+87. Enum Class
+88. What Is an Annotation?
+89. Types of Interface
+90. New Functional Interface
+91. Lambda Expression
+92. Lambda Expression with Return
+93. What Is an Exception?
+94. Exception Handling Using try-catch
+95. try with Multiple catch Blocks
+96. Exception Hierarchy
+97. throw Keyword in Exception Handling
+98. Custom Exception
+99. Ducking Exceptions Using throws
+100. User Input using BufferedReader and Scanner
+101. try-with-resources
+102. What Are Threads?
+103. Multiple Threads
+104. Thread Priority and Sleep
+105. Runnable vs Thread
+106. Race Condition
+107. Thread States
+108. Collection API
+109. ArrayList
+110. Set
+111. Map
+112. Comparator vs Comparable
+113. Need for Generics in Java
+114. Syntax and Usage of Generics
+115. Creating and Working with a Generic Class
+116. Using Wildcard Types in Generics
+117. Upper and lower bounds in Generics
+118. Introduction to Date and Time in Java
+119. New Date and Time API in Java
+120. Need for the Stream API
+121. forEach Method
+122. Stream API
+123. map(), filter(), reduce(), and sorted()
+124. Parallel Stream
+125. Optional Class
+126. Method Reference
+127. Constructor Reference
+128. Fundamentals Before IO Operation
+129. Creating Files and Directories Using the File Class
+130. More on the File Class
+131. Writing Data to a File Using FileWriter
+132. Reading Data from a File in Java Using FileReader
+133. BufferedWriter and FileWriter
+134. BufferedReader and FileReader
+135. Write Operation with PrintWriter
+136. Introduction to Serialization and Deserialization
+137. Serialization
+138. Deserialization
+139. Transient (Selective Serialization)
+140. Welcome to the JUnit 5 Course
+141. Understanding Unit Testing: How It Differs from Regular Testing
+142. Exploring Unit Testing Without JUnit 5
+143. Writing JUnit 5 Tests in Java Without a Maven Project
+144. @Test in Action: JUnit 5 Basics
+145. Understanding Assertion Fundamentals
+146. Setting Up a Maven Project for JUnit 5 Testing
+147. Writing and Running JUnit 5 Test Cases in a Maven Project
+148. Writing Multiple Test Cases
+149. TDD in Action: Writing Tests Before Code
+150. Configuring the Surefire Plugin in a Maven Project
+151. More on assertEquals() Method
+152. Understanding assertNotEquals() for Effective Testing
+153. Understanding assertTrue()
+154. Assertions on Arrays in JUnit 5
+155. Testing for Expected Exceptions
+156. Ensuring Fast Code with assertTimeout()
+157. Making Tests Selective and Readable
+158. Setup and Cleanup with @BeforeEach and @AfterEach
+159. Efficient Test Setup with @BeforeAll and @AfterAll
+160. Test Instance Behavior
+161. Running Tests Conditionally on JRE Version and OS
+162. Skipping Tests with Assumptions
+163. Organizing Tests with @Nested Classes
+164. Automating Test Repetitions with @RepeatedTest
+165. Parameterized Tests with @ValueSource
+166. Parameterized Tests with @CsvSource
+167. Git Version Control
+168. History of Git
+169. Git Setup
+170. Git Init
+171. Git commit
+172. Skipping the Staging Area in Git
+173. Git diff
+174. Removing a File in Git
+175. GitHub Repository
+176. Adding Files to a Remote Repository
+177. Git Tag
+178. Cloning a Project with Git
+179. Creating a Git Branch
+180. Deleting a Git Branch
+181. Pushing a Git Branch to a Remote Repository
+182. How Git Branching Works
+183. Git Merge
+184. Git Rebase
+185. Git Merge Conflicts
+186. Git Time Travel
+187. Git Stash
+188. Git Fork
+189. Git Pull Request
+190. Introduction
+191. Data vs Database vs DBMS
+192. RDBMS vs DBMS
+193. Introduction to SQL and MySQL
+194. Database Components
+195. Complete Setup Installation for Windows
+196. An Overview of MySQL Workbench and the CLI Client
+197. Creating and Deleting Databases
+198. Data Types
+199. Creating Tables in the Database
+200. Inserting Data into the Table
+201. Inserting Multiple Rows
+202. Primary Key Constraint
+203. SQL Constraints
+204. Select Command
+205. SELECT with WHERE Clause
+206. AND, OR, NOT Operators
+207. IN Operator
+208. BETWEEN and NOT BETWEEN Operators
+209. SELECT with ORDER BY
+210. DISTINCT Keyword
+211. Updating Records
+212. Deleting Records
+213. COMMIT and ROLLBACK Commands
+214. PRIMARY KEY and FOREIGN KEY Constraints
+215. INNER JOIN
+216. LEFT JOIN
+217. RIGHT JOIN
+218. CROSS JOIN
+219. ALTER Command
+220. DROP and TRUNCATE Commands
+221. Introduction
+222. Need for JDBC
+223. Need for a Database-Specific JAR in a JDBC App
+224. Steps Involved in Developing a JDBC App (Theory)
+225. Setting Up JDBC Development Environment
+226. Setting Up the Database
+227. Steps Involved in a JDBC App (Practical)
+228. Usage of Class.forName() in JDBC
+229. Inserting Data into the Database
+230. Updating Records in the Database
+231. Retrieving Records from the Database
+232. Deleting Records from the Database
+233. CRUD Operations with a Single execute() Method
+234. Handling Exceptions and Writing Better Code
+235. Inserting Data with PreparedStatement
+236. Statement vs PreparedStatement
+237. Updating Data with PreparedStatement
+238. Deleting Data with PreparedStatement
+239. Retrieving Data with PreparedStatement
+240. Batch Update
+241. Servlet & JSP  Source Code
+242. Introduction
+243. Fundamentals of Client - Server Architecture
+244. Static Response vs Dynamic Response
+245. Introduction to Servlet
+246. Install Apache Tomcat Server
+247. Configure Apache Tomcat in Eclipse IDE
+248. First Web App with Static Response
+249. First Servlet Web App with Dynamic Response
+250. Servlet Life Cycle
+251. Servlet doGet() vs doPost()
+252. Redirecting Responses to JSP and HTML files
+253. Request Dispatching and forward() vs include()
+254. HttpSession
+255. Registration App using Servlet and JDBC
+256. Introduction to JSP
+257. JSP Tags and Web App using JSP
+258. Servlet vs JSP
+259. Introduction to MVC
+260. MVC Using Servlet, JSP and JDBC
+261. What is a Build Tool & Why Do We Need It
+262. What is Maven & What It Does
+263. Maven Installation Guide and Setup Preview
+264. Maven & Java Installation on Windows
+265. Maven Installation on AWS EC2 Instance
+266. Creating a Maven Java Project on Windows (Local Setup)
+267. Maven Java Project on Linux EC2 (Cloud Setup)
+268. Understanding Key Maven Terms
+269. Hands-On Maven Compile, Test, and Package Goals
+270. Maven Java Web App Setup (WAR Project)
+271. Maven Dependencies
+272. Maven Repositories (Local, Central, Remote)
+273. The pom.xml File
+274. Maven in IntelliJ IDEA IDE
+275. Effective pom.xml File
+276. Maven Project Setup in Eclipse IDE
+277. Maven Build Lifecycle (Clean, Compile, Test, Package, Install, Deploy)
+278. Hands-On Java Unit Testing with Maven
+279. Maven with Spring Boot Application (Demo)
+280. You’re Ready to Use Maven
+281. Hibernate Source Code
+282. Hibernate Introduction
+283. Fundamentals Before Hibernate
+284. Limitations of JDBC and Need of Hibernate
+285. JPA and Hibernate as an ORM Framework
+286. Hibernate Architecture
+287. Hibernate Project Setup
+288. Hibernate Project Setup Architecture
+289. Install Hibernate Helper Plugin
+290. First Hibernate Application
+291. Entity Insertion with persist() Method
+292. Updating the Data
+293. Deleting Records in a Table Using delete() and remove()
+294. Maven Project Update
+295. Selective Insertion with @Transient Annotation
+296. Data Retrieval with get() Method
+297. Lazy Loading vs Eager Loading in Hibernate
+298. Level 1 Cache in Hibernate
+299. Level 2 Cache in Hibernate (EhCache)
+300. Hibernate Configuration Using Java Without XML
+301. Hibernate Configuration Using hibernate.properties File
+302. Exploring @GeneratedValue and @SequenceGenerator
+303. Introduction to Hibernate Association Mapping
+304. Hibernate One-to-One Mapping (Unidirectional and Bidirectional)
+305. Hibernate One-to-Many and Many-to-One Mapping
+306. Hibernate ManyToMany Association Mapping
+307. Working with LOBs (Image and text file)
+308. Introduction to HQL (JPQL) and Bulk Operations in Hibernate
+309. Data Retrieval with HQL
+310. More on Data Retrieval with HQL
+311. Updating and Deleting Data with HQL
+312. Introduction to Spring
+313. Spring Docs
+314. Prerequisites
+315. IDE for Spring
+316. IoC and DI
+317. Spring vs Spring Boot
+318. First Spring Boot App
+319. DI Using Spring Boot
+320. Autowiring in Spring Boot
+321. Spring First Project
+322. Spring Bean Xml Config
+323. Object Creation
+324. Scopes
+325. Setter Injection
+326. Ref Attribute
+327. Constructor Injection
+328. Creating Interface
+329. Autowiring
+330. Primary Bean
+331. Lazy Init Bean
+332. getBean() by Type
+333. Inner Bean
+334. Java-Based Configuration
+335. Bean Name
+336. Scope Annotation
+337. Autowiring
+338. @Primary and @Qualifier
+339. Component Stereotype Annotation
+340. Autowire Field, Constructor, Setter
+341. @Primary Annotation
+342. @Scope and @Value Annotations
+343. From Spring to Spring Boot
+344. Using Annotations in Spring Boot
+345. Different Layers
+346. Service Class
+347. Repository Layer
+348. Spring JDBC Introduction
+349. Creating a Spring JDBC Project
+350. Student Service and Repository
+351. JDBCtemplate
+352. Schema and Data Files
+353. RowMapper
+354. Spring JDBC with PostgreSQL
+355. Web App Introduction
+356. Creating A Servlet Project
+357. Running Tomcat
+358. Servlet Mapping
+359. Responding to the Client
+360. Introduction to MVC
+361. Creating a Spring Boot Web App Project
+362. Creating a JSP Page
+363. Creating a Controller
+364. RequestMapping
+365. Sending data to Controller
+366. Accepting Data the Servlet Way
+367. Display Data on Result Page
+368. RequestParam
+369. Model Object
+370. Setting Prefix and Suffix
+371. ModelAndView
+372. Need for ModelAttribute
+373. Using ModelAttribute
+374. Spring MVC Introduction
+375. Creating a Spring MVC Project (Part 1)
+376. Running Tomcat in Eclipse
+377. DispatcherServlet
+378. Configuring the DispatcherServlet
+379. Internal Resource View Resolver
+380. Summary
+381. Job App Source Code
+382. Building Job App
+383. Creating a Project
+384. Understanding Views
+385. Home and Add Job Controller
+386. Handling Forms
+387. Working with Layers
+388. View Data
+389. Summary for Job Webapp
+390. REST Using Spring Boot: Introduction
+391. What Is REST?
+392. HTTP Methods
+393. Understanding the React UI
+394. Working with Postman
+395. Creating a REST Controller
+396. Connecting React and Spring
+397. PathVariable
+398. Sending Data and RequestBody
+399. PUT and DELETE Mapping
+400. Content Negotiation
+401. Spring Data JPA Introduction
+402. What Is ORM and JPA?
+403. Creating Tables and Inserting Data
+404. findAll()
+405. findById()
+406. Query DSL
+407. Update And Delete
+408. JPA In Job App
+409. Loading Data and Entities
+410. Search By Keyword
+411. React UI For Search
+412. React UI For Update And Delete
+413. Project Introduction
+414. Running and Understanding the React UI Code
+415. Spring Boot Project Setup
+416. Creating Product Model and Table
+417. Fetching All Products from DB
+418. ResponseEntity
+419. Fetch Product by ID
+420. Add Product With Image
+421. Fetch Product Image
+422. Update and Delete Product
+423. Search
+424. Order Checkout Walkthrough
+425. Diagram For The Project
+426. Running The Application Before Getting Started
+427. Creating DTOs for Order
+428. Creating Models For Order
+429. Creating Order Controller
+430. Place Order In Service Part 1
+431. Place Order In Service Part 2
+432. Get All Orders
+433. Spring Data Rest Introduction
+434. Creating a Spring Data REST Project
+435. Running the Project
+436. Update and Delete Operations
+437. Spring AOP Introduction
+438. Logging the Calls
+439. AOP Concepts
+440. Before Advice
+441. Join Point
+442. After Advice
+443. Performance Monitoring Using Around Advice
+444. Validating Input Using Around Advice
+445. Importance Of Security
+446. OWASP Top 10
+447. Creating A Spring Security Project
+448. Default Login Form
+449. Spring Security Filters
+450. Session ID
+451. Setting Username And Password
+452. Basic Auth Using Postman
+453. What Is CSRF?
+454. Error Without CSRF Token
+455. Sending CSRF Token
+456. SameSite: Strict
+457. Security Configuration
+458. Disabling CSRF Token
+459. Configuration Without Lambda
+460. Getting Ready For User Database
+461. Working With Multiple Users
+462. Creating User Table and DB Properties
+463. AuthenticationProvider
+464. Creating a UserDetailsService
+465. User Repository
+466. UserDetails and UserPrincipal
+467. Summary Till Now
+468. What Is BCrypt?
+469. User Registration
+470. BCrypt Encoding for User Registration
+471. Setting Password Encoder
+472. Plan To Secure Job App Project
+473. Cross-Origin (CORS)
+474. Adding Security Configuration
+475. Job App Is Secure Now
+476. Encryption and Decryption
+477. Digital Signature
+478. Why JWT?
+479. What Is JWT?
+480. Project Setup for JWT
+481. Custom Login
+482. Generating Token
+483. Token Generation Flow
+484. Creating a JWT Filter
+485. Setting Auth Token in SecurityContext
+486. Validating Token
+487. JWT Summary
+488. Implementing OAuth2
+489. Google OAuth2 Login
+490. GitHub Login
+491. Introduction to Logging with Log4j
+492. Introduction to Logging with Log4J
+493. More on Fundamentals of Log4J
+494. Log4J Implementation Simple Project Setup
+495. Log4j Implementation in Java
+496. Logging with Spring Boot
+497. Docker Introduction
+498. Problem Docker Solves
+499. Solution with Virtualization
+500. Solution with Containerization
+501. What Is Docker?
+502. Docker Setup
+503. Running First Container
+504. Docker Commands
+505. Docker Architecture
+506. Running JDK Docker Container
+507. Packing The Spring Boot Web App
+508. Running Spring Boot Web App On Docker
+509. Dockerfile For Docker Images
+510. Web App with PostgreSQL
+511. Docker Compose
+512. Running Multiple Containers
+513. Docker Volumes
+514. What Is Cloud Computing?
+515. Choosing a Cloud Provider
+516. AWS Account Signup Process
+517. AWS Services and IAM
+518. Simple Web App Project
+519. Deploying On Elastic Beanstalk
+520. Spring Project with Database
+521. Creating Database in AWS RDS
+522. Deploying App on Elastic Beanstalk
+523. Introduction to ECS
+524. Configuring AWS CLI
+525. Creating Cluster And Task
+526. Running The Task For Postgres
+527. Pushing The Docker Image To ECR
+528. Running Java App Task
+529. Spring AI Introduction
+530. Why Spring AI
+531. Spring AI Docs
+532. Stable Version Update
+533. Creating A Spring AI Project
+534. Create OpenAI API Key
+535. Asking Questions to OpenAI Models
+536. Working with ChatClient
+537. ChatResponse and Metadata
+538. ChatClient Builder
+539. Spring AI Memory Advisor
+540. Running Model Locally With Ollama
+541. Spring AI With Ollama
+542. Prompt Template
+543. Implementing Prompt Template
+544. What Are Embeddings?
+545. Embedding Using API Client
+546. Embedding Using Spring AI
+547. What Is Cosine Similarity
+548. Cosine Similarity Implementation
+549. Vector Database Introduction
+550. Simple Vector Store
+551. Token Text Splitter
+552. PGvector Store Introduction
+553. PGvector Setup
+554. PGvector Implementation
+555. Redis Vector Store Config
+556. Redis Vector Store Implementation
+557. What Is RAG?
+558. RAG Implementation
+559. OpenAI Image Model
+560. Image Prompt and Response
+561. Image Options
+562. Describe Image
+563. Implementing Describe Image
+564. Audio Models Introduction
+565. Audio Transcription Model Speech To Text Part 1
+566. Audio STT Part 2 (Speech-to-Text)
+567. Audio Transcription Options
+568. Audio Speech Model (TTS)
+569. Audio Speech Options
+570. Structured Output Converter
+571. List Output Converter
+572. Bean Output Converter
+573. Bean Output Converter With List
+574. E-commerce Project Introduction
+575. New UI with AI
+576. Getting The Project Ready For AI
+577. Mapping The Product Controller
+578. Building Service with ChatClient
+579. AI Image Generator (Part 1)
+580. AI Image Generator (Part 2)
+581. Introduction to Ask AI Feature
+582. Adding The Order Feature Files
+583. Setting Up PGVector
+584. Creating ChatBotController
+585. Chatbot Service with AI Call
+586. Embedding The Product Data
+587. Update Product in Vector Storez
+588. Add Order In The Vector Store
+589. Microservice Source Code
+590. What Are Microservices?
+591. Cloud Computing
+592. Blue Green Deployment
+593. Cloud Native
+594. Quiz App Project Setup 1
+595. Quiz App Project Setup 2
+596. Quiz App Project Setup 3
+597. ResponseEntity and Exception Handling in Quiz App
+598. Quiz Service Part 1
+599. Quiz Service Part 2
+600. Quiz Service Part 3
+601. Quiz App Submit
+602. Building Microservices Introduction
+603. Creating a Question Service 1
+604. Creating a Question Service 2
+605. Creating a Question Service 3
+606. Creating a Quiz Service
+607. Need of Service Discovery
+608. Creating a Service Registry
+609. Working with Feign
+610. Microservice Calling Another Microservice
+611. Completing the 2 Microservices
+612. Load Balancing
+613. API Gateway
+614. Continuing Our Microservices Journey
+615. Blueprint for our Next Project
+616. Creating a Service Registry - Project 2
+617. Creating StockPrice Service 1
+618. Implementing Global Exception Handler in Microservice
+619. Developing Microservice Enabling Fiegn Client
+620. What are Data Structures
+621. Abstract Data Types
+622. Arrays
+623. Big O Notation, Time Complexity
+624. Linear & Binary Search Code | Big O Notation
+625. Bubble Sort Theory
+626. Bubble Sort Code
+627. Selection Sort Theory
+628. Selection Sort Code
+629. Insertion Sort Theory
+630. Insertion Sort Code
+631. Divide and Conquer
+632. Tree Introduction
+633. Recursion
+634. Quick sort Theory
+635. Quick Sort Code
+636. Merge Sort Theory
+637. Merge Sort Code
+638. Linked List Theory
+639. Linked List Code for Adding Values
+640. Linked List AddFirst and Delete Code (Part 2)
+641. Stack Theory
+642. Stack Code (Push)
+643. Stack Code (Pop & Peek)
+644. Queue Theory
+645. Queue Code Enqueue And Dequeue
+646. Circular Queue Code
+647. Tree Data Structure
+648. Binary Search Tree Theory
+649. Tree Implementation
