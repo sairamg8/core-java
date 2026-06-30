@@ -78,7 +78,7 @@ public class GreetServlet extends HttpServlet {
 <html>
 <head><title>Greeting</title></head>
 <body>
-  <h1>Hello, ${visitorName}!</h1>
+  <h1>Hello, \${visitorName}!</h1>
   <p>This response was generated dynamically by a Servlet + JSP.</p>
 </body>
 </html>
