@@ -1,4 +1,4 @@
-// Stage 1 — Java Foundations (Topics 1–16)
+// Stage 1 — Java Foundations (Topics 1–26)
 import topic01 from './core/basics/topic01CourseIntroduction'
 import topic02 from './core/basics/topic02CourseResources'
 import topic03 from './core/basics/topic03SourceCodeAccess'
@@ -15,6 +15,16 @@ import topic13 from './core/basics/topic13IntelliJInstallation'
 import topic14 from './core/basics/topic14EclipseInstallation'
 import topic15 from './core/basics/topic15FirstCodeInJava'
 import topic16 from './core/basics/topic16HowJavaWorks'
+import topic17 from './core/basics/topic17Variables'
+import topic18 from './core/basics/topic18DataTypes'
+import topic19 from './core/basics/topic19Literal'
+import topic20 from './core/basics/topic20TypeConversion'
+import topic21 from './core/basics/topic21ArithmeticOperators'
+import topic22 from './core/basics/topic22RelationalOperators'
+import topic23 from './core/basics/topic23LogicalOperators'
+import topic24 from './core/basics/topic24IfElse'
+import topic25 from './core/basics/topic25IfElseIf'
+import topic26 from './core/basics/topic26TernaryOperator'
 import programmingFundamentals from './core/basics/programmingFundamentals'
 import javaIntro from './core/basics/javaIntro'
 import jvmSection from './core/basics/jvm'
@@ -152,25 +162,25 @@ export const STAGES = [
         step: 2, id: 'data-types',
         title: 'Data Types & Variables',
         subtitle: 'Primitive types vs reference types, memory layout, and default values.',
-        sections: [variablesSection, datatypesSection, literalsSection],
+        sections: [topic17, topic18, topic19, variablesSection, datatypesSection, literalsSection],
       },
       {
         step: 3, id: 'casting-autoboxing',
         title: 'Type Casting & Autoboxing',
         subtitle: 'Widening, narrowing, autoboxing, unboxing, and the Integer cache gotcha.',
-        sections: [castingSection, autoboxingSection],
+        sections: [topic20, castingSection, autoboxingSection],
       },
       {
         step: 4, id: 'operators',
         title: 'Operators',
         subtitle: 'Arithmetic, relational, logical, bitwise, ternary — and operator precedence.',
-        sections: [operatorsSection],
+        sections: [topic21, topic22, topic23, operatorsSection],
       },
       {
         step: 5, id: 'control-flow',
         title: 'Control Flow',
         subtitle: 'if/else, switch expressions (Java 14+), for/while/do-while, break and continue.',
-        sections: [controlFlowSection],
+        sections: [topic24, topic25, topic26, controlFlowSection],
       },
       {
         step: 6, id: 'methods-arrays',
