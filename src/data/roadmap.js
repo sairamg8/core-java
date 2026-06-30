@@ -294,6 +294,26 @@ import modernFeatures from './modern/modernFeatures'
 
 // Stage 7 — Ecosystem (Maven / JDBC / JPA)
 import maven from './ecosystem/maven'
+import topic261 from './core/basics/topic261WhatIsABuildToolAndWhyDoWeNeedIt'
+import topic262 from './core/basics/topic262WhatIsMavenAndWhatItDoes'
+import topic263 from './core/basics/topic263MavenInstallationGuideAndSetupPreview'
+import topic264 from './core/basics/topic264MavenAndJavaInstallationOnWindows'
+import topic265 from './core/basics/topic265MavenInstallationOnAWSEC2Instance'
+import topic266 from './core/basics/topic266CreatingAMavenJavaProjectOnWindowsLocalSetup'
+import topic267 from './core/basics/topic267MavenJavaProjectOnLinuxEC2CloudSetup'
+import topic268 from './core/basics/topic268UnderstandingKeyMavenTerms'
+import topic269 from './core/basics/topic269HandsOnMavenCompileTestAndPackageGoals'
+import topic270 from './core/basics/topic270MavenJavaWebAppSetupWARProject'
+import topic271 from './core/basics/topic271MavenDependencies'
+import topic272 from './core/basics/topic272MavenRepositoriesLocalCentralRemote'
+import topic273 from './core/basics/topic273ThePomXMLFile'
+import topic274 from './core/basics/topic274MavenInIntelliJIDEAIDE'
+import topic275 from './core/basics/topic275EffectivePomXMLFile'
+import topic276 from './core/basics/topic276MavenProjectSetupInEclipseIDE'
+import topic277 from './core/basics/topic277MavenBuildLifecycle'
+import topic278 from './core/basics/topic278HandsOnJavaUnitTestingWithMaven'
+import topic279 from './core/basics/topic279MavenWithSpringBootApplicationDemo'
+import topic280 from './core/basics/topic280YoureReadyToUseMaven'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -645,7 +665,9 @@ export const STAGES = [
         step: 30, id: 'maven',
         title: 'Maven',
         subtitle: 'pom.xml, GAV coordinates, dependency scopes, build lifecycle, clean package.',
-        sections: [maven],
+        sections: [topic261, topic262, topic263, topic264, topic265, topic266,
+          topic267, topic268, topic269, topic270, topic271, topic272, topic273, topic274,
+          topic275, topic276, topic277, topic278, topic279, topic280, maven],
       },
       {
         step: 31, id: 'jdbc',
