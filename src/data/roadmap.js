@@ -219,6 +219,26 @@ import topic217 from './core/basics/topic217RIGHTJOIN'
 import topic218 from './core/basics/topic218CROSSJOIN'
 import topic219 from './core/basics/topic219ALTERCommand'
 import topic220 from './core/basics/topic220DROPAndTRUNCATECommands'
+import topic221 from './core/basics/topic221Introduction'
+import topic222 from './core/basics/topic222NeedForJDBC'
+import topic223 from './core/basics/topic223NeedForADatabaseSpecificJARInAJDBCApp'
+import topic224 from './core/basics/topic224StepsInvolvedInDevelopingAJDBCAppTheory'
+import topic225 from './core/basics/topic225SettingUpJDBCDevelopmentEnvironment'
+import topic226 from './core/basics/topic226SettingUpTheDatabase'
+import topic227 from './core/basics/topic227StepsInvolvedInAJDBCAppPractical'
+import topic228 from './core/basics/topic228UsageOfClassForNameInJDBC'
+import topic229 from './core/basics/topic229InsertingDataIntoTheDatabase'
+import topic230 from './core/basics/topic230UpdatingRecordsInTheDatabase'
+import topic231 from './core/basics/topic231RetrievingRecordsFromTheDatabase'
+import topic232 from './core/basics/topic232DeletingRecordsFromTheDatabase'
+import topic233 from './core/basics/topic233CRUDOperationsWithASingleExecuteMethod'
+import topic234 from './core/basics/topic234HandlingExceptionsAndWritingBetterCode'
+import topic235 from './core/basics/topic235InsertingDataWithPreparedStatement'
+import topic236 from './core/basics/topic236StatementVsPreparedStatement'
+import topic237 from './core/basics/topic237UpdatingDataWithPreparedStatement'
+import topic238 from './core/basics/topic238DeletingDataWithPreparedStatement'
+import topic239 from './core/basics/topic239RetrievingDataWithPreparedStatement'
+import topic240 from './core/basics/topic240BatchUpdate'
 import programmingFundamentals from './core/basics/programmingFundamentals'
 import javaIntro from './core/basics/javaIntro'
 import jvmSection from './core/basics/jvm'
@@ -611,7 +631,9 @@ export const STAGES = [
         step: 31, id: 'jdbc',
         title: 'JDBC',
         subtitle: 'PreparedStatement, ResultSet, transactions, connection pooling with HikariCP.',
-        sections: [jdbc],
+        sections: [topic221, topic222, topic223, topic224, topic225, topic226,
+          topic227, topic228, topic229, topic230, topic231, topic232, topic233, topic234,
+          topic235, topic236, topic237, topic238, topic239, topic240, jdbc],
       },
       {
         step: 32, id: 'hibernate-jpa',
