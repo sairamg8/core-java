@@ -54,7 +54,7 @@ Written to target/surefire-reports/ — includes .txt summary and .xml JUnit rep
 <!--     <dependency> -->
 <!--       <groupId>org.junit.jupiter</groupId> -->
 <!--       <artifactId>junit-jupiter</artifactId> -->
-<!--       <version>${junit.version}</version> -->
+<!--       <version>\${junit.version}</version> -->
 <!--       <scope>test</scope> -->
 <!--     </dependency> -->
 <!--   </dependencies> -->
@@ -64,7 +64,7 @@ Written to target/surefire-reports/ — includes .txt summary and .xml JUnit rep
 <!--       <plugin> -->
 <!--         <groupId>org.apache.maven.plugins</groupId> -->
 <!--         <artifactId>maven-surefire-plugin</artifactId> -->
-<!--         <version>${surefire.version}</version> -->
+<!--         <version>\${surefire.version}</version> -->
 <!--         <configuration> -->
 <!--           <!- Fail build immediately on first test failure --> -->
 <!--           <failIfNoTests>false</failIfNoTests> -->
