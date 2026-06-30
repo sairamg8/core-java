@@ -31,6 +31,74 @@ import topic29 from './core/basics/topic29WhileLoop'
 import topic30 from './core/basics/topic30DoWhileLoop'
 import topic31 from './core/basics/topic31ForLoop'
 import topic32 from './core/basics/topic32WhichLoopToUse'
+import topic33 from './core/basics/topic33ClassAndObjectTheory'
+import topic34 from './core/basics/topic34ClassAndObjectPractical'
+import topic35 from './core/basics/topic35JdkJreJvm'
+import topic36 from './core/basics/topic36Methods'
+import topic37 from './core/basics/topic37MethodOverloading'
+import topic38 from './core/basics/topic38StackAndHeap'
+import topic39 from './core/basics/topic39NeedForArray'
+import topic40 from './core/basics/topic40CreationOfArray'
+import topic41 from './core/basics/topic41MultidimensionalArray'
+import topic42 from './core/basics/topic42JaggedAnd3DArrays'
+import topic43 from './core/basics/topic43DrawbacksOfArrays'
+import topic44 from './core/basics/topic44ArrayOfObjects'
+import topic45 from './core/basics/topic45EnhancedForLoop'
+import topic46 from './core/basics/topic46WhatIsString'
+import topic47 from './core/basics/topic47MutableVsImmutableStrings'
+import topic48 from './core/basics/topic48StringBufferAndStringBuilder'
+import topic49 from './core/basics/topic49Encapsulation'
+import topic50 from './core/basics/topic50GettersAndSetters'
+import topic51 from './core/basics/topic51ThisKeyword'
+import topic52 from './core/basics/topic52Constructor'
+import topic53 from './core/basics/topic53DefaultVsParameterizedConstructor'
+import topic54 from './core/basics/topic54StaticVariable'
+import topic55 from './core/basics/topic55StaticMethod'
+import topic56 from './core/basics/topic56StaticBlock'
+import topic57 from './core/basics/topic57NamingConventions'
+import topic58 from './core/basics/topic58AnonymousObject'
+import topic59 from './core/basics/topic59NeedForInheritance'
+import topic60 from './core/basics/topic60WhatIsInheritance'
+import topic61 from './core/basics/topic61SingleAndMultilevelInheritance'
+import topic62 from './core/basics/topic62MultipleInheritance'
+import topic63 from './core/basics/topic63ThisAndSuperMethods'
+import topic64 from './core/basics/topic64MethodOverriding'
+import topic65 from './core/basics/topic65Packages'
+import topic66 from './core/basics/topic66AccessModifiers'
+import topic67 from './core/basics/topic67Polymorphism'
+import topic68 from './core/basics/topic68DynamicMethodDispatch'
+import topic69 from './core/basics/topic69FinalKeyword'
+import topic70 from './core/basics/topic70ObjectClass'
+import topic71 from './core/basics/topic71UpcastingAndDowncasting'
+import topic72 from './core/basics/topic72WrapperClass'
+import topic73 from './core/basics/topic73Project1Introduction'
+import topic74 from './core/basics/topic74Project1QuestionServiceAndClass'
+import topic75 from './core/basics/topic75Project1HardCodedQuestionsDisplay'
+import topic76 from './core/basics/topic76Project1PlayQuiz'
+import topic77 from './core/basics/topic77Project1CalculateScore'
+import topic78 from './core/basics/topic78AbstractKeyword'
+import topic79 from './core/basics/topic79InnerClass'
+import topic80 from './core/basics/topic80AnonymousInnerClass'
+import topic81 from './core/basics/topic81AbstractAndAnonymousInnerClass'
+import topic82 from './core/basics/topic82WhatIsInterface'
+import topic83 from './core/basics/topic83MoreOnInterfaces'
+import topic84 from './core/basics/topic84NeedForInterface'
+import topic85 from './core/basics/topic85WhatIsEnum'
+import topic86 from './core/basics/topic86EnumWithIfAndSwitch'
+import topic87 from './core/basics/topic87EnumClass'
+import topic88 from './core/basics/topic88WhatIsAnnotation'
+import topic89 from './core/basics/topic89TypesOfInterface'
+import topic90 from './core/basics/topic90NewFunctionalInterface'
+import topic91 from './core/basics/topic91LambdaExpression'
+import topic92 from './core/basics/topic92LambdaExpressionWithReturn'
+import topic93 from './core/basics/topic93WhatIsException'
+import topic94 from './core/basics/topic94ExceptionHandlingTryCatch'
+import topic95 from './core/basics/topic95TryWithMultipleCatch'
+import topic96 from './core/basics/topic96ExceptionHierarchy'
+import topic97 from './core/basics/topic97ThrowKeyword'
+import topic98 from './core/basics/topic98CustomException'
+import topic99 from './core/basics/topic99DuckingExceptionsThrows'
+import topic100 from './core/basics/topic100UserInput'
 import programmingFundamentals from './core/basics/programmingFundamentals'
 import javaIntro from './core/basics/javaIntro'
 import jvmSection from './core/basics/jvm'
@@ -161,7 +229,7 @@ export const STAGES = [
           topic05, topic06, topic07, topic08,
           topic09, topic10, topic11, topic12, topic13, topic14,
           topic15, topic16,
-          jvmSection, namingConventions,
+          topic35, jvmSection, namingConventions,
         ],
       },
       {
@@ -192,7 +260,12 @@ export const STAGES = [
         step: 6, id: 'methods-arrays',
         title: 'Methods & Arrays',
         subtitle: 'Defining methods, varargs, overloading, 1D/2D arrays, and Arrays utility class.',
-        sections: [stackAndHeap, methodsSection, arraysSection, arrayOfObjects],
+        sections: [
+          topic36, topic37, topic38, topic39, topic40,
+          topic41, topic42, topic43, topic44, topic45,
+          stackAndHeap, methodsSection, arraysSection, arrayOfObjects,
+          topic73, topic74, topic75, topic76, topic77,
+        ],
       },
     ],
   },
@@ -206,37 +279,50 @@ export const STAGES = [
         step: 7, id: 'classes-objects',
         title: 'Classes & Objects',
         subtitle: 'Class anatomy, constructors, the this keyword, anonymous objects, and how objects live on the heap.',
-        sections: [classesSection, thisKeyword, anonymousObject],
+        sections: [
+          topic33, topic34, topic51, topic52, topic53, topic57, topic58,
+          classesSection, thisKeyword, anonymousObject,
+        ],
       },
       {
         step: 8, id: 'encapsulation',
         title: 'Encapsulation',
         subtitle: 'Access modifiers (public/private/protected/package), getters/setters, data hiding.',
-        sections: [encapsulationSection],
+        sections: [topic49, topic50, topic66, encapsulationSection],
       },
       {
         step: 9, id: 'inheritance',
         title: 'Inheritance',
         subtitle: 'extends keyword, super, method overriding rules, constructor chaining, and packages.',
-        sections: [inheritanceSection, packagesSection],
+        sections: [
+          topic59, topic60, topic61, topic62, topic63, topic64, topic65,
+          inheritanceSection, packagesSection,
+        ],
       },
       {
         step: 10, id: 'polymorphism',
         title: 'Polymorphism',
         subtitle: 'Compile-time vs runtime polymorphism, dynamic dispatch, covariant return types, and the Object class.',
-        sections: [polymorphismSection, objectClassSection],
+        sections: [
+          topic67, topic68, topic70, topic71, topic72,
+          polymorphismSection, objectClassSection,
+        ],
       },
       {
         step: 11, id: 'abstraction',
         title: 'Abstraction',
         subtitle: 'Abstract classes, interfaces, default & static interface methods, inner classes, and annotations.',
-        sections: [abstractionSection, innerClasses, annotationsSection],
+        sections: [
+          topic78, topic79, topic80, topic81, topic82, topic83, topic84,
+          topic88, topic89, topic90, topic91, topic92,
+          abstractionSection, innerClasses, annotationsSection,
+        ],
       },
       {
         step: 12, id: 'static-final-enums',
         title: 'Static, Final & Enums',
         subtitle: 'static semantics, final variables/methods/classes, and the power of Enum.',
-        sections: [finalStaticSection],
+        sections: [topic54, topic55, topic56, topic69, topic85, topic86, topic87, finalStaticSection],
       },
     ],
   },
@@ -250,13 +336,16 @@ export const STAGES = [
         step: 13, id: 'strings',
         title: 'String Handling',
         subtitle: 'Immutability, String Pool, StringBuilder vs StringBuffer, and critical String methods.',
-        sections: [stringPool, stringImmutability, stringBuilders, stringMethods],
+        sections: [topic46, topic47, topic48, stringPool, stringImmutability, stringBuilders, stringMethods],
       },
       {
         step: 14, id: 'exceptions',
         title: 'Exception Handling',
         subtitle: 'try/catch/finally, checked vs unchecked, try-with-resources, custom exceptions.',
-        sections: [exceptionBasics, exceptionAdvanced],
+        sections: [
+          topic93, topic94, topic95, topic96, topic97, topic98, topic99, topic100,
+          exceptionBasics, exceptionAdvanced,
+        ],
       },
       {
         step: 15, id: 'collections-lists-queues',
