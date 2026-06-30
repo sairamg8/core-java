@@ -25,6 +25,12 @@ import topic23 from './core/basics/topic23LogicalOperators'
 import topic24 from './core/basics/topic24IfElse'
 import topic25 from './core/basics/topic25IfElseIf'
 import topic26 from './core/basics/topic26TernaryOperator'
+import topic27 from './core/basics/topic27SwitchStatement'
+import topic28 from './core/basics/topic28NeedForLoops'
+import topic29 from './core/basics/topic29WhileLoop'
+import topic30 from './core/basics/topic30DoWhileLoop'
+import topic31 from './core/basics/topic31ForLoop'
+import topic32 from './core/basics/topic32WhichLoopToUse'
 import programmingFundamentals from './core/basics/programmingFundamentals'
 import javaIntro from './core/basics/javaIntro'
 import jvmSection from './core/basics/jvm'
@@ -180,7 +186,7 @@ export const STAGES = [
         step: 5, id: 'control-flow',
         title: 'Control Flow',
         subtitle: 'if/else, switch expressions (Java 14+), for/while/do-while, break and continue.',
-        sections: [topic24, topic25, topic26, controlFlowSection],
+        sections: [topic24, topic25, topic26, topic27, topic28, topic29, topic30, topic31, topic32, controlFlowSection],
       },
       {
         step: 6, id: 'methods-arrays',
