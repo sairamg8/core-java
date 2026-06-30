@@ -321,6 +321,26 @@ import sqlAdvanced from './ecosystem/sqlAdvanced'
 // Stage 12 — Legacy Web (Servlet & JSP)
 import servletBasics from './ecosystem/servletBasics'
 import jspBasics from './ecosystem/jspBasics'
+import topic241 from './core/basics/topic241ServletAndJSPSourceCode'
+import topic242 from './core/basics/topic242Introduction'
+import topic243 from './core/basics/topic243FundamentalsOfClientServerArchitecture'
+import topic244 from './core/basics/topic244StaticResponseVsDynamicResponse'
+import topic245 from './core/basics/topic245IntroductionToServlet'
+import topic246 from './core/basics/topic246InstallApacheTomcatServer'
+import topic247 from './core/basics/topic247ConfigureApacheTomcatInEclipseIDE'
+import topic248 from './core/basics/topic248FirstWebAppWithStaticResponse'
+import topic249 from './core/basics/topic249FirstServletWebAppWithDynamicResponse'
+import topic250 from './core/basics/topic250ServletLifeCycle'
+import topic251 from './core/basics/topic251ServletDoGetVsDoPost'
+import topic252 from './core/basics/topic252RedirectingResponsesToJSPAndHTMLFiles'
+import topic253 from './core/basics/topic253RequestDispatchingAndForwardVsInclude'
+import topic254 from './core/basics/topic254HttpSession'
+import topic255 from './core/basics/topic255RegistrationAppUsingServletAndJDBC'
+import topic256 from './core/basics/topic256IntroductionToJSP'
+import topic257 from './core/basics/topic257JSPTagsAndWebAppUsingJSP'
+import topic258 from './core/basics/topic258ServletVsJSP'
+import topic259 from './core/basics/topic259IntroductionToMVC'
+import topic260 from './core/basics/topic260MVCUsingServletJSPAndJDBC'
 
 // Stage 13 — Spring Security
 import securityBasics from './spring/securityBasics'
@@ -747,7 +767,9 @@ export const STAGES = [
         step: 41, id: 'servlet-jsp',
         title: 'Servlet & JSP',
         subtitle: 'HttpServlet lifecycle, doGet/doPost, sessions, JSP with EL and JSTL, MVC pattern.',
-        sections: [servletBasics, jspBasics],
+        sections: [topic241, topic242, topic243, topic244, topic245, topic246,
+          topic247, topic248, topic249, topic250, topic251, topic252, topic253, topic254,
+          topic255, topic256, topic257, topic258, topic259, topic260, servletBasics, jspBasics],
       },
     ],
   },
