@@ -99,6 +99,56 @@ import topic97 from './core/basics/topic97ThrowKeyword'
 import topic98 from './core/basics/topic98CustomException'
 import topic99 from './core/basics/topic99DuckingExceptionsThrows'
 import topic100 from './core/basics/topic100UserInput'
+import topic101 from './core/basics/topic101TryWithResources'
+import topic102 from './core/basics/topic102WhatAreThreads'
+import topic103 from './core/basics/topic103MultipleThreads'
+import topic104 from './core/basics/topic104ThreadPriorityAndSleep'
+import topic105 from './core/basics/topic105RunnableVsThread'
+import topic106 from './core/basics/topic106RaceCondition'
+import topic107 from './core/basics/topic107ThreadStates'
+import topic108 from './core/basics/topic108CollectionAPI'
+import topic109 from './core/basics/topic109ArrayList'
+import topic110 from './core/basics/topic110Set'
+import topic111 from './core/basics/topic111Map'
+import topic112 from './core/basics/topic112ComparatorVsComparable'
+import topic113 from './core/basics/topic113NeedForGenerics'
+import topic114 from './core/basics/topic114SyntaxAndUsageOfGenerics'
+import topic115 from './core/basics/topic115CreatingAndWorkingWithGenericClass'
+import topic116 from './core/basics/topic116UsingWildcardTypesInGenerics'
+import topic117 from './core/basics/topic117UpperAndLowerBoundsInGenerics'
+import topic118 from './core/basics/topic118IntroductionToDateAndTime'
+import topic119 from './core/basics/topic119NewDateAndTimeAPI'
+import topic120 from './core/basics/topic120NeedForStreamAPI'
+import topic121 from './core/basics/topic121ForEachMethod'
+import topic122 from './core/basics/topic122StreamAPI'
+import topic123 from './core/basics/topic123MapFilterReduceSorted'
+import topic124 from './core/basics/topic124ParallelStream'
+import topic125 from './core/basics/topic125OptionalClass'
+import topic126 from './core/basics/topic126MethodReference'
+import topic127 from './core/basics/topic127ConstructorReference'
+import topic128 from './core/basics/topic128FundamentalsBeforeIO'
+import topic129 from './core/basics/topic129CreatingFilesAndDirectories'
+import topic130 from './core/basics/topic130MoreOnFileClass'
+import topic131 from './core/basics/topic131WritingDataToFile'
+import topic132 from './core/basics/topic132ReadingDataFromFile'
+import topic133 from './core/basics/topic133BufferedWriterAndFileWriter'
+import topic134 from './core/basics/topic134BufferedReaderAndFileReader'
+import topic135 from './core/basics/topic135WriteOperationWithPrintWriter'
+import topic136 from './core/basics/topic136IntroductionToSerialization'
+import topic137 from './core/basics/topic137Serialization'
+import topic138 from './core/basics/topic138Deserialization'
+import topic139 from './core/basics/topic139Transient'
+import topic140 from './core/basics/topic140WelcomeToJUnit5'
+import topic141 from './core/basics/topic141UnderstandingUnitTesting'
+import topic142 from './core/basics/topic142ExploringUnitTestingWithoutJUnit5'
+import topic143 from './core/basics/topic143WritingJUnit5TestsInJava'
+import topic144 from './core/basics/topic144TestInAction'
+import topic145 from './core/basics/topic145UnderstandingAssertionFundamentals'
+import topic146 from './core/basics/topic146SettingUpMavenProjectForJUnit5'
+import topic147 from './core/basics/topic147WritingAndRunningJUnit5TestCases'
+import topic148 from './core/basics/topic148WritingMultipleTestCases'
+import topic149 from './core/basics/topic149TDDInAction'
+import topic150 from './core/basics/topic150ConfiguringSurefirePlugin'
 import programmingFundamentals from './core/basics/programmingFundamentals'
 import javaIntro from './core/basics/javaIntro'
 import jvmSection from './core/basics/jvm'
@@ -344,6 +394,7 @@ export const STAGES = [
         subtitle: 'try/catch/finally, checked vs unchecked, try-with-resources, custom exceptions.',
         sections: [
           topic93, topic94, topic95, topic96, topic97, topic98, topic99, topic100,
+          topic101,
           exceptionBasics, exceptionAdvanced,
         ],
       },
@@ -351,19 +402,19 @@ export const STAGES = [
         step: 15, id: 'collections-lists-queues',
         title: 'Collections — Lists & Queues',
         subtitle: 'ArrayList vs LinkedList internals, ArrayDeque, PriorityQueue, and when to use each.',
-        sections: [collectionsOverview, collectionsList, collectionsQueue],
+        sections: [topic108, topic109, collectionsOverview, collectionsList, collectionsQueue],
       },
       {
         step: 16, id: 'collections-sets-maps',
         title: 'Collections — Sets & Maps',
         subtitle: 'HashSet, TreeSet, HashMap internals, LinkedHashMap LRU, TreeMap, Comparable vs Comparator.',
-        sections: [collectionsSetTypes, collectionsMapTypes, collectionsComparisons],
+        sections: [topic110, topic111, topic112, collectionsSetTypes, collectionsMapTypes, collectionsComparisons],
       },
       {
         step: 17, id: 'generics',
         title: 'Generics',
         subtitle: 'Generic classes & methods, bounded types (extends/super), wildcards, type erasure.',
-        sections: [genericsBasics, genericsWildcards],
+        sections: [topic113, topic114, topic115, topic116, topic117, genericsBasics, genericsWildcards],
       },
     ],
   },
@@ -377,19 +428,19 @@ export const STAGES = [
         step: 18, id: 'lambdas',
         title: 'Lambdas & Functional Interfaces',
         subtitle: 'Lambda syntax, method references, Predicate, Function, Consumer, Supplier.',
-        sections: [lambdas],
+        sections: [topic126, topic127, lambdas],
       },
       {
         step: 19, id: 'streams',
         title: 'Stream API',
         subtitle: 'filter, map, flatMap, collect, reduce, parallel streams — and when NOT to use them.',
-        sections: [streams],
+        sections: [topic120, topic121, topic122, topic123, topic124, streams],
       },
       {
         step: 20, id: 'optional-datetime',
         title: 'Optional & Date/Time API',
         subtitle: 'Eliminating nulls with Optional, LocalDate/Time, ZonedDateTime, Duration, Period.',
-        sections: [optional, dateTime],
+        sections: [topic118, topic119, topic125, optional, dateTime],
       },
       {
         step: 21, id: 'modern-java',
@@ -409,7 +460,7 @@ export const STAGES = [
         step: 22, id: 'multithreading',
         title: 'Multithreading',
         subtitle: 'Thread lifecycle, synchronized, volatile, deadlocks, and the Java Memory Model.',
-        sections: [threadBasics],
+        sections: [topic102, topic103, topic104, topic105, topic106, topic107, threadBasics],
       },
       {
         step: 23, id: 'concurrency-utils',
@@ -433,7 +484,11 @@ export const STAGES = [
         step: 26, id: 'io-nio',
         title: 'Java I/O & NIO',
         subtitle: 'Files API, InputStream/OutputStream, BufferedReader/Writer, NIO basics, and user input (Scanner).',
-        sections: [userInput, ioNio, serialization],
+        sections: [
+          topic128, topic129, topic130, topic131, topic132,
+          topic133, topic134, topic135, topic136, topic137, topic138, topic139,
+          userInput, ioNio, serialization,
+        ],
       },
     ],
   },
@@ -447,7 +502,11 @@ export const STAGES = [
         step: 27, id: 'junit5',
         title: 'JUnit 5 — Unit Testing',
         subtitle: 'Annotations, lifecycle, assertions, parameterized tests, and assumptions.',
-        sections: [junit5Basics, junit5Advanced],
+        sections: [
+          topic140, topic141, topic142, topic143, topic144, topic145,
+          topic146, topic147, topic148, topic149, topic150,
+          junit5Basics, junit5Advanced,
+        ],
       },
       {
         step: 28, id: 'mockito',
