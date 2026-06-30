@@ -1,4 +1,20 @@
-// Stage 1 — Java Foundations
+// Stage 1 — Java Foundations (Topics 1–16)
+import topic01 from './core/basics/topic01CourseIntroduction'
+import topic02 from './core/basics/topic02CourseResources'
+import topic03 from './core/basics/topic03SourceCodeAccess'
+import topic04 from './core/basics/topic04ProjectsInCourse'
+import topic05 from './core/basics/topic05FundamentalsOfProgramming'
+import topic06 from './core/basics/topic06MemoryUnit'
+import topic07 from './core/basics/topic07PlatformDependency'
+import topic08 from './core/basics/topic08HowJavaWORA'
+import topic09 from './core/basics/topic09IntroductionToJava'
+import topic10 from './core/basics/topic10JdkIdeDownload'
+import topic11 from './core/basics/topic11JdkInstallation'
+import topic12 from './core/basics/topic12VSCodeInstallation'
+import topic13 from './core/basics/topic13IntelliJInstallation'
+import topic14 from './core/basics/topic14EclipseInstallation'
+import topic15 from './core/basics/topic15FirstCodeInJava'
+import topic16 from './core/basics/topic16HowJavaWorks'
 import programmingFundamentals from './core/basics/programmingFundamentals'
 import javaIntro from './core/basics/javaIntro'
 import jvmSection from './core/basics/jvm'
@@ -122,9 +138,15 @@ export const STAGES = [
     steps: [
       {
         step: 1, id: 'jvm-jdk-jre',
-        title: 'JVM, JDK & JRE',
-        subtitle: 'How Java code goes from source to execution — and why Java is platform-independent.',
-        sections: [programmingFundamentals, javaIntro, jvmSection, namingConventions],
+        title: 'Course Intro & Java Fundamentals',
+        subtitle: 'Course overview, setup, programming fundamentals, WORA, and how Java works under the hood.',
+        sections: [
+          topic01, topic02, topic03, topic04,
+          topic05, topic06, topic07, topic08,
+          topic09, topic10, topic11, topic12, topic13, topic14,
+          topic15, topic16,
+          jvmSection, namingConventions,
+        ],
       },
       {
         step: 2, id: 'data-types',
