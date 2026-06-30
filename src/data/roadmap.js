@@ -149,6 +149,56 @@ import topic147 from './core/basics/topic147WritingAndRunningJUnit5TestCases'
 import topic148 from './core/basics/topic148WritingMultipleTestCases'
 import topic149 from './core/basics/topic149TDDInAction'
 import topic150 from './core/basics/topic150ConfiguringSurefirePlugin'
+import topic151 from './core/basics/topic151MoreOnAssertEqualsMethod'
+import topic152 from './core/basics/topic152UnderstandingAssertNotEqualsForEffectiveTesting'
+import topic153 from './core/basics/topic153UnderstandingAssertTrue'
+import topic154 from './core/basics/topic154AssertionsOnArraysInJUnit5'
+import topic155 from './core/basics/topic155TestingForExpectedExceptions'
+import topic156 from './core/basics/topic156EnsuringFastCodeWithAssertTimeout'
+import topic157 from './core/basics/topic157MakingTestsSelectiveAndReadable'
+import topic158 from './core/basics/topic158SetupAndCleanupWithBeforeEachAndAfterEach'
+import topic159 from './core/basics/topic159EfficientTestSetupWithBeforeAllAndAfterAll'
+import topic160 from './core/basics/topic160TestInstanceBehavior'
+import topic161 from './core/basics/topic161RunningTestsConditionallyOnJREVersionAndOS'
+import topic162 from './core/basics/topic162SkippingTestsWithAssumptions'
+import topic163 from './core/basics/topic163OrganizingTestsWithNestedClasses'
+import topic164 from './core/basics/topic164AutomatingTestRepetitionsWithRepeatedTest'
+import topic165 from './core/basics/topic165ParameterizedTestsWithValueSource'
+import topic166 from './core/basics/topic166ParameterizedTestsWithCsvSource'
+import topic167 from './core/basics/topic167GitVersionControl'
+import topic168 from './core/basics/topic168HistoryOfGit'
+import topic169 from './core/basics/topic169GitSetup'
+import topic170 from './core/basics/topic170GitInit'
+import topic171 from './core/basics/topic171GitCommit'
+import topic172 from './core/basics/topic172SkippingTheStagingAreaInGit'
+import topic173 from './core/basics/topic173GitDiff'
+import topic174 from './core/basics/topic174RemovingAFileInGit'
+import topic175 from './core/basics/topic175GitHubRepository'
+import topic176 from './core/basics/topic176AddingFilesToARemoteRepository'
+import topic177 from './core/basics/topic177GitTag'
+import topic178 from './core/basics/topic178CloningAProjectWithGit'
+import topic179 from './core/basics/topic179CreatingAGitBranch'
+import topic180 from './core/basics/topic180DeletingAGitBranch'
+import topic181 from './core/basics/topic181PushingAGitBranchToARemoteRepository'
+import topic182 from './core/basics/topic182HowGitBranchingWorks'
+import topic183 from './core/basics/topic183GitMerge'
+import topic184 from './core/basics/topic184GitRebase'
+import topic185 from './core/basics/topic185GitMergeConflicts'
+import topic186 from './core/basics/topic186GitTimeTravel'
+import topic187 from './core/basics/topic187GitStash'
+import topic188 from './core/basics/topic188GitFork'
+import topic189 from './core/basics/topic189GitPullRequest'
+import topic190 from './core/basics/topic190Introduction'
+import topic191 from './core/basics/topic191DataVsDatabaseVsDBMS'
+import topic192 from './core/basics/topic192RDBMSvsDBMS'
+import topic193 from './core/basics/topic193IntroductionToSQLAndMySQL'
+import topic194 from './core/basics/topic194DatabaseComponents'
+import topic195 from './core/basics/topic195CompleteSetupInstallationForWindows'
+import topic196 from './core/basics/topic196AnOverviewOfMySQLWorkbenchAndTheCLIClient'
+import topic197 from './core/basics/topic197CreatingAndDeletingDatabases'
+import topic198 from './core/basics/topic198DataTypes'
+import topic199 from './core/basics/topic199CreatingTablesInTheDatabase'
+import topic200 from './core/basics/topic200InsertingDataIntoTheTable'
 import programmingFundamentals from './core/basics/programmingFundamentals'
 import javaIntro from './core/basics/javaIntro'
 import jvmSection from './core/basics/jvm'
@@ -505,6 +555,9 @@ export const STAGES = [
         sections: [
           topic140, topic141, topic142, topic143, topic144, topic145,
           topic146, topic147, topic148, topic149, topic150,
+          topic151, topic152, topic153, topic154, topic155, topic156,
+          topic157, topic158, topic159, topic160, topic161, topic162,
+          topic163, topic164, topic165, topic166,
           junit5Basics, junit5Advanced,
         ],
       },
@@ -604,7 +657,13 @@ export const STAGES = [
         step: 38, id: 'git',
         title: 'Git Version Control',
         subtitle: 'init, add, commit, branching strategies, remotes, stash, reset, revert, and .gitignore.',
-        sections: [gitBasics, gitBranching, gitRemote, gitAdvanced],
+        sections: [
+          topic167, topic168, topic169, topic170, topic171, topic172,
+          topic173, topic174, topic175, topic176, topic177, topic178,
+          topic179, topic180, topic181, topic182, topic183, topic184,
+          topic185, topic186, topic187, topic188, topic189,
+          gitBasics, gitBranching, gitRemote, gitAdvanced,
+        ],
       },
     ],
   },
@@ -618,7 +677,11 @@ export const STAGES = [
         step: 39, id: 'sql-fundamentals',
         title: 'SQL Fundamentals',
         subtitle: 'DDL, DML, SELECT, WHERE, ORDER BY, LIMIT, and all JOIN types.',
-        sections: [sqlBasics, sqlJoins],
+        sections: [
+          topic190, topic191, topic192, topic193, topic194, topic195,
+          topic196, topic197, topic198, topic199, topic200,
+          sqlBasics, sqlJoins,
+        ],
       },
       {
         step: 40, id: 'sql-advanced',
