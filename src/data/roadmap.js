@@ -385,6 +385,26 @@ import topic348 from './core/basics/topic348SpringJdbcIntroduction'
 import topic349 from './core/basics/topic349CreatingASpringJdbcProject'
 import topic350 from './core/basics/topic350StudentServiceAndRepository'
 import topic351 from './core/basics/topic351JdbcTemplate'
+import topic352 from './core/basics/topic352SchemaAndDataFiles'
+import topic353 from './core/basics/topic353RowMapper'
+import topic354 from './core/basics/topic354SpringJdbcWithPostgresql'
+import topic355 from './core/basics/topic355WebAppIntroduction'
+import topic356 from './core/basics/topic356CreatingAServletProject'
+import topic357 from './core/basics/topic357RunningTomcat'
+import topic358 from './core/basics/topic358ServletMapping'
+import topic359 from './core/basics/topic359RespondingToTheClient'
+import topic360 from './core/basics/topic360IntroductionToMvc'
+import topic361 from './core/basics/topic361CreatingASpringBootWebAppProject'
+import topic362 from './core/basics/topic362CreatingAJspPage'
+import topic363 from './core/basics/topic363CreatingAController'
+import topic364 from './core/basics/topic364RequestMapping'
+import topic365 from './core/basics/topic365SendingDataToController'
+import topic366 from './core/basics/topic366AcceptingDataTheServletWay'
+import topic367 from './core/basics/topic367DisplayDataOnResultPage'
+import topic368 from './core/basics/topic368RequestParam'
+import topic369 from './core/basics/topic369ModelObject'
+import topic370 from './core/basics/topic370SettingPrefixAndSuffix'
+import topic371 from './core/basics/topic371ModelAndView'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -781,7 +801,9 @@ export const STAGES = [
         step: 34, id: 'spring-boot',
         title: 'Spring Boot',
         subtitle: 'Auto-configuration, starters, application.properties, profiles, Actuator.',
-        sections: [springBoot],
+        sections: [topic352, topic353, topic354, topic355, topic356, topic357, topic358,
+          topic359, topic360, topic361, topic362, topic363, topic364, topic365, topic366,
+          topic367, topic368, topic369, topic370, topic371, springBoot],
       },
       {
         step: 35, id: 'spring-rest',
