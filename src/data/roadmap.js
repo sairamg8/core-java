@@ -423,6 +423,27 @@ import topic386 from './core/basics/topic386HandlingForms'
 import topic387 from './core/basics/topic387WorkingWithLayers'
 import topic388 from './core/basics/topic388ViewData'
 import topic389 from './core/basics/topic389SummaryForJobWebapp'
+import topic390 from './core/basics/topic390RestUsingSpringBootIntroduction'
+import topic391 from './core/basics/topic391WhatIsRest'
+import topic392 from './core/basics/topic392HttpMethods'
+import topic393 from './core/basics/topic393UnderstandingTheReactUi'
+import topic394 from './core/basics/topic394WorkingWithPostman'
+import topic395 from './core/basics/topic395CreatingARestController'
+import topic396 from './core/basics/topic396ConnectingReactAndSpring'
+import topic397 from './core/basics/topic397PathVariable'
+import topic398 from './core/basics/topic398SendingDataAndRequestBody'
+import topic399 from './core/basics/topic399PutAndDeleteMapping'
+import topic400 from './core/basics/topic400ContentNegotiation'
+import topic401 from './core/basics/topic401SpringDataJpaIntroduction'
+import topic402 from './core/basics/topic402WhatIsOrmAndJpa'
+import topic403 from './core/basics/topic403CreatingTablesAndInsertingData'
+import topic404 from './core/basics/topic404FindAll'
+import topic405 from './core/basics/topic405FindById'
+import topic406 from './core/basics/topic406QueryDsl'
+import topic407 from './core/basics/topic407UpdateAndDelete'
+import topic408 from './core/basics/topic408JpaInJobApp'
+import topic409 from './core/basics/topic409LoadingDataAndEntities'
+import topic410 from './core/basics/topic410SearchByKeyword'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -829,7 +850,10 @@ export const STAGES = [
         subtitle: '@RestController, ResponseEntity, @Valid, @ExceptionHandler, @ControllerAdvice.',
         sections: [topic372, topic373, topic374, topic375, topic376, topic377, topic378,
           topic379, topic380, topic381, topic382, topic383, topic384, topic385, topic386,
-          topic387, topic388, topic389, restApi],
+          topic387, topic388, topic389, topic390, topic391, topic392, topic393, topic394,
+          topic395, topic396, topic397, topic398, topic399, topic400, topic401, topic402,
+          topic403, topic404, topic405, topic406, topic407, topic408, topic409, topic410,
+          restApi],
       },
     ],
   },

@@ -647,3 +647,13 @@
 647. Tree Data Structure
 648. Binary Search Tree Theory
 649. Tree Implementation
+
+---
+[NOTE 2026-07-01 - appended, does not shift the numbering above (lines 1-649 = topics 1-649, unchanged):
+Topics 241-260 (Servlet & JSP fundamentals) and 355-389 (manual Spring MVC: raw web.xml/DispatcherServlet
+registration, JSP view rendering, the JSP-based "Job Webapp" project) are legacy web-tier plumbing -
+superseded in real-world 2026 practice by REST APIs + a SPA frontend (topic 390 onward rebuilds this
+same Job domain as a REST API). Both ranges are already shipped in the app (PRs #9, #16, #17). Decided
+with the user 2026-07-01: do not write further full-depth sections treating manual servlet/JSP/web.xml
+mechanics as current best practice - jump to the modern equivalent instead. See memory
+feedback-skip-legacy-topics.md for full context.]
