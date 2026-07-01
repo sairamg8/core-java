@@ -345,6 +345,26 @@ import topic308 from './core/basics/topic308IntroductionToHQLAndBulkOperations'
 import topic309 from './core/basics/topic309DataRetrievalWithHQL'
 import topic310 from './core/basics/topic310MoreOnDataRetrievalWithHQL'
 import topic311 from './core/basics/topic311UpdatingAndDeletingDataWithHQL'
+import topic312 from './core/basics/topic312IntroductionToSpring'
+import topic313 from './core/basics/topic313SpringDocs'
+import topic314 from './core/basics/topic314Prerequisites'
+import topic315 from './core/basics/topic315IdeForSpring'
+import topic316 from './core/basics/topic316IocAndDi'
+import topic317 from './core/basics/topic317SpringVsSpringBoot'
+import topic318 from './core/basics/topic318FirstSpringBootApp'
+import topic319 from './core/basics/topic319DiUsingSpringBoot'
+import topic320 from './core/basics/topic320AutowiringInSpringBoot'
+import topic321 from './core/basics/topic321SpringFirstProject'
+import topic322 from './core/basics/topic322SpringBeanXmlConfig'
+import topic323 from './core/basics/topic323ObjectCreation'
+import topic324 from './core/basics/topic324Scopes'
+import topic325 from './core/basics/topic325SetterInjection'
+import topic326 from './core/basics/topic326RefAttribute'
+import topic327 from './core/basics/topic327ConstructorInjection'
+import topic328 from './core/basics/topic328CreatingInterface'
+import topic329 from './core/basics/topic329Autowiring'
+import topic330 from './core/basics/topic330PrimaryBean'
+import topic331 from './core/basics/topic331LazyInitBean'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -730,7 +750,9 @@ export const STAGES = [
         step: 33, id: 'spring-core',
         title: 'Spring Core — IoC & DI',
         subtitle: '@Component, @Service, @Repository, constructor injection, @Bean, @Qualifier.',
-        sections: [springCore],
+        sections: [topic312, topic313, topic314, topic315, topic316, topic317, topic318,
+          topic319, topic320, topic321, topic322, topic323, topic324, topic325, topic326,
+          topic327, topic328, topic329, topic330, topic331, springCore],
       },
       {
         step: 34, id: 'spring-boot',
