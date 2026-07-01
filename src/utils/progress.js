@@ -1,3 +1,4 @@
+// Valid statuses: 'not-started' | 'in-progress' | 'paused' | 'completed'
 const KEY = 'java-bible-progress'
 
 function load() {

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-import { NavLink, useLocation, Link } from 'react-router-dom'
-import { ChevronDown, ChevronRight, MessageSquare, CheckSquare, Square } from 'lucide-react'
+import { NavLink, useLocation } from 'react-router-dom'
+import { ChevronDown, ChevronRight, MessageSquare, CheckSquare, Square, Clock, Pause } from 'lucide-react'
 import { STAGES } from '../data/roadmap'
 import { getAllProgress, setStatus } from '../utils/progress'
 
@@ -25,6 +25,57 @@ const COLOR = {
   amber:   { text: 'text-amber-600',   activeText: 'text-amber-700 dark:text-amber-400',   activeBg: 'bg-amber-50 dark:bg-amber-950/40'   },
   rose:    { text: 'text-rose-500',    activeText: 'text-rose-600 dark:text-rose-400',    activeBg: 'bg-rose-50 dark:bg-rose-950/40'    },
   cyan:    { text: 'text-cyan-500',    activeText: 'text-cyan-600 dark:text-cyan-400',    activeBg: 'bg-cyan-50 dark:bg-cyan-950/40'    },
+}
+
+/**
+ * Sidebar status checkbox/indicator:
+ *  not-started → empty square (click to mark completed directly)
+ *  in-progress → yellow clock icon (click to mark completed)
+ *  paused      → blue pause icon  (click to mark completed)
+ *  completed   → green checkmark  (click to go back to not-started)
+ */
+function StatusIcon({ status, stepNumber, small = false }) {
+  const sz = small ? 13 : 15
+
+  function handleClick(e) {
+    e.preventDefault()
+    e.stopPropagation()
+    if (status === 'completed') {
+      setStatus(stepNumber, 'not-started')
+    } else {
+      setStatus(stepNumber, 'completed')
+    }
+  }
+
+  const wrapCls = 'flex-shrink-0 cursor-pointer transition-transform hover:scale-110'
+
+  if (status === 'completed') {
+    return (
+      <span role="checkbox" aria-checked="true" title="Completed — click to unmark" onClick={handleClick} className={wrapCls}>
+        <CheckSquare size={sz} className="text-green-500" />
+      </span>
+    )
+  }
+  if (status === 'in-progress') {
+    return (
+      <span role="checkbox" aria-checked="false" title="In Progress — click to mark completed" onClick={handleClick} className={wrapCls}>
+        <Clock size={sz} className="text-yellow-500" />
+      </span>
+    )
+  }
+  if (status === 'paused') {
+    return (
+      <span role="checkbox" aria-checked="false" title="Paused — click to mark completed" onClick={handleClick} className={wrapCls}>
+        <Pause size={sz} className="text-blue-500" />
+      </span>
+    )
+  }
+  // not-started
+  return (
+    <span role="checkbox" aria-checked="false" title="Not started — click to mark completed" onClick={handleClick} className={wrapCls}>
+      <Square size={sz} className="text-gray-300 dark:text-gray-600 hover:text-green-400" />
+    </span>
+  )
 }
 
 function StageNav({ stage, onNavigate, progress }) {
@@ -60,6 +111,7 @@ function StageNav({ stage, onNavigate, progress }) {
                 </div>
               )
             }
+            const st = progress[step.step] || 'not-started'
             return (
               <NavLink
                 key={step.step}
@@ -73,17 +125,7 @@ function StageNav({ stage, onNavigate, progress }) {
                   }`
                 }
               >
-                <span
-                  role="checkbox"
-                  aria-checked={progress[step.step] === 'completed'}
-                  onClick={(e) => { e.preventDefault(); e.stopPropagation(); setStatus(step.step, progress[step.step] === 'completed' ? 'not-started' : 'completed') }}
-                  title={progress[step.step] === 'completed' ? 'Mark as not done' : 'Mark as completed'}
-                  className="flex-shrink-0 cursor-pointer"
-                >
-                  {progress[step.step] === 'completed'
-                    ? <CheckSquare size={13} className="text-green-500" />
-                    : <Square size={13} className="text-gray-300 dark:text-gray-600 hover:text-green-400" />}
-                </span>
+                <StatusIcon status={st} stepNumber={step.step} small />
                 <span className="font-mono text-[10px] text-gray-400 dark:text-gray-600 w-5 flex-shrink-0">{step.step}</span>
                 <span className="truncate">{step.title}</span>
               </NavLink>
