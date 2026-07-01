@@ -4,6 +4,8 @@ import Layout from './components/Layout'
 import Home from './pages/Home'
 import StepPage from './pages/StepPage'
 import InterviewQuestionsPage from './pages/InterviewQuestionsPage'
+// ── React Bible ──────────────────────────────────────────────────────────────
+import ReactBibleHomePage from './react-bible/pages/ReactBibleHomePage'
 
 export default function App() {
   const [dark, setDark] = useState(() => {
@@ -32,6 +34,9 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/step/:number" element={<StepPage />} />
           <Route path="/interview/:type" element={<InterviewQuestionsPage />} />
+          {/* React Bible — isolated routes, no impact on existing pages */}
+          <Route path="/react-bible" element={<ReactBibleHomePage />} />
+          <Route path="/react-bible/chapter/:chapterId" element={<ReactBibleHomePage />} />
         </Routes>
       </Layout>
     </BrowserRouter>

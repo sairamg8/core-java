@@ -3,6 +3,8 @@ import { useEffect, useState, useRef } from 'react'
 import { Coffee, Lock, ChevronRight, CheckCircle2, Clock, Pause, PlayCircle, CheckSquare, Square, RotateCcw, X } from 'lucide-react'
 import { STAGES, ALL_STEPS } from '../data/roadmap'
 import { getAllProgress, getLastVisited, setStatus, clearAll } from '../utils/progress'
+// ── React Bible entry ──────────────────────────────────────────────────────────
+import ReactBibleEntryCard from '../react-bible/components/ReactBibleEntryCard'
 
 function StatusDot({ status }) {
   if (status === 'completed')   return <CheckCircle2 size={12} className="text-green-500 flex-shrink-0" />
@@ -308,6 +310,9 @@ export default function Home() {
           <ChevronRight size={16} className="text-orange-400 flex-shrink-0" />
         </Link>
       )}
+
+      {/* React Bible entry card — above the Java roadmap */}
+      <ReactBibleEntryCard />
 
       {/* Vertical Timeline */}
       <div className="max-w-2xl">
