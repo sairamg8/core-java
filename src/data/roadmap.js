@@ -540,6 +540,16 @@ import topic525 from './core/basics/topic525CreatingClusterAndTask'
 import topic526 from './core/basics/topic526RunningTheTaskForPostgres'
 import topic527 from './core/basics/topic527PushingTheDockerImageToEcr'
 import topic528 from './core/basics/topic528RunningJavaAppTask'
+import topic529 from './core/basics/topic529SpringAiIntroduction'
+import topic530 from './core/basics/topic530WhySpringAi'
+import topic531 from './core/basics/topic531SpringAiDocs'
+import topic532 from './core/basics/topic532StableVersionUpdate'
+import topic533 from './core/basics/topic533CreatingASpringAiProject'
+import topic534 from './core/basics/topic534CreateOpenaiApiKey'
+import topic535 from './core/basics/topic535AskingQuestionsToOpenaiModels'
+import topic536 from './core/basics/topic536WorkingWithChatClient'
+import topic537 from './core/basics/topic537ChatResponseAndMetadata'
+import topic538 from './core/basics/topic538ChatClientBuilder'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -1120,7 +1130,9 @@ export const STAGES = [
         step: 48, id: 'spring-ai-basics',
         title: 'Spring AI — Chat & Prompts',
         subtitle: 'ChatClient, PromptTemplate, structured output, streaming responses.',
-        sections: [springAiBasics],
+        sections: [topic529, topic530, topic531, topic532, topic533,
+          topic534, topic535, topic536, topic537, topic538,
+          springAiBasics],
       },
       {
         step: 49, id: 'spring-ai-advanced',
