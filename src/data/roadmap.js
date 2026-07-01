@@ -448,6 +448,14 @@ import topic433 from './core/basics/topic433SpringDataRestIntroduction'
 import topic434 from './core/basics/topic434CreatingASpringDataRestProject'
 import topic435 from './core/basics/topic435RunningTheProject'
 import topic436 from './core/basics/topic436UpdateAndDeleteOperations'
+import topic437 from './core/basics/topic437SpringAopIntroduction'
+import topic438 from './core/basics/topic438LoggingTheCalls'
+import topic439 from './core/basics/topic439AopConcepts'
+import topic440 from './core/basics/topic440BeforeAdvice'
+import topic441 from './core/basics/topic441JoinPoint'
+import topic442 from './core/basics/topic442AfterAdvice'
+import topic443 from './core/basics/topic443PerformanceMonitoringUsingAroundAdvice'
+import topic444 from './core/basics/topic444ValidatingInputUsingAroundAdvice'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -859,6 +867,12 @@ export const STAGES = [
           topic403, topic404, topic405, topic406, topic407, topic408, topic409, topic410,
           topic433, topic434, topic435, topic436,
           restApi],
+      },
+      {
+        step: 50, id: 'spring-aop',
+        title: 'Spring AOP',
+        subtitle: 'Aspects, advice types, pointcuts, join points, and proxy-based weaving.',
+        sections: [topic437, topic438, topic439, topic440, topic441, topic442, topic443, topic444],
       },
     ],
   },
