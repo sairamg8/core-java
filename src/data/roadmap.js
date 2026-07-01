@@ -550,6 +550,16 @@ import topic535 from './core/basics/topic535AskingQuestionsToOpenaiModels'
 import topic536 from './core/basics/topic536WorkingWithChatClient'
 import topic537 from './core/basics/topic537ChatResponseAndMetadata'
 import topic538 from './core/basics/topic538ChatClientBuilder'
+import topic539 from './core/basics/topic539SpringAiMemoryAdvisor'
+import topic540 from './core/basics/topic540RunningModelLocallyWithOllama'
+import topic541 from './core/basics/topic541SpringAiWithOllama'
+import topic542 from './core/basics/topic542PromptTemplate'
+import topic543 from './core/basics/topic543ImplementingPromptTemplate'
+import topic544 from './core/basics/topic544WhatAreEmbeddings'
+import topic545 from './core/basics/topic545EmbeddingUsingApiClient'
+import topic546 from './core/basics/topic546EmbeddingUsingSpringAi'
+import topic547 from './core/basics/topic547WhatIsCosineSimilarity'
+import topic548 from './core/basics/topic548CosineSimilarityImplementation'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -1138,7 +1148,9 @@ export const STAGES = [
         step: 49, id: 'spring-ai-advanced',
         title: 'Spring AI — RAG & Tools',
         subtitle: 'Vector stores, embeddings, retrieval-augmented generation, function/tool calling.',
-        sections: [springAiAdvanced],
+        sections: [topic539, topic540, topic541, topic542, topic543,
+          topic544, topic545, topic546, topic547, topic548,
+          springAiAdvanced],
       },
     ],
   },
