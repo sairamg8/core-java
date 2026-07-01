@@ -466,6 +466,17 @@ import topic451 from './core/basics/topic451SettingUsernameAndPassword'
 import topic452 from './core/basics/topic452BasicAuthUsingPostman'
 import topic453 from './core/basics/topic453WhatIsCsrf'
 import topic454 from './core/basics/topic454ErrorWithoutCsrfToken'
+import topic455 from './core/basics/topic455SendingCsrfToken'
+import topic456 from './core/basics/topic456SameSiteStrict'
+import topic457 from './core/basics/topic457SecurityConfiguration'
+import topic458 from './core/basics/topic458DisablingCsrfToken'
+import topic459 from './core/basics/topic459ConfigurationWithoutLambda'
+import topic460 from './core/basics/topic460GettingReadyForUserDatabase'
+import topic461 from './core/basics/topic461WorkingWithMultipleUsers'
+import topic462 from './core/basics/topic462CreatingUserTableAndDbProperties'
+import topic463 from './core/basics/topic463AuthenticationProvider'
+import topic464 from './core/basics/topic464CreatingAUserDetailsService'
+import topic465 from './core/basics/topic465UserRepository'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -982,6 +993,8 @@ export const STAGES = [
         subtitle: 'SecurityFilterChain, UserDetailsService, BCrypt password hashing, roles and authorities.',
         sections: [topic445, topic446, topic447, topic448, topic449, topic450, topic451,
           topic452, topic453, topic454,
+          topic455, topic456, topic457, topic458, topic459, topic460, topic461,
+          topic462, topic463, topic464, topic465,
           securityBasics],
       },
       {
