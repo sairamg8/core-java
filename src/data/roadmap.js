@@ -365,6 +365,26 @@ import topic328 from './core/basics/topic328CreatingInterface'
 import topic329 from './core/basics/topic329Autowiring'
 import topic330 from './core/basics/topic330PrimaryBean'
 import topic331 from './core/basics/topic331LazyInitBean'
+import topic332 from './core/basics/topic332GetBeanByType'
+import topic333 from './core/basics/topic333InnerBean'
+import topic334 from './core/basics/topic334JavaBasedConfiguration'
+import topic335 from './core/basics/topic335BeanName'
+import topic336 from './core/basics/topic336ScopeAnnotation'
+import topic337 from './core/basics/topic337Autowiring'
+import topic338 from './core/basics/topic338PrimaryAndQualifier'
+import topic339 from './core/basics/topic339ComponentStereotypeAnnotation'
+import topic340 from './core/basics/topic340AutowireFieldConstructorSetter'
+import topic341 from './core/basics/topic341PrimaryAnnotation'
+import topic342 from './core/basics/topic342ScopeAndValueAnnotations'
+import topic343 from './core/basics/topic343FromSpringToSpringBoot'
+import topic344 from './core/basics/topic344UsingAnnotationsInSpringBoot'
+import topic345 from './core/basics/topic345DifferentLayers'
+import topic346 from './core/basics/topic346ServiceClass'
+import topic347 from './core/basics/topic347RepositoryLayer'
+import topic348 from './core/basics/topic348SpringJdbcIntroduction'
+import topic349 from './core/basics/topic349CreatingASpringJdbcProject'
+import topic350 from './core/basics/topic350StudentServiceAndRepository'
+import topic351 from './core/basics/topic351JdbcTemplate'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -752,7 +772,10 @@ export const STAGES = [
         subtitle: '@Component, @Service, @Repository, constructor injection, @Bean, @Qualifier.',
         sections: [topic312, topic313, topic314, topic315, topic316, topic317, topic318,
           topic319, topic320, topic321, topic322, topic323, topic324, topic325, topic326,
-          topic327, topic328, topic329, topic330, topic331, springCore],
+          topic327, topic328, topic329, topic330, topic331,
+          topic332, topic333, topic334, topic335, topic336, topic337, topic338,
+          topic339, topic340, topic341, topic342, topic343, topic344, topic345,
+          topic346, topic347, topic348, topic349, topic350, topic351, springCore],
       },
       {
         step: 34, id: 'spring-boot',
