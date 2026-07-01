@@ -560,6 +560,16 @@ import topic545 from './core/basics/topic545EmbeddingUsingApiClient'
 import topic546 from './core/basics/topic546EmbeddingUsingSpringAi'
 import topic547 from './core/basics/topic547WhatIsCosineSimilarity'
 import topic548 from './core/basics/topic548CosineSimilarityImplementation'
+import topic549 from './core/basics/topic549VectorDatabaseIntroduction'
+import topic550 from './core/basics/topic550SimpleVectorStore'
+import topic551 from './core/basics/topic551TokenTextSplitter'
+import topic552 from './core/basics/topic552PGvectorStoreIntroduction'
+import topic553 from './core/basics/topic553PGvectorSetup'
+import topic554 from './core/basics/topic554PGvectorImplementation'
+import topic555 from './core/basics/topic555RedisVectorStoreConfig'
+import topic556 from './core/basics/topic556RedisVectorStoreImplementation'
+import topic557 from './core/basics/topic557WhatIsRag'
+import topic558 from './core/basics/topic558RagImplementation'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -1150,6 +1160,8 @@ export const STAGES = [
         subtitle: 'Vector stores, embeddings, retrieval-augmented generation, function/tool calling.',
         sections: [topic539, topic540, topic541, topic542, topic543,
           topic544, topic545, topic546, topic547, topic548,
+          topic549, topic550, topic551, topic552, topic553,
+          topic554, topic555, topic556, topic557, topic558,
           springAiAdvanced],
       },
     ],
