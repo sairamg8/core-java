@@ -444,6 +444,10 @@ import topic407 from './core/basics/topic407UpdateAndDelete'
 import topic408 from './core/basics/topic408JpaInJobApp'
 import topic409 from './core/basics/topic409LoadingDataAndEntities'
 import topic410 from './core/basics/topic410SearchByKeyword'
+import topic433 from './core/basics/topic433SpringDataRestIntroduction'
+import topic434 from './core/basics/topic434CreatingASpringDataRestProject'
+import topic435 from './core/basics/topic435RunningTheProject'
+import topic436 from './core/basics/topic436UpdateAndDeleteOperations'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -853,6 +857,7 @@ export const STAGES = [
           topic387, topic388, topic389, topic390, topic391, topic392, topic393, topic394,
           topic395, topic396, topic397, topic398, topic399, topic400, topic401, topic402,
           topic403, topic404, topic405, topic406, topic407, topic408, topic409, topic410,
+          topic433, topic434, topic435, topic436,
           restApi],
       },
     ],
