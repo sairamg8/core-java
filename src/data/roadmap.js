@@ -314,6 +314,37 @@ import topic277 from './core/basics/topic277MavenBuildLifecycle'
 import topic278 from './core/basics/topic278HandsOnJavaUnitTestingWithMaven'
 import topic279 from './core/basics/topic279MavenWithSpringBootApplicationDemo'
 import topic280 from './core/basics/topic280YoureReadyToUseMaven'
+import topic281 from './core/basics/topic281HibernateSourceCode'
+import topic282 from './core/basics/topic282HibernateIntroduction'
+import topic283 from './core/basics/topic283FundamentalsBeforeHibernate'
+import topic284 from './core/basics/topic284LimitationsOfJDBCAndNeedOfHibernate'
+import topic285 from './core/basics/topic285JPAAndHibernateAsAnORMFramework'
+import topic286 from './core/basics/topic286HibernateArchitecture'
+import topic287 from './core/basics/topic287HibernateProjectSetup'
+import topic288 from './core/basics/topic288HibernateProjectSetupArchitecture'
+import topic289 from './core/basics/topic289InstallHibernateHelperPlugin'
+import topic290 from './core/basics/topic290FirstHibernateApplication'
+import topic291 from './core/basics/topic291EntityInsertionWithPersistMethod'
+import topic292 from './core/basics/topic292UpdatingTheData'
+import topic293 from './core/basics/topic293DeletingRecordsInATableUsingDeleteAndRemove'
+import topic294 from './core/basics/topic294MavenProjectUpdate'
+import topic295 from './core/basics/topic295SelectiveInsertionWithTransientAnnotation'
+import topic296 from './core/basics/topic296DataRetrievalWithGetMethod'
+import topic297 from './core/basics/topic297LazyLoadingVsEagerLoadingInHibernate'
+import topic298 from './core/basics/topic298Level1CacheInHibernate'
+import topic299 from './core/basics/topic299Level2CacheInHibernateEhCache'
+import topic300 from './core/basics/topic300HibernateConfigurationUsingJavaWithoutXML'
+import topic301 from './core/basics/topic301HibernateConfigurationUsingHibernatePropertiesFile'
+import topic302 from './core/basics/topic302ExploringGeneratedValueAndSequenceGenerator'
+import topic303 from './core/basics/topic303IntroductionToHibernateAssociationMapping'
+import topic304 from './core/basics/topic304HibernateOneToOneMapping'
+import topic305 from './core/basics/topic305HibernateOneToManyAndManyToOneMapping'
+import topic306 from './core/basics/topic306HibernateManyToManyAssociationMapping'
+import topic307 from './core/basics/topic307WorkingWithLOBs'
+import topic308 from './core/basics/topic308IntroductionToHQLAndBulkOperations'
+import topic309 from './core/basics/topic309DataRetrievalWithHQL'
+import topic310 from './core/basics/topic310MoreOnDataRetrievalWithHQL'
+import topic311 from './core/basics/topic311UpdatingAndDeletingDataWithHQL'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -681,7 +712,11 @@ export const STAGES = [
         step: 32, id: 'hibernate-jpa',
         title: 'JPA & Hibernate',
         subtitle: '@Entity, @OneToMany, fetch types, N+1 problem, Spring Data JPA repositories.',
-        sections: [hibernate],
+        sections: [topic281, topic282, topic283, topic284, topic285, topic286,
+          topic287, topic288, topic289, topic290, topic291, topic292, topic293,
+          topic294, topic295, topic296, topic297, topic298, topic299, topic300,
+          topic301, topic302, topic303, topic304, topic305, topic306, topic307,
+          topic308, topic309, topic310, topic311, hibernate],
       },
     ],
   },
