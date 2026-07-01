@@ -477,6 +477,16 @@ import topic462 from './core/basics/topic462CreatingUserTableAndDbProperties'
 import topic463 from './core/basics/topic463AuthenticationProvider'
 import topic464 from './core/basics/topic464CreatingAUserDetailsService'
 import topic465 from './core/basics/topic465UserRepository'
+import topic466 from './core/basics/topic466UserDetailsAndUserPrincipal'
+import topic467 from './core/basics/topic467SummaryTillNow'
+import topic468 from './core/basics/topic468WhatIsBcrypt'
+import topic469 from './core/basics/topic469UserRegistration'
+import topic470 from './core/basics/topic470BcryptEncodingForUserRegistration'
+import topic471 from './core/basics/topic471SettingPasswordEncoder'
+import topic472 from './core/basics/topic472PlanToSecureJobAppProject'
+import topic473 from './core/basics/topic473CrossOriginCors'
+import topic474 from './core/basics/topic474AddingSecurityConfiguration'
+import topic475 from './core/basics/topic475JobAppIsSecureNow'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -995,6 +1005,8 @@ export const STAGES = [
           topic452, topic453, topic454,
           topic455, topic456, topic457, topic458, topic459, topic460, topic461,
           topic462, topic463, topic464, topic465,
+          topic466, topic467, topic468, topic469, topic470, topic471, topic472,
+          topic473, topic474, topic475,
           securityBasics],
       },
       {
