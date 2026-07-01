@@ -499,6 +499,9 @@ import topic484 from './core/basics/topic484CreatingAJwtFilter'
 import topic485 from './core/basics/topic485SettingAuthTokenInSecurityContext'
 import topic486 from './core/basics/topic486ValidatingToken'
 import topic487 from './core/basics/topic487JwtSummary'
+import topic488 from './core/basics/topic488ImplementingOauth2'
+import topic489 from './core/basics/topic489GoogleOauth2Login'
+import topic490 from './core/basics/topic490GithubLogin'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -1033,7 +1036,7 @@ export const STAGES = [
         step: 44, id: 'oauth2',
         title: 'OAuth2 & Social Login',
         subtitle: 'Authorization Code flow, Google/GitHub login, OpenID Connect, resource server.',
-        sections: [oauth2],
+        sections: [topic488, topic489, topic490, oauth2],
       },
     ],
   },
