@@ -23,6 +23,9 @@ const COLOR = {
   yellow:  { text: 'text-yellow-600',  faint: 'bg-yellow-50 dark:bg-yellow-950/30',  label: 'text-yellow-700 dark:text-yellow-300'  },
   green:   { text: 'text-green-600',   faint: 'bg-green-50 dark:bg-green-950/30',   label: 'text-green-700 dark:text-green-300'   },
   indigo:  { text: 'text-indigo-500',  faint: 'bg-indigo-50 dark:bg-indigo-950/30',  label: 'text-indigo-700 dark:text-indigo-300'  },
+  sky:     { text: 'text-sky-500',     faint: 'bg-sky-50 dark:bg-sky-950/30',     label: 'text-sky-700 dark:text-sky-300'     },
+  stone:   { text: 'text-stone-500',   faint: 'bg-stone-50 dark:bg-stone-800/40',   label: 'text-stone-700 dark:text-stone-300'   },
+  violet:  { text: 'text-violet-500',  faint: 'bg-violet-50 dark:bg-violet-950/30',  label: 'text-violet-700 dark:text-violet-300'  },
 }
 
 function SectionView({ section }) {
@@ -129,7 +132,7 @@ export default function StepPage() {
     )
   }
 
-  const c = COLOR[step.stageColor]
+  const c = COLOR[step.stageColor] || COLOR.blue
 
   return (
     <div>
