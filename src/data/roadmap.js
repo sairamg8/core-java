@@ -502,6 +502,12 @@ import topic487 from './core/basics/topic487JwtSummary'
 import topic488 from './core/basics/topic488ImplementingOauth2'
 import topic489 from './core/basics/topic489GoogleOauth2Login'
 import topic490 from './core/basics/topic490GithubLogin'
+import topic491 from './core/basics/topic491IntroductionToLoggingWithLog4j'
+import topic492 from './core/basics/topic492IntroductionToLoggingWithLog4j2'
+import topic493 from './core/basics/topic493MoreOnFundamentalsOfLog4j'
+import topic494 from './core/basics/topic494Log4jImplementationSimpleProjectSetup'
+import topic495 from './core/basics/topic495Log4jImplementationInJava'
+import topic496 from './core/basics/topic496LoggingWithSpringBoot'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -1050,7 +1056,7 @@ export const STAGES = [
         step: 45, id: 'logging',
         title: 'Logging',
         subtitle: 'SLF4J, Logback, Log4j2 — log levels, appenders, parameterized logging, production config.',
-        sections: [logging],
+        sections: [topic491, topic492, topic493, topic494, topic495, topic496, logging],
       },
       {
         step: 46, id: 'docker',
