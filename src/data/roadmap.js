@@ -487,6 +487,18 @@ import topic472 from './core/basics/topic472PlanToSecureJobAppProject'
 import topic473 from './core/basics/topic473CrossOriginCors'
 import topic474 from './core/basics/topic474AddingSecurityConfiguration'
 import topic475 from './core/basics/topic475JobAppIsSecureNow'
+import topic476 from './core/basics/topic476EncryptionAndDecryption'
+import topic477 from './core/basics/topic477DigitalSignature'
+import topic478 from './core/basics/topic478WhyJwt'
+import topic479 from './core/basics/topic479WhatIsJwt'
+import topic480 from './core/basics/topic480ProjectSetupForJwt'
+import topic481 from './core/basics/topic481CustomLogin'
+import topic482 from './core/basics/topic482GeneratingToken'
+import topic483 from './core/basics/topic483TokenGenerationFlow'
+import topic484 from './core/basics/topic484CreatingAJwtFilter'
+import topic485 from './core/basics/topic485SettingAuthTokenInSecurityContext'
+import topic486 from './core/basics/topic486ValidatingToken'
+import topic487 from './core/basics/topic487JwtSummary'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -1013,7 +1025,9 @@ export const STAGES = [
         step: 43, id: 'jwt',
         title: 'JWT Authentication',
         subtitle: 'Token structure, signing keys, JwtFilter, stateless REST API security.',
-        sections: [jwtAuth],
+        sections: [topic476, topic477, topic478, topic479, topic480, topic481, topic482,
+          topic483, topic484, topic485, topic486, topic487,
+          jwtAuth],
       },
       {
         step: 44, id: 'oauth2',
