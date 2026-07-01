@@ -405,6 +405,24 @@ import topic368 from './core/basics/topic368RequestParam'
 import topic369 from './core/basics/topic369ModelObject'
 import topic370 from './core/basics/topic370SettingPrefixAndSuffix'
 import topic371 from './core/basics/topic371ModelAndView'
+import topic372 from './core/basics/topic372NeedForModelAttribute'
+import topic373 from './core/basics/topic373UsingModelAttribute'
+import topic374 from './core/basics/topic374SpringMvcIntroduction'
+import topic375 from './core/basics/topic375CreatingASpringMvcProjectPart1'
+import topic376 from './core/basics/topic376RunningTomcatInEclipse'
+import topic377 from './core/basics/topic377DispatcherServlet'
+import topic378 from './core/basics/topic378ConfiguringTheDispatcherServlet'
+import topic379 from './core/basics/topic379InternalResourceViewResolver'
+import topic380 from './core/basics/topic380Summary'
+import topic381 from './core/basics/topic381JobAppSourceCode'
+import topic382 from './core/basics/topic382BuildingJobApp'
+import topic383 from './core/basics/topic383CreatingAProject'
+import topic384 from './core/basics/topic384UnderstandingViews'
+import topic385 from './core/basics/topic385HomeAndAddJobController'
+import topic386 from './core/basics/topic386HandlingForms'
+import topic387 from './core/basics/topic387WorkingWithLayers'
+import topic388 from './core/basics/topic388ViewData'
+import topic389 from './core/basics/topic389SummaryForJobWebapp'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -809,7 +827,9 @@ export const STAGES = [
         step: 35, id: 'spring-rest',
         title: 'REST API with Spring MVC',
         subtitle: '@RestController, ResponseEntity, @Valid, @ExceptionHandler, @ControllerAdvice.',
-        sections: [restApi],
+        sections: [topic372, topic373, topic374, topic375, topic376, topic377, topic378,
+          topic379, topic380, topic381, topic382, topic383, topic384, topic385, topic386,
+          topic387, topic388, topic389, restApi],
       },
     ],
   },
