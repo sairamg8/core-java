@@ -508,6 +508,16 @@ import topic493 from './core/basics/topic493MoreOnFundamentalsOfLog4j'
 import topic494 from './core/basics/topic494Log4jImplementationSimpleProjectSetup'
 import topic495 from './core/basics/topic495Log4jImplementationInJava'
 import topic496 from './core/basics/topic496LoggingWithSpringBoot'
+import topic497 from './core/basics/topic497DockerIntroduction'
+import topic498 from './core/basics/topic498ProblemDockerSolves'
+import topic499 from './core/basics/topic499SolutionWithVirtualization'
+import topic500 from './core/basics/topic500SolutionWithContainerization'
+import topic501 from './core/basics/topic501WhatIsDocker'
+import topic502 from './core/basics/topic502DockerSetup'
+import topic503 from './core/basics/topic503RunningFirstContainer'
+import topic504 from './core/basics/topic504DockerCommands'
+import topic505 from './core/basics/topic505DockerArchitecture'
+import topic506 from './core/basics/topic506RunningJdkDockerContainer'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -1062,7 +1072,9 @@ export const STAGES = [
         step: 46, id: 'docker',
         title: 'Docker',
         subtitle: 'Dockerfile, multi-stage builds, images, containers, Docker Compose for local dev.',
-        sections: [dockerBasics, dockerCompose],
+        sections: [topic497, topic498, topic499, topic500, topic501, topic502,
+          topic503, topic504, topic505, topic506,
+          dockerBasics, dockerCompose],
       },
       {
         step: 47, id: 'aws',
