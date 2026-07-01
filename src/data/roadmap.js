@@ -345,6 +345,84 @@ import topic308 from './core/basics/topic308IntroductionToHQLAndBulkOperations'
 import topic309 from './core/basics/topic309DataRetrievalWithHQL'
 import topic310 from './core/basics/topic310MoreOnDataRetrievalWithHQL'
 import topic311 from './core/basics/topic311UpdatingAndDeletingDataWithHQL'
+import topic312 from './core/basics/topic312IntroductionToSpring'
+import topic313 from './core/basics/topic313SpringDocs'
+import topic314 from './core/basics/topic314Prerequisites'
+import topic315 from './core/basics/topic315IdeForSpring'
+import topic316 from './core/basics/topic316IocAndDi'
+import topic317 from './core/basics/topic317SpringVsSpringBoot'
+import topic318 from './core/basics/topic318FirstSpringBootApp'
+import topic319 from './core/basics/topic319DiUsingSpringBoot'
+import topic320 from './core/basics/topic320AutowiringInSpringBoot'
+import topic321 from './core/basics/topic321SpringFirstProject'
+import topic322 from './core/basics/topic322SpringBeanXmlConfig'
+import topic323 from './core/basics/topic323ObjectCreation'
+import topic324 from './core/basics/topic324Scopes'
+import topic325 from './core/basics/topic325SetterInjection'
+import topic326 from './core/basics/topic326RefAttribute'
+import topic327 from './core/basics/topic327ConstructorInjection'
+import topic328 from './core/basics/topic328CreatingInterface'
+import topic329 from './core/basics/topic329Autowiring'
+import topic330 from './core/basics/topic330PrimaryBean'
+import topic331 from './core/basics/topic331LazyInitBean'
+import topic332 from './core/basics/topic332GetBeanByType'
+import topic333 from './core/basics/topic333InnerBean'
+import topic334 from './core/basics/topic334JavaBasedConfiguration'
+import topic335 from './core/basics/topic335BeanName'
+import topic336 from './core/basics/topic336ScopeAnnotation'
+import topic337 from './core/basics/topic337Autowiring'
+import topic338 from './core/basics/topic338PrimaryAndQualifier'
+import topic339 from './core/basics/topic339ComponentStereotypeAnnotation'
+import topic340 from './core/basics/topic340AutowireFieldConstructorSetter'
+import topic341 from './core/basics/topic341PrimaryAnnotation'
+import topic342 from './core/basics/topic342ScopeAndValueAnnotations'
+import topic343 from './core/basics/topic343FromSpringToSpringBoot'
+import topic344 from './core/basics/topic344UsingAnnotationsInSpringBoot'
+import topic345 from './core/basics/topic345DifferentLayers'
+import topic346 from './core/basics/topic346ServiceClass'
+import topic347 from './core/basics/topic347RepositoryLayer'
+import topic348 from './core/basics/topic348SpringJdbcIntroduction'
+import topic349 from './core/basics/topic349CreatingASpringJdbcProject'
+import topic350 from './core/basics/topic350StudentServiceAndRepository'
+import topic351 from './core/basics/topic351JdbcTemplate'
+import topic352 from './core/basics/topic352SchemaAndDataFiles'
+import topic353 from './core/basics/topic353RowMapper'
+import topic354 from './core/basics/topic354SpringJdbcWithPostgresql'
+import topic355 from './core/basics/topic355WebAppIntroduction'
+import topic356 from './core/basics/topic356CreatingAServletProject'
+import topic357 from './core/basics/topic357RunningTomcat'
+import topic358 from './core/basics/topic358ServletMapping'
+import topic359 from './core/basics/topic359RespondingToTheClient'
+import topic360 from './core/basics/topic360IntroductionToMvc'
+import topic361 from './core/basics/topic361CreatingASpringBootWebAppProject'
+import topic362 from './core/basics/topic362CreatingAJspPage'
+import topic363 from './core/basics/topic363CreatingAController'
+import topic364 from './core/basics/topic364RequestMapping'
+import topic365 from './core/basics/topic365SendingDataToController'
+import topic366 from './core/basics/topic366AcceptingDataTheServletWay'
+import topic367 from './core/basics/topic367DisplayDataOnResultPage'
+import topic368 from './core/basics/topic368RequestParam'
+import topic369 from './core/basics/topic369ModelObject'
+import topic370 from './core/basics/topic370SettingPrefixAndSuffix'
+import topic371 from './core/basics/topic371ModelAndView'
+import topic372 from './core/basics/topic372NeedForModelAttribute'
+import topic373 from './core/basics/topic373UsingModelAttribute'
+import topic374 from './core/basics/topic374SpringMvcIntroduction'
+import topic375 from './core/basics/topic375CreatingASpringMvcProjectPart1'
+import topic376 from './core/basics/topic376RunningTomcatInEclipse'
+import topic377 from './core/basics/topic377DispatcherServlet'
+import topic378 from './core/basics/topic378ConfiguringTheDispatcherServlet'
+import topic379 from './core/basics/topic379InternalResourceViewResolver'
+import topic380 from './core/basics/topic380Summary'
+import topic381 from './core/basics/topic381JobAppSourceCode'
+import topic382 from './core/basics/topic382BuildingJobApp'
+import topic383 from './core/basics/topic383CreatingAProject'
+import topic384 from './core/basics/topic384UnderstandingViews'
+import topic385 from './core/basics/topic385HomeAndAddJobController'
+import topic386 from './core/basics/topic386HandlingForms'
+import topic387 from './core/basics/topic387WorkingWithLayers'
+import topic388 from './core/basics/topic388ViewData'
+import topic389 from './core/basics/topic389SummaryForJobWebapp'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -730,19 +808,28 @@ export const STAGES = [
         step: 33, id: 'spring-core',
         title: 'Spring Core — IoC & DI',
         subtitle: '@Component, @Service, @Repository, constructor injection, @Bean, @Qualifier.',
-        sections: [springCore],
+        sections: [topic312, topic313, topic314, topic315, topic316, topic317, topic318,
+          topic319, topic320, topic321, topic322, topic323, topic324, topic325, topic326,
+          topic327, topic328, topic329, topic330, topic331,
+          topic332, topic333, topic334, topic335, topic336, topic337, topic338,
+          topic339, topic340, topic341, topic342, topic343, topic344, topic345,
+          topic346, topic347, topic348, topic349, topic350, topic351, springCore],
       },
       {
         step: 34, id: 'spring-boot',
         title: 'Spring Boot',
         subtitle: 'Auto-configuration, starters, application.properties, profiles, Actuator.',
-        sections: [springBoot],
+        sections: [topic352, topic353, topic354, topic355, topic356, topic357, topic358,
+          topic359, topic360, topic361, topic362, topic363, topic364, topic365, topic366,
+          topic367, topic368, topic369, topic370, topic371, springBoot],
       },
       {
         step: 35, id: 'spring-rest',
         title: 'REST API with Spring MVC',
         subtitle: '@RestController, ResponseEntity, @Valid, @ExceptionHandler, @ControllerAdvice.',
-        sections: [restApi],
+        sections: [topic372, topic373, topic374, topic375, topic376, topic377, topic378,
+          topic379, topic380, topic381, topic382, topic383, topic384, topic385, topic386,
+          topic387, topic388, topic389, restApi],
       },
     ],
   },
