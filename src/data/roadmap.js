@@ -535,6 +535,11 @@ import topic520 from './core/basics/topic520SpringProjectWithDatabase'
 import topic521 from './core/basics/topic521CreatingDatabaseInAwsRds'
 import topic522 from './core/basics/topic522DeployingAppOnElasticBeanstalk'
 import topic523 from './core/basics/topic523IntroductionToEcs'
+import topic524 from './core/basics/topic524ConfiguringAwsCli'
+import topic525 from './core/basics/topic525CreatingClusterAndTask'
+import topic526 from './core/basics/topic526RunningTheTaskForPostgres'
+import topic527 from './core/basics/topic527PushingTheDockerImageToEcr'
+import topic528 from './core/basics/topic528RunningJavaAppTask'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -1100,6 +1105,7 @@ export const STAGES = [
         subtitle: 'S3, RDS, IAM, VPC, EC2, Elastic Beanstalk, ECS/Fargate — deploy a Spring Boot app.',
         sections: [topic514, topic515, topic516, topic517, topic518, topic519,
           topic520, topic521, topic522, topic523,
+          topic524, topic525, topic526, topic527, topic528,
           awsCore, awsDeploy],
       },
     ],
