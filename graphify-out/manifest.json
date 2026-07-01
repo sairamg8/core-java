@@ -30,9 +30,9 @@
     "semantic_hash": "63223ab279e507d6ec8ddea3b0813e5c"
   },
   "src/components/Layout.jsx": {
-    "mtime": 1782738577.2936473,
-    "ast_hash": "a5927f082455ba24519ea2ed3cbe244c",
-    "semantic_hash": "a5927f082455ba24519ea2ed3cbe244c"
+    "mtime": 1782838936.1634994,
+    "ast_hash": "ce5faa23f9cb9a3c8f727e199ad0ba25",
+    "semantic_hash": "ce5faa23f9cb9a3c8f727e199ad0ba25"
   },
   "src/components/SearchBar.jsx": {
     "mtime": 1782738562.8035195,
@@ -40,9 +40,9 @@
     "semantic_hash": "3ecebba2945787854accec09d15da1b6"
   },
   "src/components/Sidebar.jsx": {
-    "mtime": 1782738022.9407787,
-    "ast_hash": "6cdafa7784f2d483f27fbae4bc4fa9b5",
-    "semantic_hash": "6cdafa7784f2d483f27fbae4bc4fa9b5"
+    "mtime": 1782793545.5621428,
+    "ast_hash": "2b9092f308f4cd4615528752c9a81e86",
+    "semantic_hash": "2b9092f308f4cd4615528752c9a81e86"
   },
   "src/components/ThemeToggle.jsx": {
     "mtime": 1782706570.024621,
@@ -290,9 +290,9 @@
     "semantic_hash": "b7d6f2b7ea9ab92b17056c4cc28b4b8a"
   },
   "src/data/roadmap.js": {
-    "mtime": 1782735429.8647952,
-    "ast_hash": "8bbd8844b3e8df80d05d3f69160ce478",
-    "semantic_hash": "8bbd8844b3e8df80d05d3f69160ce478"
+    "mtime": 1782870951.6834424,
+    "ast_hash": "b7e7b4c0e2f9c3bb12aa0fd039cdda76",
+    "semantic_hash": "b7e7b4c0e2f9c3bb12aa0fd039cdda76"
   },
   "src/data/spring/restApi.js": {
     "mtime": 1782735342.3125088,
@@ -335,9 +335,9 @@
     "semantic_hash": "54a301507dcdfccf4e5565754374b5dc"
   },
   "src/pages/Home.jsx": {
-    "mtime": 1782738006.8587115,
-    "ast_hash": "e5dafa6931bdb18a8026dfb756748bf3",
-    "semantic_hash": "e5dafa6931bdb18a8026dfb756748bf3"
+    "mtime": 1782793519.6169453,
+    "ast_hash": "d7d264e8033077f2d92aadce581d5077",
+    "semantic_hash": "d7d264e8033077f2d92aadce581d5077"
   },
   "src/pages/InterviewQuestionsPage.jsx": {
     "mtime": 1782732137.9368422,
@@ -345,9 +345,9 @@
     "semantic_hash": "42285396757260217c5e258990f32a07"
   },
   "src/pages/StepPage.jsx": {
-    "mtime": 1782735496.7360008,
-    "ast_hash": "43c571844993bdf5c6cc63c86c174044",
-    "semantic_hash": "43c571844993bdf5c6cc63c86c174044"
+    "mtime": 1782838936.1954992,
+    "ast_hash": "c699344e5977d5a61fe0d08d0f05b048",
+    "semantic_hash": "c699344e5977d5a61fe0d08d0f05b048"
   },
   "src/pages/TopicPage.jsx": {
     "mtime": 1782732094.9063728,
@@ -393,5 +393,1735 @@
     "mtime": 1782741325.105369,
     "ast_hash": "640ded11f32a032f858ae1360b7cd36b",
     "semantic_hash": "640ded11f32a032f858ae1360b7cd36b"
+  },
+  "src/data/advanced/serialization.js": {
+    "mtime": 1782792668.0230112,
+    "ast_hash": "e76cbf31acf4000b3dbe4fd428a22fac",
+    "semantic_hash": "e76cbf31acf4000b3dbe4fd428a22fac"
+  },
+  "src/data/advanced/userInput.js": {
+    "mtime": 1782792530.0277832,
+    "ast_hash": "d151de7f55ece445641e4f665b2cc5a3",
+    "semantic_hash": "d151de7f55ece445641e4f665b2cc5a3"
+  },
+  "src/data/core/basics/arrayOfObjects.js": {
+    "mtime": 1782791437.7296786,
+    "ast_hash": "4f6f27c05953ae79d33e7c3fae962338",
+    "semantic_hash": "4f6f27c05953ae79d33e7c3fae962338"
+  },
+  "src/data/core/basics/javaIntro.js": {
+    "mtime": 1782791349.0817473,
+    "ast_hash": "6a86e5aec4e2f6bcd62f2ca468975436",
+    "semantic_hash": "6a86e5aec4e2f6bcd62f2ca468975436"
+  },
+  "src/data/core/basics/literals.js": {
+    "mtime": 1782791512.695082,
+    "ast_hash": "a2e10addbdb962db5c40e6c61f610793",
+    "semantic_hash": "a2e10addbdb962db5c40e6c61f610793"
+  },
+  "src/data/core/basics/namingConventions.js": {
+    "mtime": 1782792396.1780944,
+    "ast_hash": "b4b3afa64ee4bc9b2ca8e12af04dca95",
+    "semantic_hash": "b4b3afa64ee4bc9b2ca8e12af04dca95"
+  },
+  "src/data/core/basics/programmingFundamentals.js": {
+    "mtime": 1782791329.815094,
+    "ast_hash": "11edc5603638f9f58a3f03924dee8e1a",
+    "semantic_hash": "11edc5603638f9f58a3f03924dee8e1a"
+  },
+  "src/data/core/basics/stackAndHeap.js": {
+    "mtime": 1782791419.197075,
+    "ast_hash": "c88bf55f557b355ae06474931c89f99e",
+    "semantic_hash": "c88bf55f557b355ae06474931c89f99e"
+  },
+  "src/data/core/basics/topic01CourseIntroduction.js": {
+    "mtime": 1782795230.772311,
+    "ast_hash": "3a9ff3490ce6fdfb2ab7f2b0f000a010",
+    "semantic_hash": "3a9ff3490ce6fdfb2ab7f2b0f000a010"
+  },
+  "src/data/core/basics/topic02CourseResources.js": {
+    "mtime": 1782795230.772311,
+    "ast_hash": "3275f1d0e2335ec1a0f2d51a43cc3b27",
+    "semantic_hash": "3275f1d0e2335ec1a0f2d51a43cc3b27"
+  },
+  "src/data/core/basics/topic03SourceCodeAccess.js": {
+    "mtime": 1782795230.7725928,
+    "ast_hash": "2c5a2b968909a89d96a09fec61ff5e51",
+    "semantic_hash": "2c5a2b968909a89d96a09fec61ff5e51"
+  },
+  "src/data/core/basics/topic04ProjectsInCourse.js": {
+    "mtime": 1782795230.7728877,
+    "ast_hash": "d2d606428650edff0d98fec83c26b284",
+    "semantic_hash": "d2d606428650edff0d98fec83c26b284"
+  },
+  "src/data/core/basics/topic05FundamentalsOfProgramming.js": {
+    "mtime": 1782795230.7730703,
+    "ast_hash": "a9a91f0ff8251082293323dba3f625ba",
+    "semantic_hash": "a9a91f0ff8251082293323dba3f625ba"
+  },
+  "src/data/core/basics/topic06MemoryUnit.js": {
+    "mtime": 1782795230.7732925,
+    "ast_hash": "9ecd0efaf7d8cf7fdacf21c7b29bb3d2",
+    "semantic_hash": "9ecd0efaf7d8cf7fdacf21c7b29bb3d2"
+  },
+  "src/data/core/basics/topic07PlatformDependency.js": {
+    "mtime": 1782795230.7735293,
+    "ast_hash": "a3205b6aeb65f3dbbcfdc812e2db8c50",
+    "semantic_hash": "a3205b6aeb65f3dbbcfdc812e2db8c50"
+  },
+  "src/data/core/basics/topic08HowJavaWORA.js": {
+    "mtime": 1782795230.7737305,
+    "ast_hash": "70fedb5e29f016c4ce0621bdd80ced48",
+    "semantic_hash": "70fedb5e29f016c4ce0621bdd80ced48"
+  },
+  "src/data/core/basics/topic09IntroductionToJava.js": {
+    "mtime": 1782795230.773934,
+    "ast_hash": "6390192c2a3fc99a3ebe0317ec79a7af",
+    "semantic_hash": "6390192c2a3fc99a3ebe0317ec79a7af"
+  },
+  "src/data/core/basics/topic100UserInput.js": {
+    "mtime": 1782818551.4280133,
+    "ast_hash": "3dab7a7b489ac5f7e9e9f8576f7baba3",
+    "semantic_hash": "3dab7a7b489ac5f7e9e9f8576f7baba3"
+  },
+  "src/data/core/basics/topic101TryWithResources.js": {
+    "mtime": 1782821473.7598565,
+    "ast_hash": "fefe5e20f38f833b710f51e48e818327",
+    "semantic_hash": "fefe5e20f38f833b710f51e48e818327"
+  },
+  "src/data/core/basics/topic102WhatAreThreads.js": {
+    "mtime": 1782821473.7598565,
+    "ast_hash": "a6cedfe90e96cd6fb72ef796040c9b8e",
+    "semantic_hash": "a6cedfe90e96cd6fb72ef796040c9b8e"
+  },
+  "src/data/core/basics/topic103MultipleThreads.js": {
+    "mtime": 1782821473.7612913,
+    "ast_hash": "a0f4d7ab61f56523e00af7e0dbe628d4",
+    "semantic_hash": "a0f4d7ab61f56523e00af7e0dbe628d4"
+  },
+  "src/data/core/basics/topic104ThreadPriorityAndSleep.js": {
+    "mtime": 1782821473.7612913,
+    "ast_hash": "9eefa16c7794be0243426fafddeae55a",
+    "semantic_hash": "9eefa16c7794be0243426fafddeae55a"
+  },
+  "src/data/core/basics/topic105RunnableVsThread.js": {
+    "mtime": 1782821473.7612913,
+    "ast_hash": "7e53411fe9c40005ed6b684e91b70b94",
+    "semantic_hash": "7e53411fe9c40005ed6b684e91b70b94"
+  },
+  "src/data/core/basics/topic106RaceCondition.js": {
+    "mtime": 1782821473.7612913,
+    "ast_hash": "f677f7ae2d9e2bf7556b0d00409b83cc",
+    "semantic_hash": "f677f7ae2d9e2bf7556b0d00409b83cc"
+  },
+  "src/data/core/basics/topic107ThreadStates.js": {
+    "mtime": 1782821473.7612913,
+    "ast_hash": "5d389233c9efbb80103e7f8f2786aac2",
+    "semantic_hash": "5d389233c9efbb80103e7f8f2786aac2"
+  },
+  "src/data/core/basics/topic108CollectionAPI.js": {
+    "mtime": 1782821473.7612913,
+    "ast_hash": "112e29777ba35394f1e68a0cbfe125d8",
+    "semantic_hash": "112e29777ba35394f1e68a0cbfe125d8"
+  },
+  "src/data/core/basics/topic109ArrayList.js": {
+    "mtime": 1782821473.7618566,
+    "ast_hash": "bcb3943ae79a9e3ad60fe86d5806fca3",
+    "semantic_hash": "bcb3943ae79a9e3ad60fe86d5806fca3"
+  },
+  "src/data/core/basics/topic10JdkIdeDownload.js": {
+    "mtime": 1782795230.7741168,
+    "ast_hash": "d9e3285380c88ef98888010fc60349a5",
+    "semantic_hash": "d9e3285380c88ef98888010fc60349a5"
+  },
+  "src/data/core/basics/topic110Set.js": {
+    "mtime": 1782821473.7618566,
+    "ast_hash": "b3f5e17c8ddacff932a76512ec070ed5",
+    "semantic_hash": "b3f5e17c8ddacff932a76512ec070ed5"
+  },
+  "src/data/core/basics/topic111Map.js": {
+    "mtime": 1782821473.7618566,
+    "ast_hash": "093c009a784a09861245c902cb86eec2",
+    "semantic_hash": "093c009a784a09861245c902cb86eec2"
+  },
+  "src/data/core/basics/topic112ComparatorVsComparable.js": {
+    "mtime": 1782821473.7618566,
+    "ast_hash": "bb88b6947e1a03fe1fdd9d5aad5b6795",
+    "semantic_hash": "bb88b6947e1a03fe1fdd9d5aad5b6795"
+  },
+  "src/data/core/basics/topic113NeedForGenerics.js": {
+    "mtime": 1782821473.7618566,
+    "ast_hash": "0aeebeb8aff7c6de7f4047a7a65fddbd",
+    "semantic_hash": "0aeebeb8aff7c6de7f4047a7a65fddbd"
+  },
+  "src/data/core/basics/topic114SyntaxAndUsageOfGenerics.js": {
+    "mtime": 1782821473.7618566,
+    "ast_hash": "692f80d1f5f0d89d8f2a96ae02f140af",
+    "semantic_hash": "692f80d1f5f0d89d8f2a96ae02f140af"
+  },
+  "src/data/core/basics/topic115CreatingAndWorkingWithGenericClass.js": {
+    "mtime": 1782821473.7628565,
+    "ast_hash": "1cf5da58742e9e80b141d109d0a4b7bf",
+    "semantic_hash": "1cf5da58742e9e80b141d109d0a4b7bf"
+  },
+  "src/data/core/basics/topic116UsingWildcardTypesInGenerics.js": {
+    "mtime": 1782821473.7628565,
+    "ast_hash": "1bf1faa95a9ab0a5c6e5aab3d76f04a0",
+    "semantic_hash": "1bf1faa95a9ab0a5c6e5aab3d76f04a0"
+  },
+  "src/data/core/basics/topic117UpperAndLowerBoundsInGenerics.js": {
+    "mtime": 1782821473.7628565,
+    "ast_hash": "2de4e54d53c594a230bf588372b3024b",
+    "semantic_hash": "2de4e54d53c594a230bf588372b3024b"
+  },
+  "src/data/core/basics/topic118IntroductionToDateAndTime.js": {
+    "mtime": 1782821473.7628565,
+    "ast_hash": "3be2044d5605b7a79a0f64536c69ec1b",
+    "semantic_hash": "3be2044d5605b7a79a0f64536c69ec1b"
+  },
+  "src/data/core/basics/topic119NewDateAndTimeAPI.js": {
+    "mtime": 1782821473.7628565,
+    "ast_hash": "c12651179f75e3ddeabd6e43502bf93a",
+    "semantic_hash": "c12651179f75e3ddeabd6e43502bf93a"
+  },
+  "src/data/core/basics/topic11JdkInstallation.js": {
+    "mtime": 1782795230.7743266,
+    "ast_hash": "e8b46dceaa2bdee282badc6352eb94d9",
+    "semantic_hash": "e8b46dceaa2bdee282badc6352eb94d9"
+  },
+  "src/data/core/basics/topic120NeedForStreamAPI.js": {
+    "mtime": 1782821473.7628565,
+    "ast_hash": "7671e9b6c3801d31d530dbd337be3e63",
+    "semantic_hash": "7671e9b6c3801d31d530dbd337be3e63"
+  },
+  "src/data/core/basics/topic121ForEachMethod.js": {
+    "mtime": 1782821473.7638564,
+    "ast_hash": "990a906670cce5033158682e59fe4087",
+    "semantic_hash": "990a906670cce5033158682e59fe4087"
+  },
+  "src/data/core/basics/topic122StreamAPI.js": {
+    "mtime": 1782821473.7638564,
+    "ast_hash": "2318d08534e7ef700b7f368cce6fdca3",
+    "semantic_hash": "2318d08534e7ef700b7f368cce6fdca3"
+  },
+  "src/data/core/basics/topic123MapFilterReduceSorted.js": {
+    "mtime": 1782821473.7638564,
+    "ast_hash": "a5c30fdaa76a67d127811c8b484b9551",
+    "semantic_hash": "a5c30fdaa76a67d127811c8b484b9551"
+  },
+  "src/data/core/basics/topic124ParallelStream.js": {
+    "mtime": 1782821473.7638564,
+    "ast_hash": "d65a14d9b52c2865910c98227c5a1d94",
+    "semantic_hash": "d65a14d9b52c2865910c98227c5a1d94"
+  },
+  "src/data/core/basics/topic125OptionalClass.js": {
+    "mtime": 1782821473.7638564,
+    "ast_hash": "486a4854a0fda7848ee6501cf31855f4",
+    "semantic_hash": "486a4854a0fda7848ee6501cf31855f4"
+  },
+  "src/data/core/basics/topic126MethodReference.js": {
+    "mtime": 1782821473.7648566,
+    "ast_hash": "b0e826ce143f8054ec2e7b57f9926718",
+    "semantic_hash": "b0e826ce143f8054ec2e7b57f9926718"
+  },
+  "src/data/core/basics/topic127ConstructorReference.js": {
+    "mtime": 1782821473.7648566,
+    "ast_hash": "f49b9da77c1d69b4229def1d0fc4a22f",
+    "semantic_hash": "f49b9da77c1d69b4229def1d0fc4a22f"
+  },
+  "src/data/core/basics/topic128FundamentalsBeforeIO.js": {
+    "mtime": 1782821473.7648566,
+    "ast_hash": "6727be3641ea385d67c059f1b83c1bfd",
+    "semantic_hash": "6727be3641ea385d67c059f1b83c1bfd"
+  },
+  "src/data/core/basics/topic129CreatingFilesAndDirectories.js": {
+    "mtime": 1782821473.7648566,
+    "ast_hash": "d41d7ba9a326b73147565f65d7f1b784",
+    "semantic_hash": "d41d7ba9a326b73147565f65d7f1b784"
+  },
+  "src/data/core/basics/topic12VSCodeInstallation.js": {
+    "mtime": 1782795230.7745056,
+    "ast_hash": "d61f13f072dfcd84f88515cb212de17c",
+    "semantic_hash": "d61f13f072dfcd84f88515cb212de17c"
+  },
+  "src/data/core/basics/topic130MoreOnFileClass.js": {
+    "mtime": 1782821473.7648566,
+    "ast_hash": "9aec470aa0926f43d3c9e2e7db217cd4",
+    "semantic_hash": "9aec470aa0926f43d3c9e2e7db217cd4"
+  },
+  "src/data/core/basics/topic131WritingDataToFile.js": {
+    "mtime": 1782821473.7648566,
+    "ast_hash": "eaf42a300b15559f6add86ed50683573",
+    "semantic_hash": "eaf42a300b15559f6add86ed50683573"
+  },
+  "src/data/core/basics/topic132ReadingDataFromFile.js": {
+    "mtime": 1782821473.7658565,
+    "ast_hash": "5135235e14af9d7c9c259ca82748c039",
+    "semantic_hash": "5135235e14af9d7c9c259ca82748c039"
+  },
+  "src/data/core/basics/topic133BufferedWriterAndFileWriter.js": {
+    "mtime": 1782821473.7658565,
+    "ast_hash": "2e2b61dfc24f5951e008e8455867e5f0",
+    "semantic_hash": "2e2b61dfc24f5951e008e8455867e5f0"
+  },
+  "src/data/core/basics/topic134BufferedReaderAndFileReader.js": {
+    "mtime": 1782821473.7658565,
+    "ast_hash": "25256d40f4dd3137936bf0c3726ad00f",
+    "semantic_hash": "25256d40f4dd3137936bf0c3726ad00f"
+  },
+  "src/data/core/basics/topic135WriteOperationWithPrintWriter.js": {
+    "mtime": 1782821473.7658565,
+    "ast_hash": "5861702f20768648752c6f3eb167a6ff",
+    "semantic_hash": "5861702f20768648752c6f3eb167a6ff"
+  },
+  "src/data/core/basics/topic136IntroductionToSerialization.js": {
+    "mtime": 1782821473.7658565,
+    "ast_hash": "f0dc39665e58ff1984b740c50e8a8b6a",
+    "semantic_hash": "f0dc39665e58ff1984b740c50e8a8b6a"
+  },
+  "src/data/core/basics/topic137Serialization.js": {
+    "mtime": 1782821473.7658565,
+    "ast_hash": "17348f7d3bfad7a183b87c72340c0d81",
+    "semantic_hash": "17348f7d3bfad7a183b87c72340c0d81"
+  },
+  "src/data/core/basics/topic138Deserialization.js": {
+    "mtime": 1782821473.7668567,
+    "ast_hash": "542b2a328290ac89d8ed0e5c66dfe851",
+    "semantic_hash": "542b2a328290ac89d8ed0e5c66dfe851"
+  },
+  "src/data/core/basics/topic139Transient.js": {
+    "mtime": 1782821473.7668567,
+    "ast_hash": "1dbdd57f7f4339fdc2dddcb6b3ccaa3d",
+    "semantic_hash": "1dbdd57f7f4339fdc2dddcb6b3ccaa3d"
+  },
+  "src/data/core/basics/topic13IntelliJInstallation.js": {
+    "mtime": 1782795230.7746825,
+    "ast_hash": "bb82f64153dd3d29905bb5f92cdbdf12",
+    "semantic_hash": "bb82f64153dd3d29905bb5f92cdbdf12"
+  },
+  "src/data/core/basics/topic140WelcomeToJUnit5.js": {
+    "mtime": 1782821473.7668567,
+    "ast_hash": "a28249ef87fc1ea518c6b416ac175280",
+    "semantic_hash": "a28249ef87fc1ea518c6b416ac175280"
+  },
+  "src/data/core/basics/topic141UnderstandingUnitTesting.js": {
+    "mtime": 1782821473.7668567,
+    "ast_hash": "10f6cb3621006876e06ef5b465d2e0dd",
+    "semantic_hash": "10f6cb3621006876e06ef5b465d2e0dd"
+  },
+  "src/data/core/basics/topic142ExploringUnitTestingWithoutJUnit5.js": {
+    "mtime": 1782821473.7680137,
+    "ast_hash": "39a353494b84696fd8e07ec23433d44f",
+    "semantic_hash": "39a353494b84696fd8e07ec23433d44f"
+  },
+  "src/data/core/basics/topic143WritingJUnit5TestsInJava.js": {
+    "mtime": 1782821473.7680137,
+    "ast_hash": "e2158eb0f3ad390de349f9b445c76f0e",
+    "semantic_hash": "e2158eb0f3ad390de349f9b445c76f0e"
+  },
+  "src/data/core/basics/topic144TestInAction.js": {
+    "mtime": 1782821473.7680137,
+    "ast_hash": "1c593a25c54d39a5900dd5ce0f2d25b3",
+    "semantic_hash": "1c593a25c54d39a5900dd5ce0f2d25b3"
+  },
+  "src/data/core/basics/topic145UnderstandingAssertionFundamentals.js": {
+    "mtime": 1782821473.7680137,
+    "ast_hash": "2e26b1f8cdb6aa3bb0443ab5f73aca67",
+    "semantic_hash": "2e26b1f8cdb6aa3bb0443ab5f73aca67"
+  },
+  "src/data/core/basics/topic146SettingUpMavenProjectForJUnit5.js": {
+    "mtime": 1782821473.7680137,
+    "ast_hash": "3b173f6f32110e4a162d6591997b0464",
+    "semantic_hash": "3b173f6f32110e4a162d6591997b0464"
+  },
+  "src/data/core/basics/topic147WritingAndRunningJUnit5TestCases.js": {
+    "mtime": 1782821473.7680137,
+    "ast_hash": "d49533079908d06d34674dcd0a7f34b9",
+    "semantic_hash": "d49533079908d06d34674dcd0a7f34b9"
+  },
+  "src/data/core/basics/topic148WritingMultipleTestCases.js": {
+    "mtime": 1782821473.7680137,
+    "ast_hash": "a10ab2c66e87d2b4e27aa4a2a68770f9",
+    "semantic_hash": "a10ab2c66e87d2b4e27aa4a2a68770f9"
+  },
+  "src/data/core/basics/topic149TDDInAction.js": {
+    "mtime": 1782821473.7688565,
+    "ast_hash": "594cd735fe9e022e2e6be25f6b3de899",
+    "semantic_hash": "594cd735fe9e022e2e6be25f6b3de899"
+  },
+  "src/data/core/basics/topic14EclipseInstallation.js": {
+    "mtime": 1782795230.7748628,
+    "ast_hash": "b18035dac94c30f062fc3cdbdf676af6",
+    "semantic_hash": "b18035dac94c30f062fc3cdbdf676af6"
+  },
+  "src/data/core/basics/topic150ConfiguringSurefirePlugin.js": {
+    "mtime": 1782839270.6000402,
+    "ast_hash": "681e5c58a7f226149c626fdfa59caca1",
+    "semantic_hash": "681e5c58a7f226149c626fdfa59caca1"
+  },
+  "src/data/core/basics/topic151MoreOnAssertEqualsMethod.js": {
+    "mtime": 1782838936.1644993,
+    "ast_hash": "401af1ca2942ad34874db7e76196645a",
+    "semantic_hash": "401af1ca2942ad34874db7e76196645a"
+  },
+  "src/data/core/basics/topic152UnderstandingAssertNotEqualsForEffectiveTesting.js": {
+    "mtime": 1782838936.1644993,
+    "ast_hash": "f71a82f2e3bf5e3436317c36f1f1c799",
+    "semantic_hash": "f71a82f2e3bf5e3436317c36f1f1c799"
+  },
+  "src/data/core/basics/topic153UnderstandingAssertTrue.js": {
+    "mtime": 1782838936.1644993,
+    "ast_hash": "332e1429e2d6e8e6342b219264453f9d",
+    "semantic_hash": "332e1429e2d6e8e6342b219264453f9d"
+  },
+  "src/data/core/basics/topic154AssertionsOnArraysInJUnit5.js": {
+    "mtime": 1782838936.1644993,
+    "ast_hash": "a4dc0c8675614dc9a6371d5cf477445c",
+    "semantic_hash": "a4dc0c8675614dc9a6371d5cf477445c"
+  },
+  "src/data/core/basics/topic155TestingForExpectedExceptions.js": {
+    "mtime": 1782838936.1654994,
+    "ast_hash": "8493209dfccca443f40a6e100735c3b9",
+    "semantic_hash": "8493209dfccca443f40a6e100735c3b9"
+  },
+  "src/data/core/basics/topic156EnsuringFastCodeWithAssertTimeout.js": {
+    "mtime": 1782838936.1654994,
+    "ast_hash": "8464a79760a4f6cf3fee612b477fe058",
+    "semantic_hash": "8464a79760a4f6cf3fee612b477fe058"
+  },
+  "src/data/core/basics/topic157MakingTestsSelectiveAndReadable.js": {
+    "mtime": 1782838936.1669571,
+    "ast_hash": "821af2376838af9f2dd512efec090ba5",
+    "semantic_hash": "821af2376838af9f2dd512efec090ba5"
+  },
+  "src/data/core/basics/topic158SetupAndCleanupWithBeforeEachAndAfterEach.js": {
+    "mtime": 1782838936.1669571,
+    "ast_hash": "bf30f6f6b5f348bef5f15da7a017bff8",
+    "semantic_hash": "bf30f6f6b5f348bef5f15da7a017bff8"
+  },
+  "src/data/core/basics/topic159EfficientTestSetupWithBeforeAllAndAfterAll.js": {
+    "mtime": 1782838936.1669571,
+    "ast_hash": "ef57d20f8abe38e9217746e3f1041de5",
+    "semantic_hash": "ef57d20f8abe38e9217746e3f1041de5"
+  },
+  "src/data/core/basics/topic15FirstCodeInJava.js": {
+    "mtime": 1782795230.7750454,
+    "ast_hash": "45f0579ea31edfdaf462a750f8f0031a",
+    "semantic_hash": "45f0579ea31edfdaf462a750f8f0031a"
+  },
+  "src/data/core/basics/topic160TestInstanceBehavior.js": {
+    "mtime": 1782838936.1669571,
+    "ast_hash": "8b4dde02dc4df0d009c90e7824c944e0",
+    "semantic_hash": "8b4dde02dc4df0d009c90e7824c944e0"
+  },
+  "src/data/core/basics/topic161RunningTestsConditionallyOnJREVersionAndOS.js": {
+    "mtime": 1782838936.1669571,
+    "ast_hash": "a7f7f775a432a80e8c921a0e812d3746",
+    "semantic_hash": "a7f7f775a432a80e8c921a0e812d3746"
+  },
+  "src/data/core/basics/topic162SkippingTestsWithAssumptions.js": {
+    "mtime": 1782838936.1669571,
+    "ast_hash": "07951870d0ca1bfdf793fc2dd99356ee",
+    "semantic_hash": "07951870d0ca1bfdf793fc2dd99356ee"
+  },
+  "src/data/core/basics/topic163OrganizingTestsWithNestedClasses.js": {
+    "mtime": 1782838936.1674993,
+    "ast_hash": "9b3f2d5bafe0966d971fd2739cd0912a",
+    "semantic_hash": "9b3f2d5bafe0966d971fd2739cd0912a"
+  },
+  "src/data/core/basics/topic164AutomatingTestRepetitionsWithRepeatedTest.js": {
+    "mtime": 1782838936.1674993,
+    "ast_hash": "3c23351a67918510193235af50b805a5",
+    "semantic_hash": "3c23351a67918510193235af50b805a5"
+  },
+  "src/data/core/basics/topic165ParameterizedTestsWithValueSource.js": {
+    "mtime": 1782838936.1674993,
+    "ast_hash": "920c65dcfb0e9df39b6188b6883f5a05",
+    "semantic_hash": "920c65dcfb0e9df39b6188b6883f5a05"
+  },
+  "src/data/core/basics/topic166ParameterizedTestsWithCsvSource.js": {
+    "mtime": 1782838936.1674993,
+    "ast_hash": "50d3c5ff369cd0367771a66e89e727b8",
+    "semantic_hash": "50d3c5ff369cd0367771a66e89e727b8"
+  },
+  "src/data/core/basics/topic167GitVersionControl.js": {
+    "mtime": 1782838936.1674993,
+    "ast_hash": "ca2bb8b02a1fa83ed7aeb03dffc47c09",
+    "semantic_hash": "ca2bb8b02a1fa83ed7aeb03dffc47c09"
+  },
+  "src/data/core/basics/topic168HistoryOfGit.js": {
+    "mtime": 1782838936.1674993,
+    "ast_hash": "7c57e106b0e2e81bd61d25f84b9f45fa",
+    "semantic_hash": "7c57e106b0e2e81bd61d25f84b9f45fa"
+  },
+  "src/data/core/basics/topic169GitSetup.js": {
+    "mtime": 1782838936.1684995,
+    "ast_hash": "080cba51734c2f67b411031a65cc0f6e",
+    "semantic_hash": "080cba51734c2f67b411031a65cc0f6e"
+  },
+  "src/data/core/basics/topic16HowJavaWorks.js": {
+    "mtime": 1782795230.7752576,
+    "ast_hash": "5d790ff63b9dd5e04af73cbb4e91a809",
+    "semantic_hash": "5d790ff63b9dd5e04af73cbb4e91a809"
+  },
+  "src/data/core/basics/topic170GitInit.js": {
+    "mtime": 1782838936.1684995,
+    "ast_hash": "0c80da29e2e6189f9922fde2f495ef8f",
+    "semantic_hash": "0c80da29e2e6189f9922fde2f495ef8f"
+  },
+  "src/data/core/basics/topic171GitCommit.js": {
+    "mtime": 1782838936.1684995,
+    "ast_hash": "e3e0c16c7821f997a612799fed58f7ff",
+    "semantic_hash": "e3e0c16c7821f997a612799fed58f7ff"
+  },
+  "src/data/core/basics/topic172SkippingTheStagingAreaInGit.js": {
+    "mtime": 1782838936.1684995,
+    "ast_hash": "d6d0a5d5e340f7614a7340c2ee6c4c8f",
+    "semantic_hash": "d6d0a5d5e340f7614a7340c2ee6c4c8f"
+  },
+  "src/data/core/basics/topic173GitDiff.js": {
+    "mtime": 1782838936.1684995,
+    "ast_hash": "3a89b232a16469fa43ed7a8eccdbbb21",
+    "semantic_hash": "3a89b232a16469fa43ed7a8eccdbbb21"
+  },
+  "src/data/core/basics/topic174RemovingAFileInGit.js": {
+    "mtime": 1782838936.1694994,
+    "ast_hash": "49ebadfd5417fb00cc63cf1a92564afc",
+    "semantic_hash": "49ebadfd5417fb00cc63cf1a92564afc"
+  },
+  "src/data/core/basics/topic175GitHubRepository.js": {
+    "mtime": 1782838936.1694994,
+    "ast_hash": "025ea7d14279b77491d08338af80d0ed",
+    "semantic_hash": "025ea7d14279b77491d08338af80d0ed"
+  },
+  "src/data/core/basics/topic176AddingFilesToARemoteRepository.js": {
+    "mtime": 1782838936.1694994,
+    "ast_hash": "4a854d727e62b29883de0ad664c6f7d0",
+    "semantic_hash": "4a854d727e62b29883de0ad664c6f7d0"
+  },
+  "src/data/core/basics/topic177GitTag.js": {
+    "mtime": 1782838936.1694994,
+    "ast_hash": "f22482049e057a5e7b618c122185902f",
+    "semantic_hash": "f22482049e057a5e7b618c122185902f"
+  },
+  "src/data/core/basics/topic178CloningAProjectWithGit.js": {
+    "mtime": 1782838936.1694994,
+    "ast_hash": "6909111a974a370546f4f30944da21b1",
+    "semantic_hash": "6909111a974a370546f4f30944da21b1"
+  },
+  "src/data/core/basics/topic179CreatingAGitBranch.js": {
+    "mtime": 1782838936.1694994,
+    "ast_hash": "bef34cc1273013e5abe11a24e24f153f",
+    "semantic_hash": "bef34cc1273013e5abe11a24e24f153f"
+  },
+  "src/data/core/basics/topic17Variables.js": {
+    "mtime": 1782795230.7752576,
+    "ast_hash": "50664bc6e5f773b97b0320d67a24ca7b",
+    "semantic_hash": "50664bc6e5f773b97b0320d67a24ca7b"
+  },
+  "src/data/core/basics/topic180DeletingAGitBranch.js": {
+    "mtime": 1782838936.1704993,
+    "ast_hash": "87cc7891dc6a513c04e818a838623683",
+    "semantic_hash": "87cc7891dc6a513c04e818a838623683"
+  },
+  "src/data/core/basics/topic181PushingAGitBranchToARemoteRepository.js": {
+    "mtime": 1782838936.1704993,
+    "ast_hash": "7d4d321d5b1a1870ce6613e4f17390a9",
+    "semantic_hash": "7d4d321d5b1a1870ce6613e4f17390a9"
+  },
+  "src/data/core/basics/topic182HowGitBranchingWorks.js": {
+    "mtime": 1782838936.1704993,
+    "ast_hash": "3719c39f0b94af6374c7f965d42ebc6a",
+    "semantic_hash": "3719c39f0b94af6374c7f965d42ebc6a"
+  },
+  "src/data/core/basics/topic183GitMerge.js": {
+    "mtime": 1782838936.1704993,
+    "ast_hash": "d6f9c81bcc499301021d4b771dc135e1",
+    "semantic_hash": "d6f9c81bcc499301021d4b771dc135e1"
+  },
+  "src/data/core/basics/topic184GitRebase.js": {
+    "mtime": 1782838936.1704993,
+    "ast_hash": "d011838a9b126edd3447eb92a15cb7e1",
+    "semantic_hash": "d011838a9b126edd3447eb92a15cb7e1"
+  },
+  "src/data/core/basics/topic185GitMergeConflicts.js": {
+    "mtime": 1782838936.1714993,
+    "ast_hash": "ad918f43ebcc3455b8a5a199071f7823",
+    "semantic_hash": "ad918f43ebcc3455b8a5a199071f7823"
+  },
+  "src/data/core/basics/topic186GitTimeTravel.js": {
+    "mtime": 1782838936.1714993,
+    "ast_hash": "4c3490677f6f97d626cf047fbd1f48c6",
+    "semantic_hash": "4c3490677f6f97d626cf047fbd1f48c6"
+  },
+  "src/data/core/basics/topic187GitStash.js": {
+    "mtime": 1782838936.1714993,
+    "ast_hash": "72b35cf7d0c4288570a6edd5f0a1164d",
+    "semantic_hash": "72b35cf7d0c4288570a6edd5f0a1164d"
+  },
+  "src/data/core/basics/topic188GitFork.js": {
+    "mtime": 1782838936.1714993,
+    "ast_hash": "a4c9d4e3c5835f9c8d6ad7aad60061aa",
+    "semantic_hash": "a4c9d4e3c5835f9c8d6ad7aad60061aa"
+  },
+  "src/data/core/basics/topic189GitPullRequest.js": {
+    "mtime": 1782838936.1724994,
+    "ast_hash": "05ad240b4388fc44aeb20103f14c19e5",
+    "semantic_hash": "05ad240b4388fc44aeb20103f14c19e5"
+  },
+  "src/data/core/basics/topic18DataTypes.js": {
+    "mtime": 1782795230.7752576,
+    "ast_hash": "1ce1ffa5b9599420013e966109908c3c",
+    "semantic_hash": "1ce1ffa5b9599420013e966109908c3c"
+  },
+  "src/data/core/basics/topic190Introduction.js": {
+    "mtime": 1782838936.1724994,
+    "ast_hash": "17a6314819224a9b83b235694da20835",
+    "semantic_hash": "17a6314819224a9b83b235694da20835"
+  },
+  "src/data/core/basics/topic191DataVsDatabaseVsDBMS.js": {
+    "mtime": 1782838936.1724994,
+    "ast_hash": "d05c31a6d7b8093c1297c344e690afaa",
+    "semantic_hash": "d05c31a6d7b8093c1297c344e690afaa"
+  },
+  "src/data/core/basics/topic192RDBMSvsDBMS.js": {
+    "mtime": 1782838936.1724994,
+    "ast_hash": "bd22c0512de7cef03a8e7cfcaf590b79",
+    "semantic_hash": "bd22c0512de7cef03a8e7cfcaf590b79"
+  },
+  "src/data/core/basics/topic193IntroductionToSQLAndMySQL.js": {
+    "mtime": 1782838936.1734993,
+    "ast_hash": "0071857a200e9fca1f575d7e7b608802",
+    "semantic_hash": "0071857a200e9fca1f575d7e7b608802"
+  },
+  "src/data/core/basics/topic194DatabaseComponents.js": {
+    "mtime": 1782838936.1734993,
+    "ast_hash": "110c0dce6d01823023e593c91bff7e80",
+    "semantic_hash": "110c0dce6d01823023e593c91bff7e80"
+  },
+  "src/data/core/basics/topic195CompleteSetupInstallationForWindows.js": {
+    "mtime": 1782838936.1734993,
+    "ast_hash": "1cdc47e30224e8a833699c8f5202c522",
+    "semantic_hash": "1cdc47e30224e8a833699c8f5202c522"
+  },
+  "src/data/core/basics/topic196AnOverviewOfMySQLWorkbenchAndTheCLIClient.js": {
+    "mtime": 1782838936.1734993,
+    "ast_hash": "6c5aa7020f293c139f1b7dba01700d6f",
+    "semantic_hash": "6c5aa7020f293c139f1b7dba01700d6f"
+  },
+  "src/data/core/basics/topic197CreatingAndDeletingDatabases.js": {
+    "mtime": 1782838936.1744993,
+    "ast_hash": "db31b87bf1c3119b12ac85aa0553192f",
+    "semantic_hash": "db31b87bf1c3119b12ac85aa0553192f"
+  },
+  "src/data/core/basics/topic198DataTypes.js": {
+    "mtime": 1782838936.1744993,
+    "ast_hash": "f2d555f8e5ff35856d40d2ce2e804514",
+    "semantic_hash": "f2d555f8e5ff35856d40d2ce2e804514"
+  },
+  "src/data/core/basics/topic199CreatingTablesInTheDatabase.js": {
+    "mtime": 1782838936.1744993,
+    "ast_hash": "7883f55f97287a57069b3d9bd1ac662e",
+    "semantic_hash": "7883f55f97287a57069b3d9bd1ac662e"
+  },
+  "src/data/core/basics/topic19Literal.js": {
+    "mtime": 1782795230.7752576,
+    "ast_hash": "b0134133f0d7721e3eb93cffc4ddf522",
+    "semantic_hash": "b0134133f0d7721e3eb93cffc4ddf522"
+  },
+  "src/data/core/basics/topic200InsertingDataIntoTheTable.js": {
+    "mtime": 1782838936.1744993,
+    "ast_hash": "070b3cd0ffef4140dece0db94968a448",
+    "semantic_hash": "070b3cd0ffef4140dece0db94968a448"
+  },
+  "src/data/core/basics/topic201InsertingMultipleRows.js": {
+    "mtime": 1782838936.1744993,
+    "ast_hash": "64b0cefa0eb22b4b1feb0698e49cfdb1",
+    "semantic_hash": "64b0cefa0eb22b4b1feb0698e49cfdb1"
+  },
+  "src/data/core/basics/topic202PrimaryKeyConstraint.js": {
+    "mtime": 1782838936.1754992,
+    "ast_hash": "13704623edd46816b6ce9a3fd1eec6e1",
+    "semantic_hash": "13704623edd46816b6ce9a3fd1eec6e1"
+  },
+  "src/data/core/basics/topic203SQLConstraints.js": {
+    "mtime": 1782838936.1754992,
+    "ast_hash": "3932f1dd2219315e3390fc63ce10a5e8",
+    "semantic_hash": "3932f1dd2219315e3390fc63ce10a5e8"
+  },
+  "src/data/core/basics/topic204SelectCommand.js": {
+    "mtime": 1782838936.1754992,
+    "ast_hash": "3200791368f08f40f57c8dddb529a3fd",
+    "semantic_hash": "3200791368f08f40f57c8dddb529a3fd"
+  },
+  "src/data/core/basics/topic205SelectWithWhereClause.js": {
+    "mtime": 1782838936.1754992,
+    "ast_hash": "2b9ef994f1c13de8d1b93c9d8ab3770a",
+    "semantic_hash": "2b9ef994f1c13de8d1b93c9d8ab3770a"
+  },
+  "src/data/core/basics/topic206ANDORNOTOperators.js": {
+    "mtime": 1782838936.1754992,
+    "ast_hash": "a193223d2c6225c844499a676703bd29",
+    "semantic_hash": "a193223d2c6225c844499a676703bd29"
+  },
+  "src/data/core/basics/topic207INOperator.js": {
+    "mtime": 1782838936.1764994,
+    "ast_hash": "4eb0e569648cb10c5a58d78d4c933b44",
+    "semantic_hash": "4eb0e569648cb10c5a58d78d4c933b44"
+  },
+  "src/data/core/basics/topic208BETWEENAndNOTBETWEENOperators.js": {
+    "mtime": 1782838936.1764994,
+    "ast_hash": "be929773bd5a0d9630325fa45f152f6d",
+    "semantic_hash": "be929773bd5a0d9630325fa45f152f6d"
+  },
+  "src/data/core/basics/topic209SelectWithORDERBY.js": {
+    "mtime": 1782838936.1764994,
+    "ast_hash": "6305348d4ab98d30a958f7ff3fc9da09",
+    "semantic_hash": "6305348d4ab98d30a958f7ff3fc9da09"
+  },
+  "src/data/core/basics/topic20TypeConversion.js": {
+    "mtime": 1782795230.7752576,
+    "ast_hash": "408f461b571f1781f4d21b1a36ad8fc3",
+    "semantic_hash": "408f461b571f1781f4d21b1a36ad8fc3"
+  },
+  "src/data/core/basics/topic210DISTINCTKeyword.js": {
+    "mtime": 1782838936.1764994,
+    "ast_hash": "8121bae842df504ac30d05ebbc6d03a9",
+    "semantic_hash": "8121bae842df504ac30d05ebbc6d03a9"
+  },
+  "src/data/core/basics/topic211UpdatingRecords.js": {
+    "mtime": 1782838936.1764994,
+    "ast_hash": "e0bc42f2af2f9687d112c24cd3ebd288",
+    "semantic_hash": "e0bc42f2af2f9687d112c24cd3ebd288"
+  },
+  "src/data/core/basics/topic212DeletingRecords.js": {
+    "mtime": 1782838936.1764994,
+    "ast_hash": "b448c23252e70fb67fc6c2184b6389b7",
+    "semantic_hash": "b448c23252e70fb67fc6c2184b6389b7"
+  },
+  "src/data/core/basics/topic213COMMITAndROLLBACKCommands.js": {
+    "mtime": 1782838936.1774993,
+    "ast_hash": "7dff9c5fd357f278a88fd793db096f36",
+    "semantic_hash": "7dff9c5fd357f278a88fd793db096f36"
+  },
+  "src/data/core/basics/topic214PRIMARYKEYAndFOREIGNKEYConstraints.js": {
+    "mtime": 1782838936.1774993,
+    "ast_hash": "89a5bf7f58c997eb553b7bf882ad7ff4",
+    "semantic_hash": "89a5bf7f58c997eb553b7bf882ad7ff4"
+  },
+  "src/data/core/basics/topic215INNERJOIN.js": {
+    "mtime": 1782838936.1774993,
+    "ast_hash": "e6156b20c1cfc59b70f4e3cb87590b64",
+    "semantic_hash": "e6156b20c1cfc59b70f4e3cb87590b64"
+  },
+  "src/data/core/basics/topic216LEFTJOIN.js": {
+    "mtime": 1782838936.1774993,
+    "ast_hash": "6cec66fa07597049adf3420bbe65c209",
+    "semantic_hash": "6cec66fa07597049adf3420bbe65c209"
+  },
+  "src/data/core/basics/topic217RIGHTJOIN.js": {
+    "mtime": 1782838936.1774993,
+    "ast_hash": "ceca78ee36bdfcf7c98cc5e22adf27b4",
+    "semantic_hash": "ceca78ee36bdfcf7c98cc5e22adf27b4"
+  },
+  "src/data/core/basics/topic218CROSSJOIN.js": {
+    "mtime": 1782838936.1784992,
+    "ast_hash": "948cc3b8d21edadedd72585113b5d335",
+    "semantic_hash": "948cc3b8d21edadedd72585113b5d335"
+  },
+  "src/data/core/basics/topic219ALTERCommand.js": {
+    "mtime": 1782838936.1784992,
+    "ast_hash": "dfd3e3d031da959d953fd3bbe90dc299",
+    "semantic_hash": "dfd3e3d031da959d953fd3bbe90dc299"
+  },
+  "src/data/core/basics/topic21ArithmeticOperators.js": {
+    "mtime": 1782795230.7757688,
+    "ast_hash": "2e035dfe2aaec2eb8ecec6a8dbcc63fa",
+    "semantic_hash": "2e035dfe2aaec2eb8ecec6a8dbcc63fa"
+  },
+  "src/data/core/basics/topic220DROPAndTRUNCATECommands.js": {
+    "mtime": 1782838936.1784992,
+    "ast_hash": "31e515a939b4b55eb577a3fbebd99be5",
+    "semantic_hash": "31e515a939b4b55eb577a3fbebd99be5"
+  },
+  "src/data/core/basics/topic221Introduction.js": {
+    "mtime": 1782838936.1784992,
+    "ast_hash": "d5de77522893a2a9bc92c6a85b5df488",
+    "semantic_hash": "d5de77522893a2a9bc92c6a85b5df488"
+  },
+  "src/data/core/basics/topic222NeedForJDBC.js": {
+    "mtime": 1782838936.1784992,
+    "ast_hash": "dfed1c0f77f1d4ab8b92b7e7761569da",
+    "semantic_hash": "dfed1c0f77f1d4ab8b92b7e7761569da"
+  },
+  "src/data/core/basics/topic223NeedForADatabaseSpecificJARInAJDBCApp.js": {
+    "mtime": 1782838936.1784992,
+    "ast_hash": "1539279bbf77794d325720d55aa8d44f",
+    "semantic_hash": "1539279bbf77794d325720d55aa8d44f"
+  },
+  "src/data/core/basics/topic224StepsInvolvedInDevelopingAJDBCAppTheory.js": {
+    "mtime": 1782838936.1794991,
+    "ast_hash": "68081e3ef78cef544070c9ef485add2b",
+    "semantic_hash": "68081e3ef78cef544070c9ef485add2b"
+  },
+  "src/data/core/basics/topic225SettingUpJDBCDevelopmentEnvironment.js": {
+    "mtime": 1782838936.1794991,
+    "ast_hash": "8c71819dcc75239b11de3477c8ec5ad0",
+    "semantic_hash": "8c71819dcc75239b11de3477c8ec5ad0"
+  },
+  "src/data/core/basics/topic226SettingUpTheDatabase.js": {
+    "mtime": 1782838936.1794991,
+    "ast_hash": "d64ce396540df70ac0d2857946687b15",
+    "semantic_hash": "d64ce396540df70ac0d2857946687b15"
+  },
+  "src/data/core/basics/topic227StepsInvolvedInAJDBCAppPractical.js": {
+    "mtime": 1782838936.1794991,
+    "ast_hash": "80754ce424948807a07bd11cc1d3641c",
+    "semantic_hash": "80754ce424948807a07bd11cc1d3641c"
+  },
+  "src/data/core/basics/topic228UsageOfClassForNameInJDBC.js": {
+    "mtime": 1782838936.1794991,
+    "ast_hash": "4ee91e47586fe61d0f799d2c80e37e70",
+    "semantic_hash": "4ee91e47586fe61d0f799d2c80e37e70"
+  },
+  "src/data/core/basics/topic229InsertingDataIntoTheDatabase.js": {
+    "mtime": 1782838936.1804993,
+    "ast_hash": "9f4915bea09dc1e143672952c7f8ffac",
+    "semantic_hash": "9f4915bea09dc1e143672952c7f8ffac"
+  },
+  "src/data/core/basics/topic22RelationalOperators.js": {
+    "mtime": 1782795230.7765214,
+    "ast_hash": "c72d9342b706d6bff1dabd5f2cbd86f8",
+    "semantic_hash": "c72d9342b706d6bff1dabd5f2cbd86f8"
+  },
+  "src/data/core/basics/topic230UpdatingRecordsInTheDatabase.js": {
+    "mtime": 1782838936.1804993,
+    "ast_hash": "a2c769e5744b5b3124a8191d744c5bee",
+    "semantic_hash": "a2c769e5744b5b3124a8191d744c5bee"
+  },
+  "src/data/core/basics/topic231RetrievingRecordsFromTheDatabase.js": {
+    "mtime": 1782838936.1804993,
+    "ast_hash": "70f8e6cf301c408c3914100788bda8c5",
+    "semantic_hash": "70f8e6cf301c408c3914100788bda8c5"
+  },
+  "src/data/core/basics/topic232DeletingRecordsFromTheDatabase.js": {
+    "mtime": 1782838936.1804993,
+    "ast_hash": "a2c59c7ff9f07b540c208e16a110d580",
+    "semantic_hash": "a2c59c7ff9f07b540c208e16a110d580"
+  },
+  "src/data/core/basics/topic233CRUDOperationsWithASingleExecuteMethod.js": {
+    "mtime": 1782838936.1804993,
+    "ast_hash": "8b9668a474fa1b516bf52c57d7db3e5d",
+    "semantic_hash": "8b9668a474fa1b516bf52c57d7db3e5d"
+  },
+  "src/data/core/basics/topic234HandlingExceptionsAndWritingBetterCode.js": {
+    "mtime": 1782838936.1814992,
+    "ast_hash": "9f765e845303e6f750e412d280ebfc49",
+    "semantic_hash": "9f765e845303e6f750e412d280ebfc49"
+  },
+  "src/data/core/basics/topic235InsertingDataWithPreparedStatement.js": {
+    "mtime": 1782838936.1814992,
+    "ast_hash": "9ef4e9b556da2b8ad53c1b196412cb55",
+    "semantic_hash": "9ef4e9b556da2b8ad53c1b196412cb55"
+  },
+  "src/data/core/basics/topic236StatementVsPreparedStatement.js": {
+    "mtime": 1782838936.1814992,
+    "ast_hash": "adf9f5fc8fc75e095038b1eca3e4c3d1",
+    "semantic_hash": "adf9f5fc8fc75e095038b1eca3e4c3d1"
+  },
+  "src/data/core/basics/topic237UpdatingDataWithPreparedStatement.js": {
+    "mtime": 1782838936.1814992,
+    "ast_hash": "388e0eb4e94c488c59a62d505b09ce05",
+    "semantic_hash": "388e0eb4e94c488c59a62d505b09ce05"
+  },
+  "src/data/core/basics/topic238DeletingDataWithPreparedStatement.js": {
+    "mtime": 1782838936.1814992,
+    "ast_hash": "f64cafca3ca8def58ba52c4cf3fc89cc",
+    "semantic_hash": "f64cafca3ca8def58ba52c4cf3fc89cc"
+  },
+  "src/data/core/basics/topic239RetrievingDataWithPreparedStatement.js": {
+    "mtime": 1782838936.1824992,
+    "ast_hash": "ee8356382c9f56e997804a2966f67c82",
+    "semantic_hash": "ee8356382c9f56e997804a2966f67c82"
+  },
+  "src/data/core/basics/topic23LogicalOperators.js": {
+    "mtime": 1782795230.7767327,
+    "ast_hash": "101f79f6a5eb2c51bc96613684daa627",
+    "semantic_hash": "101f79f6a5eb2c51bc96613684daa627"
+  },
+  "src/data/core/basics/topic240BatchUpdate.js": {
+    "mtime": 1782838936.1824992,
+    "ast_hash": "76f0cfe4dc69eeea6441853d5bfad6be",
+    "semantic_hash": "76f0cfe4dc69eeea6441853d5bfad6be"
+  },
+  "src/data/core/basics/topic241ServletAndJSPSourceCode.js": {
+    "mtime": 1782838936.1824992,
+    "ast_hash": "03673a977f981e61a0d10d7a102ca305",
+    "semantic_hash": "03673a977f981e61a0d10d7a102ca305"
+  },
+  "src/data/core/basics/topic242Introduction.js": {
+    "mtime": 1782839270.6012342,
+    "ast_hash": "17709c38774637047a8f56cb72f7f8c2",
+    "semantic_hash": "17709c38774637047a8f56cb72f7f8c2"
+  },
+  "src/data/core/basics/topic243FundamentalsOfClientServerArchitecture.js": {
+    "mtime": 1782838936.1824992,
+    "ast_hash": "bed377394d3a777734906f3d1122966d",
+    "semantic_hash": "bed377394d3a777734906f3d1122966d"
+  },
+  "src/data/core/basics/topic244StaticResponseVsDynamicResponse.js": {
+    "mtime": 1782838936.1834993,
+    "ast_hash": "61b2195163f948f101140cd2619b2b5d",
+    "semantic_hash": "61b2195163f948f101140cd2619b2b5d"
+  },
+  "src/data/core/basics/topic245IntroductionToServlet.js": {
+    "mtime": 1782838936.1834993,
+    "ast_hash": "d43b4fe5a66fef7543cc6027f498f807",
+    "semantic_hash": "d43b4fe5a66fef7543cc6027f498f807"
+  },
+  "src/data/core/basics/topic246InstallApacheTomcatServer.js": {
+    "mtime": 1782838936.1834993,
+    "ast_hash": "44fcc480a14edeab30da7febe0c8d10f",
+    "semantic_hash": "44fcc480a14edeab30da7febe0c8d10f"
+  },
+  "src/data/core/basics/topic247ConfigureApacheTomcatInEclipseIDE.js": {
+    "mtime": 1782838936.1834993,
+    "ast_hash": "f880d8f4dacf87d372fba8fd1a8cd876",
+    "semantic_hash": "f880d8f4dacf87d372fba8fd1a8cd876"
+  },
+  "src/data/core/basics/topic248FirstWebAppWithStaticResponse.js": {
+    "mtime": 1782838936.1844993,
+    "ast_hash": "3d04845579597cd3652b9db9ecb835a6",
+    "semantic_hash": "3d04845579597cd3652b9db9ecb835a6"
+  },
+  "src/data/core/basics/topic249FirstServletWebAppWithDynamicResponse.js": {
+    "mtime": 1782838936.1844993,
+    "ast_hash": "cce59e4c4c0ea128b2d0663eee5395e2",
+    "semantic_hash": "cce59e4c4c0ea128b2d0663eee5395e2"
+  },
+  "src/data/core/basics/topic24IfElse.js": {
+    "mtime": 1782795230.7769449,
+    "ast_hash": "37b5cd2c871af7abcaebb7ecf6a5c8b6",
+    "semantic_hash": "37b5cd2c871af7abcaebb7ecf6a5c8b6"
+  },
+  "src/data/core/basics/topic250ServletLifeCycle.js": {
+    "mtime": 1782838936.1844993,
+    "ast_hash": "5e7958a6740efafd9f55fad76abacb73",
+    "semantic_hash": "5e7958a6740efafd9f55fad76abacb73"
+  },
+  "src/data/core/basics/topic251ServletDoGetVsDoPost.js": {
+    "mtime": 1782838936.1844993,
+    "ast_hash": "3afe9ad25aa606ae1bf09e4b74e377cc",
+    "semantic_hash": "3afe9ad25aa606ae1bf09e4b74e377cc"
+  },
+  "src/data/core/basics/topic252RedirectingResponsesToJSPAndHTMLFiles.js": {
+    "mtime": 1782838936.1844993,
+    "ast_hash": "837a4ff439a66a7d21dd3c73b233a9d0",
+    "semantic_hash": "837a4ff439a66a7d21dd3c73b233a9d0"
+  },
+  "src/data/core/basics/topic253RequestDispatchingAndForwardVsInclude.js": {
+    "mtime": 1782838936.1854992,
+    "ast_hash": "e18b893325f821c4f45c6cb515be82cd",
+    "semantic_hash": "e18b893325f821c4f45c6cb515be82cd"
+  },
+  "src/data/core/basics/topic254HttpSession.js": {
+    "mtime": 1782838936.1854992,
+    "ast_hash": "927df99c9e0d20b5a7c67f5e4ee271bf",
+    "semantic_hash": "927df99c9e0d20b5a7c67f5e4ee271bf"
+  },
+  "src/data/core/basics/topic255RegistrationAppUsingServletAndJDBC.js": {
+    "mtime": 1782838936.1854992,
+    "ast_hash": "0921c05279a2fdabae687475a14fb664",
+    "semantic_hash": "0921c05279a2fdabae687475a14fb664"
+  },
+  "src/data/core/basics/topic256IntroductionToJSP.js": {
+    "mtime": 1782838936.1854992,
+    "ast_hash": "cb5c50dcfcf7a2a13daa331dabb688ad",
+    "semantic_hash": "cb5c50dcfcf7a2a13daa331dabb688ad"
+  },
+  "src/data/core/basics/topic257JSPTagsAndWebAppUsingJSP.js": {
+    "mtime": 1782838936.186499,
+    "ast_hash": "077b3359b24c40228f2c573293b2f4f0",
+    "semantic_hash": "077b3359b24c40228f2c573293b2f4f0"
+  },
+  "src/data/core/basics/topic258ServletVsJSP.js": {
+    "mtime": 1782838936.186499,
+    "ast_hash": "d8d371ee927d0df5fc3a53414b608e82",
+    "semantic_hash": "d8d371ee927d0df5fc3a53414b608e82"
+  },
+  "src/data/core/basics/topic259IntroductionToMVC.js": {
+    "mtime": 1782838936.186499,
+    "ast_hash": "e5c5f2839494a462895f68b2e9e922be",
+    "semantic_hash": "e5c5f2839494a462895f68b2e9e922be"
+  },
+  "src/data/core/basics/topic25IfElseIf.js": {
+    "mtime": 1782795230.7769449,
+    "ast_hash": "db0daec413037449a924dd184f0397b1",
+    "semantic_hash": "db0daec413037449a924dd184f0397b1"
+  },
+  "src/data/core/basics/topic260MVCUsingServletJSPAndJDBC.js": {
+    "mtime": 1782838936.186499,
+    "ast_hash": "3174ebc28d63061b98b7063f6651c121",
+    "semantic_hash": "3174ebc28d63061b98b7063f6651c121"
+  },
+  "src/data/core/basics/topic261WhatIsABuildToolAndWhyDoWeNeedIt.js": {
+    "mtime": 1782838936.1874993,
+    "ast_hash": "ac9391e4ab9d2b86bdaf295df33006f2",
+    "semantic_hash": "ac9391e4ab9d2b86bdaf295df33006f2"
+  },
+  "src/data/core/basics/topic262WhatIsMavenAndWhatItDoes.js": {
+    "mtime": 1782838936.1874993,
+    "ast_hash": "820c1b513c181f42c4143ab6c5aeae3a",
+    "semantic_hash": "820c1b513c181f42c4143ab6c5aeae3a"
+  },
+  "src/data/core/basics/topic263MavenInstallationGuideAndSetupPreview.js": {
+    "mtime": 1782838936.1874993,
+    "ast_hash": "fe1d9b53ee01a20561a1e332808d45cd",
+    "semantic_hash": "fe1d9b53ee01a20561a1e332808d45cd"
+  },
+  "src/data/core/basics/topic264MavenAndJavaInstallationOnWindows.js": {
+    "mtime": 1782838936.1874993,
+    "ast_hash": "68b92b30b18af91e52d7a57032315b1c",
+    "semantic_hash": "68b92b30b18af91e52d7a57032315b1c"
+  },
+  "src/data/core/basics/topic265MavenInstallationOnAWSEC2Instance.js": {
+    "mtime": 1782838936.1884992,
+    "ast_hash": "4a85b753cde7fcbb1e9a8ad61fa89041",
+    "semantic_hash": "4a85b753cde7fcbb1e9a8ad61fa89041"
+  },
+  "src/data/core/basics/topic266CreatingAMavenJavaProjectOnWindowsLocalSetup.js": {
+    "mtime": 1782838936.1884992,
+    "ast_hash": "354680b8d7f0b30bf6ecb9dbe3e02fc4",
+    "semantic_hash": "354680b8d7f0b30bf6ecb9dbe3e02fc4"
+  },
+  "src/data/core/basics/topic267MavenJavaProjectOnLinuxEC2CloudSetup.js": {
+    "mtime": 1782838936.1884992,
+    "ast_hash": "8f1b2d65e6d12d4132c5e39fcb946e29",
+    "semantic_hash": "8f1b2d65e6d12d4132c5e39fcb946e29"
+  },
+  "src/data/core/basics/topic268UnderstandingKeyMavenTerms.js": {
+    "mtime": 1782838936.1884992,
+    "ast_hash": "f18cf1a5fa0354896c17a6b6231625db",
+    "semantic_hash": "f18cf1a5fa0354896c17a6b6231625db"
+  },
+  "src/data/core/basics/topic269HandsOnMavenCompileTestAndPackageGoals.js": {
+    "mtime": 1782838936.1884992,
+    "ast_hash": "26c8e9ca32a6b1bec1eb7fcdd914bacb",
+    "semantic_hash": "26c8e9ca32a6b1bec1eb7fcdd914bacb"
+  },
+  "src/data/core/basics/topic26TernaryOperator.js": {
+    "mtime": 1782795230.7775874,
+    "ast_hash": "8493051b2971f2e26d15c00d7652543f",
+    "semantic_hash": "8493051b2971f2e26d15c00d7652543f"
+  },
+  "src/data/core/basics/topic270MavenJavaWebAppSetupWARProject.js": {
+    "mtime": 1782838936.1894991,
+    "ast_hash": "68f20bc0e283094e7637f45617f0c09d",
+    "semantic_hash": "68f20bc0e283094e7637f45617f0c09d"
+  },
+  "src/data/core/basics/topic271MavenDependencies.js": {
+    "mtime": 1782838936.1894991,
+    "ast_hash": "d1908d30481adafcd375eca49721332e",
+    "semantic_hash": "d1908d30481adafcd375eca49721332e"
+  },
+  "src/data/core/basics/topic272MavenRepositoriesLocalCentralRemote.js": {
+    "mtime": 1782838936.1894991,
+    "ast_hash": "03ed87d628d7a0d9d8f7c757c897e12a",
+    "semantic_hash": "03ed87d628d7a0d9d8f7c757c897e12a"
+  },
+  "src/data/core/basics/topic273ThePomXMLFile.js": {
+    "mtime": 1782838936.1894991,
+    "ast_hash": "be8c2dafa5b75370898fbdfc8b687804",
+    "semantic_hash": "be8c2dafa5b75370898fbdfc8b687804"
+  },
+  "src/data/core/basics/topic274MavenInIntelliJIDEAIDE.js": {
+    "mtime": 1782838936.1894991,
+    "ast_hash": "9c226331f6cbd0a3f526aede36e5dc39",
+    "semantic_hash": "9c226331f6cbd0a3f526aede36e5dc39"
+  },
+  "src/data/core/basics/topic275EffectivePomXMLFile.js": {
+    "mtime": 1782838936.190499,
+    "ast_hash": "accd3f8301d4ac4786235d2cc4052d85",
+    "semantic_hash": "accd3f8301d4ac4786235d2cc4052d85"
+  },
+  "src/data/core/basics/topic276MavenProjectSetupInEclipseIDE.js": {
+    "mtime": 1782838936.190499,
+    "ast_hash": "8d42421acd73442fa04a86b7a6970c12",
+    "semantic_hash": "8d42421acd73442fa04a86b7a6970c12"
+  },
+  "src/data/core/basics/topic277MavenBuildLifecycle.js": {
+    "mtime": 1782838936.190499,
+    "ast_hash": "59794efbbaba29a2fae7598da30dae97",
+    "semantic_hash": "59794efbbaba29a2fae7598da30dae97"
+  },
+  "src/data/core/basics/topic278HandsOnJavaUnitTestingWithMaven.js": {
+    "mtime": 1782838936.190499,
+    "ast_hash": "8189e51b47ec7634158fb04785cf3577",
+    "semantic_hash": "8189e51b47ec7634158fb04785cf3577"
+  },
+  "src/data/core/basics/topic279MavenWithSpringBootApplicationDemo.js": {
+    "mtime": 1782838936.190499,
+    "ast_hash": "30530553884258ece24795c0cb86f977",
+    "semantic_hash": "30530553884258ece24795c0cb86f977"
+  },
+  "src/data/core/basics/topic27SwitchStatement.js": {
+    "mtime": 1782818551.4280133,
+    "ast_hash": "136d27107ab4b3e948e7b973b051625c",
+    "semantic_hash": "136d27107ab4b3e948e7b973b051625c"
+  },
+  "src/data/core/basics/topic280YoureReadyToUseMaven.js": {
+    "mtime": 1782838936.1914992,
+    "ast_hash": "4321192b65464501864a0cd702bbba37",
+    "semantic_hash": "4321192b65464501864a0cd702bbba37"
+  },
+  "src/data/core/basics/topic281HibernateSourceCode.js": {
+    "mtime": 1782870951.6780727,
+    "ast_hash": "f70786b98cca5da3a59d6513171aefa3",
+    "semantic_hash": "f70786b98cca5da3a59d6513171aefa3"
+  },
+  "src/data/core/basics/topic282HibernateIntroduction.js": {
+    "mtime": 1782870951.6780727,
+    "ast_hash": "75bc0286e37272dc5dc00b8f1c33c2b3",
+    "semantic_hash": "75bc0286e37272dc5dc00b8f1c33c2b3"
+  },
+  "src/data/core/basics/topic283FundamentalsBeforeHibernate.js": {
+    "mtime": 1782870951.6789267,
+    "ast_hash": "d3d411a806f45375af78be697ea2175d",
+    "semantic_hash": "d3d411a806f45375af78be697ea2175d"
+  },
+  "src/data/core/basics/topic284LimitationsOfJDBCAndNeedOfHibernate.js": {
+    "mtime": 1782870951.6790864,
+    "ast_hash": "b50bce2a2461e6b60e9bcd50648bd193",
+    "semantic_hash": "b50bce2a2461e6b60e9bcd50648bd193"
+  },
+  "src/data/core/basics/topic285JPAAndHibernateAsAnORMFramework.js": {
+    "mtime": 1782870951.6792414,
+    "ast_hash": "57e361f040697b9b3acfab7e00fd9b3d",
+    "semantic_hash": "57e361f040697b9b3acfab7e00fd9b3d"
+  },
+  "src/data/core/basics/topic286HibernateArchitecture.js": {
+    "mtime": 1782870951.679407,
+    "ast_hash": "3135c1f16fc339ca192815dca2aa16db",
+    "semantic_hash": "3135c1f16fc339ca192815dca2aa16db"
+  },
+  "src/data/core/basics/topic287HibernateProjectSetup.js": {
+    "mtime": 1782870951.6795557,
+    "ast_hash": "fd3f4fc92cb6fb0c304840159b629669",
+    "semantic_hash": "fd3f4fc92cb6fb0c304840159b629669"
+  },
+  "src/data/core/basics/topic288HibernateProjectSetupArchitecture.js": {
+    "mtime": 1782870951.679704,
+    "ast_hash": "3f5facc4c833bc225d9401672d3dcb6f",
+    "semantic_hash": "3f5facc4c833bc225d9401672d3dcb6f"
+  },
+  "src/data/core/basics/topic289InstallHibernateHelperPlugin.js": {
+    "mtime": 1782870951.67985,
+    "ast_hash": "4a82a06a3ffa95a3db5c318d46c92da9",
+    "semantic_hash": "4a82a06a3ffa95a3db5c318d46c92da9"
+  },
+  "src/data/core/basics/topic28NeedForLoops.js": {
+    "mtime": 1782818551.4280133,
+    "ast_hash": "0d65850d70f9be37b22e9e4941b5c113",
+    "semantic_hash": "0d65850d70f9be37b22e9e4941b5c113"
+  },
+  "src/data/core/basics/topic290FirstHibernateApplication.js": {
+    "mtime": 1782870951.6799967,
+    "ast_hash": "5e88ed3277f33e6677372fc19508075b",
+    "semantic_hash": "5e88ed3277f33e6677372fc19508075b"
+  },
+  "src/data/core/basics/topic291EntityInsertionWithPersistMethod.js": {
+    "mtime": 1782870951.6801436,
+    "ast_hash": "72795cda6c9ff68199f4bc0292ccd435",
+    "semantic_hash": "72795cda6c9ff68199f4bc0292ccd435"
+  },
+  "src/data/core/basics/topic292UpdatingTheData.js": {
+    "mtime": 1782870951.6802897,
+    "ast_hash": "a8befb1b71d353c8e5b4b4c9d403c4d3",
+    "semantic_hash": "a8befb1b71d353c8e5b4b4c9d403c4d3"
+  },
+  "src/data/core/basics/topic293DeletingRecordsInATableUsingDeleteAndRemove.js": {
+    "mtime": 1782870951.6804452,
+    "ast_hash": "f5a1761f9fd92df49e03729117c66da6",
+    "semantic_hash": "f5a1761f9fd92df49e03729117c66da6"
+  },
+  "src/data/core/basics/topic294MavenProjectUpdate.js": {
+    "mtime": 1782870951.6806147,
+    "ast_hash": "d7a2cb8b8b947b1ffd38dafbeec2108e",
+    "semantic_hash": "d7a2cb8b8b947b1ffd38dafbeec2108e"
+  },
+  "src/data/core/basics/topic295SelectiveInsertionWithTransientAnnotation.js": {
+    "mtime": 1782870951.6808443,
+    "ast_hash": "b4338aba3d65f2bc4eb1e82738788d85",
+    "semantic_hash": "b4338aba3d65f2bc4eb1e82738788d85"
+  },
+  "src/data/core/basics/topic296DataRetrievalWithGetMethod.js": {
+    "mtime": 1782870951.6810327,
+    "ast_hash": "da3f819a45f9ca1187b1d90a9e15d9b3",
+    "semantic_hash": "da3f819a45f9ca1187b1d90a9e15d9b3"
+  },
+  "src/data/core/basics/topic297LazyLoadingVsEagerLoadingInHibernate.js": {
+    "mtime": 1782870951.6812427,
+    "ast_hash": "f2d06c856944b3bcaebbcd4daa1b414c",
+    "semantic_hash": "f2d06c856944b3bcaebbcd4daa1b414c"
+  },
+  "src/data/core/basics/topic298Level1CacheInHibernate.js": {
+    "mtime": 1782870951.6814566,
+    "ast_hash": "8042c6ce1854b1b5c78f7047377b4cdb",
+    "semantic_hash": "8042c6ce1854b1b5c78f7047377b4cdb"
+  },
+  "src/data/core/basics/topic299Level2CacheInHibernateEhCache.js": {
+    "mtime": 1782870951.6816387,
+    "ast_hash": "afe1e2341519a98ca8e9da3783db1700",
+    "semantic_hash": "afe1e2341519a98ca8e9da3783db1700"
+  },
+  "src/data/core/basics/topic29WhileLoop.js": {
+    "mtime": 1782818551.4289877,
+    "ast_hash": "f4389dd59c3f2bdd4505267fd272fa36",
+    "semantic_hash": "f4389dd59c3f2bdd4505267fd272fa36"
+  },
+  "src/data/core/basics/topic300HibernateConfigurationUsingJavaWithoutXML.js": {
+    "mtime": 1782870951.6817899,
+    "ast_hash": "8c4f49f843946e1666b5aa8593d147f9",
+    "semantic_hash": "8c4f49f843946e1666b5aa8593d147f9"
+  },
+  "src/data/core/basics/topic301HibernateConfigurationUsingHibernatePropertiesFile.js": {
+    "mtime": 1782870951.681937,
+    "ast_hash": "6b6c225d7fc142522c4ff51fdf52d834",
+    "semantic_hash": "6b6c225d7fc142522c4ff51fdf52d834"
+  },
+  "src/data/core/basics/topic302ExploringGeneratedValueAndSequenceGenerator.js": {
+    "mtime": 1782870951.682075,
+    "ast_hash": "1f475c4dd9c711b4ebbdad9a498f1c77",
+    "semantic_hash": "1f475c4dd9c711b4ebbdad9a498f1c77"
+  },
+  "src/data/core/basics/topic303IntroductionToHibernateAssociationMapping.js": {
+    "mtime": 1782870951.6822255,
+    "ast_hash": "b5572bd5b5b3a17c4ad81242673cb521",
+    "semantic_hash": "b5572bd5b5b3a17c4ad81242673cb521"
+  },
+  "src/data/core/basics/topic304HibernateOneToOneMapping.js": {
+    "mtime": 1782870951.6824052,
+    "ast_hash": "c9d7b317db62a7fb2b6e809bfd9b1f64",
+    "semantic_hash": "c9d7b317db62a7fb2b6e809bfd9b1f64"
+  },
+  "src/data/core/basics/topic305HibernateOneToManyAndManyToOneMapping.js": {
+    "mtime": 1782870951.682553,
+    "ast_hash": "4fbbd6479fddd43794475a9e04b72536",
+    "semantic_hash": "4fbbd6479fddd43794475a9e04b72536"
+  },
+  "src/data/core/basics/topic306HibernateManyToManyAssociationMapping.js": {
+    "mtime": 1782870951.6826966,
+    "ast_hash": "c1712de96a1c3dfcfded3a60e341f4ac",
+    "semantic_hash": "c1712de96a1c3dfcfded3a60e341f4ac"
+  },
+  "src/data/core/basics/topic307WorkingWithLOBs.js": {
+    "mtime": 1782870951.6828406,
+    "ast_hash": "78974bbfd23d8688f7e3bda7e371a06b",
+    "semantic_hash": "78974bbfd23d8688f7e3bda7e371a06b"
+  },
+  "src/data/core/basics/topic308IntroductionToHQLAndBulkOperations.js": {
+    "mtime": 1782870951.6829844,
+    "ast_hash": "2999fd7455a4e85c9d53f845375753fc",
+    "semantic_hash": "2999fd7455a4e85c9d53f845375753fc"
+  },
+  "src/data/core/basics/topic309DataRetrievalWithHQL.js": {
+    "mtime": 1782870951.683128,
+    "ast_hash": "c07875236e0fe738aa953f8a7b08f615",
+    "semantic_hash": "c07875236e0fe738aa953f8a7b08f615"
+  },
+  "src/data/core/basics/topic30DoWhileLoop.js": {
+    "mtime": 1782818551.4289877,
+    "ast_hash": "bd0a487d663234d5411b5f65999324bd",
+    "semantic_hash": "bd0a487d663234d5411b5f65999324bd"
+  },
+  "src/data/core/basics/topic310MoreOnDataRetrievalWithHQL.js": {
+    "mtime": 1782870951.6832793,
+    "ast_hash": "66e8bcbdaa0e86e280359eb8c3841b03",
+    "semantic_hash": "66e8bcbdaa0e86e280359eb8c3841b03"
+  },
+  "src/data/core/basics/topic311UpdatingAndDeletingDataWithHQL.js": {
+    "mtime": 1782870951.6834424,
+    "ast_hash": "7060031f2dffe1060fe010f700fff291",
+    "semantic_hash": "7060031f2dffe1060fe010f700fff291"
+  },
+  "src/data/core/basics/topic31ForLoop.js": {
+    "mtime": 1782818551.4290135,
+    "ast_hash": "ca8295435491e16374392c64397c83ed",
+    "semantic_hash": "ca8295435491e16374392c64397c83ed"
+  },
+  "src/data/core/basics/topic32WhichLoopToUse.js": {
+    "mtime": 1782818551.4290135,
+    "ast_hash": "4b295e9e48c286296860ffad8427c593",
+    "semantic_hash": "4b295e9e48c286296860ffad8427c593"
+  },
+  "src/data/core/basics/topic33ClassAndObjectTheory.js": {
+    "mtime": 1782818551.4290135,
+    "ast_hash": "0427e555f6aa0d1d3366184540b0b58c",
+    "semantic_hash": "0427e555f6aa0d1d3366184540b0b58c"
+  },
+  "src/data/core/basics/topic34ClassAndObjectPractical.js": {
+    "mtime": 1782818551.4290135,
+    "ast_hash": "84b990e84be75b08ce74c48cb9e1a6d3",
+    "semantic_hash": "84b990e84be75b08ce74c48cb9e1a6d3"
+  },
+  "src/data/core/basics/topic35JdkJreJvm.js": {
+    "mtime": 1782818551.4290135,
+    "ast_hash": "3412261f405c3e782e9ddd6ea92248ff",
+    "semantic_hash": "3412261f405c3e782e9ddd6ea92248ff"
+  },
+  "src/data/core/basics/topic36Methods.js": {
+    "mtime": 1782818551.4300134,
+    "ast_hash": "73ebc07dc698f478201c5118e53d1dac",
+    "semantic_hash": "73ebc07dc698f478201c5118e53d1dac"
+  },
+  "src/data/core/basics/topic37MethodOverloading.js": {
+    "mtime": 1782818551.4300134,
+    "ast_hash": "93a5fbcc2e0e28a07e45efb78eaaf69e",
+    "semantic_hash": "93a5fbcc2e0e28a07e45efb78eaaf69e"
+  },
+  "src/data/core/basics/topic38StackAndHeap.js": {
+    "mtime": 1782818551.4300134,
+    "ast_hash": "bd491246d6889f11691e03fd405a31cb",
+    "semantic_hash": "bd491246d6889f11691e03fd405a31cb"
+  },
+  "src/data/core/basics/topic39NeedForArray.js": {
+    "mtime": 1782818551.4300134,
+    "ast_hash": "3a398901ecdfeb0706f1fafe5905d50c",
+    "semantic_hash": "3a398901ecdfeb0706f1fafe5905d50c"
+  },
+  "src/data/core/basics/topic40CreationOfArray.js": {
+    "mtime": 1782818551.4300134,
+    "ast_hash": "857568b855f4fa18afadd8fb8b192460",
+    "semantic_hash": "857568b855f4fa18afadd8fb8b192460"
+  },
+  "src/data/core/basics/topic41MultidimensionalArray.js": {
+    "mtime": 1782818551.4300134,
+    "ast_hash": "3d5c6fc30be86094981c7af00e46e4dd",
+    "semantic_hash": "3d5c6fc30be86094981c7af00e46e4dd"
+  },
+  "src/data/core/basics/topic42JaggedAnd3DArrays.js": {
+    "mtime": 1782818551.4300134,
+    "ast_hash": "fee333a2678c89a0245d70d8d244446a",
+    "semantic_hash": "fee333a2678c89a0245d70d8d244446a"
+  },
+  "src/data/core/basics/topic43DrawbacksOfArrays.js": {
+    "mtime": 1782818551.4310136,
+    "ast_hash": "8b7e068a5893837d8b6aabbab593c9df",
+    "semantic_hash": "8b7e068a5893837d8b6aabbab593c9df"
+  },
+  "src/data/core/basics/topic44ArrayOfObjects.js": {
+    "mtime": 1782818551.4310136,
+    "ast_hash": "2db7d22a7b1fb4bbc9dbf175d43d5a49",
+    "semantic_hash": "2db7d22a7b1fb4bbc9dbf175d43d5a49"
+  },
+  "src/data/core/basics/topic45EnhancedForLoop.js": {
+    "mtime": 1782818551.4310136,
+    "ast_hash": "716f23ebd80bfb681d759e8c0d010424",
+    "semantic_hash": "716f23ebd80bfb681d759e8c0d010424"
+  },
+  "src/data/core/basics/topic46WhatIsString.js": {
+    "mtime": 1782818551.4310136,
+    "ast_hash": "2e79c959404f695b6f4799e3ec10a5e7",
+    "semantic_hash": "2e79c959404f695b6f4799e3ec10a5e7"
+  },
+  "src/data/core/basics/topic47MutableVsImmutableStrings.js": {
+    "mtime": 1782818551.4310136,
+    "ast_hash": "1d07116ffda9f7fd7dada60b04cc2ecb",
+    "semantic_hash": "1d07116ffda9f7fd7dada60b04cc2ecb"
+  },
+  "src/data/core/basics/topic48StringBufferAndStringBuilder.js": {
+    "mtime": 1782818551.4310136,
+    "ast_hash": "2630a21090e99fa24d4cb3437417b5ac",
+    "semantic_hash": "2630a21090e99fa24d4cb3437417b5ac"
+  },
+  "src/data/core/basics/topic49Encapsulation.js": {
+    "mtime": 1782818551.4310136,
+    "ast_hash": "ed8d4b83092f72b87e1bcf728c87b124",
+    "semantic_hash": "ed8d4b83092f72b87e1bcf728c87b124"
+  },
+  "src/data/core/basics/topic50GettersAndSetters.js": {
+    "mtime": 1782818551.4310136,
+    "ast_hash": "cc9422ae690fd5aadda91fe0fcf64b92",
+    "semantic_hash": "cc9422ae690fd5aadda91fe0fcf64b92"
+  },
+  "src/data/core/basics/topic51ThisKeyword.js": {
+    "mtime": 1782818551.4320138,
+    "ast_hash": "2e9b69cda39377588c539c665c7f2ce8",
+    "semantic_hash": "2e9b69cda39377588c539c665c7f2ce8"
+  },
+  "src/data/core/basics/topic52Constructor.js": {
+    "mtime": 1782818551.4320138,
+    "ast_hash": "5061bcd0db2bdeb01687ff60133dee00",
+    "semantic_hash": "5061bcd0db2bdeb01687ff60133dee00"
+  },
+  "src/data/core/basics/topic53DefaultVsParameterizedConstructor.js": {
+    "mtime": 1782818551.4326005,
+    "ast_hash": "6f6fc113ebbb43a9e2fb3e0106910ddb",
+    "semantic_hash": "6f6fc113ebbb43a9e2fb3e0106910ddb"
+  },
+  "src/data/core/basics/topic54StaticVariable.js": {
+    "mtime": 1782818551.4326005,
+    "ast_hash": "565862b6db3b848d8207492061440c4d",
+    "semantic_hash": "565862b6db3b848d8207492061440c4d"
+  },
+  "src/data/core/basics/topic55StaticMethod.js": {
+    "mtime": 1782818551.4326005,
+    "ast_hash": "1f5664a7a02b04a2a50bb5b8f3e6195a",
+    "semantic_hash": "1f5664a7a02b04a2a50bb5b8f3e6195a"
+  },
+  "src/data/core/basics/topic56StaticBlock.js": {
+    "mtime": 1782818551.4326005,
+    "ast_hash": "4abe17a3cfdbe54a9a052821942be478",
+    "semantic_hash": "4abe17a3cfdbe54a9a052821942be478"
+  },
+  "src/data/core/basics/topic57NamingConventions.js": {
+    "mtime": 1782818551.4326005,
+    "ast_hash": "00f528653aeb20b6140afe7bc18adc3a",
+    "semantic_hash": "00f528653aeb20b6140afe7bc18adc3a"
+  },
+  "src/data/core/basics/topic58AnonymousObject.js": {
+    "mtime": 1782818551.433014,
+    "ast_hash": "cf36a7e2d7859249b4b70b73963e94c8",
+    "semantic_hash": "cf36a7e2d7859249b4b70b73963e94c8"
+  },
+  "src/data/core/basics/topic59NeedForInheritance.js": {
+    "mtime": 1782818551.433014,
+    "ast_hash": "79d9b9bf08c10c5b61e60a894e016340",
+    "semantic_hash": "79d9b9bf08c10c5b61e60a894e016340"
+  },
+  "src/data/core/basics/topic60WhatIsInheritance.js": {
+    "mtime": 1782818551.433014,
+    "ast_hash": "d2bfacc180d3bb1537ce69ed2df90235",
+    "semantic_hash": "d2bfacc180d3bb1537ce69ed2df90235"
+  },
+  "src/data/core/basics/topic61SingleAndMultilevelInheritance.js": {
+    "mtime": 1782818551.433014,
+    "ast_hash": "518a1833f089f3580e096454cf74f1ca",
+    "semantic_hash": "518a1833f089f3580e096454cf74f1ca"
+  },
+  "src/data/core/basics/topic62MultipleInheritance.js": {
+    "mtime": 1782818551.433014,
+    "ast_hash": "76e518e99a3354f76282c5e6efaf922b",
+    "semantic_hash": "76e518e99a3354f76282c5e6efaf922b"
+  },
+  "src/data/core/basics/topic63ThisAndSuperMethods.js": {
+    "mtime": 1782818551.433014,
+    "ast_hash": "37b888053e5086caa6a513ce5e6f392c",
+    "semantic_hash": "37b888053e5086caa6a513ce5e6f392c"
+  },
+  "src/data/core/basics/topic64MethodOverriding.js": {
+    "mtime": 1782818551.433014,
+    "ast_hash": "57cebcbb5a08e60307dfa49dc41a77a9",
+    "semantic_hash": "57cebcbb5a08e60307dfa49dc41a77a9"
+  },
+  "src/data/core/basics/topic65Packages.js": {
+    "mtime": 1782818551.4340138,
+    "ast_hash": "42061ad35441b47ce8b2b8d988af4403",
+    "semantic_hash": "42061ad35441b47ce8b2b8d988af4403"
+  },
+  "src/data/core/basics/topic66AccessModifiers.js": {
+    "mtime": 1782818551.4340138,
+    "ast_hash": "07e2ab0bd60a01961533123b7085ee0c",
+    "semantic_hash": "07e2ab0bd60a01961533123b7085ee0c"
+  },
+  "src/data/core/basics/topic67Polymorphism.js": {
+    "mtime": 1782818551.4340138,
+    "ast_hash": "95b99e4c1f737d1b7b0bf30812fa55e1",
+    "semantic_hash": "95b99e4c1f737d1b7b0bf30812fa55e1"
+  },
+  "src/data/core/basics/topic68DynamicMethodDispatch.js": {
+    "mtime": 1782818551.4340138,
+    "ast_hash": "37f4952aed0c7a9d8c081f0ddd648049",
+    "semantic_hash": "37f4952aed0c7a9d8c081f0ddd648049"
+  },
+  "src/data/core/basics/topic69FinalKeyword.js": {
+    "mtime": 1782818551.4340138,
+    "ast_hash": "9f4704e7c84407c54f1c0383643f239c",
+    "semantic_hash": "9f4704e7c84407c54f1c0383643f239c"
+  },
+  "src/data/core/basics/topic70ObjectClass.js": {
+    "mtime": 1782818551.4340138,
+    "ast_hash": "2b8984da8929b4ef860eaf3d127e894c",
+    "semantic_hash": "2b8984da8929b4ef860eaf3d127e894c"
+  },
+  "src/data/core/basics/topic71UpcastingAndDowncasting.js": {
+    "mtime": 1782818551.435014,
+    "ast_hash": "3cecb44839a7b1bf2d9984024c9f4e91",
+    "semantic_hash": "3cecb44839a7b1bf2d9984024c9f4e91"
+  },
+  "src/data/core/basics/topic72WrapperClass.js": {
+    "mtime": 1782818551.435014,
+    "ast_hash": "25ff112549304bf2b3d98062c9148bc9",
+    "semantic_hash": "25ff112549304bf2b3d98062c9148bc9"
+  },
+  "src/data/core/basics/topic73Project1Introduction.js": {
+    "mtime": 1782818551.435014,
+    "ast_hash": "b50a0ac534701ef61ae67b705dda23b7",
+    "semantic_hash": "b50a0ac534701ef61ae67b705dda23b7"
+  },
+  "src/data/core/basics/topic74Project1QuestionServiceAndClass.js": {
+    "mtime": 1782818551.435014,
+    "ast_hash": "f20d58ff574c8e99b41265c46a2ae138",
+    "semantic_hash": "f20d58ff574c8e99b41265c46a2ae138"
+  },
+  "src/data/core/basics/topic75Project1HardCodedQuestionsDisplay.js": {
+    "mtime": 1782818551.435014,
+    "ast_hash": "c7737725de6f2975221ffe9039771203",
+    "semantic_hash": "c7737725de6f2975221ffe9039771203"
+  },
+  "src/data/core/basics/topic76Project1PlayQuiz.js": {
+    "mtime": 1782818551.4360142,
+    "ast_hash": "fd6ea5a532334e37190b58e46553d46a",
+    "semantic_hash": "fd6ea5a532334e37190b58e46553d46a"
+  },
+  "src/data/core/basics/topic77Project1CalculateScore.js": {
+    "mtime": 1782818551.4360142,
+    "ast_hash": "c3090e0d65bd273acbc56bd3012bde4c",
+    "semantic_hash": "c3090e0d65bd273acbc56bd3012bde4c"
+  },
+  "src/data/core/basics/topic78AbstractKeyword.js": {
+    "mtime": 1782818551.4360142,
+    "ast_hash": "6c3a1b389796e12a74a3c03480df2c01",
+    "semantic_hash": "6c3a1b389796e12a74a3c03480df2c01"
+  },
+  "src/data/core/basics/topic79InnerClass.js": {
+    "mtime": 1782818551.4360142,
+    "ast_hash": "5da3dac7ee164b2a2df7e31f0642e00a",
+    "semantic_hash": "5da3dac7ee164b2a2df7e31f0642e00a"
+  },
+  "src/data/core/basics/topic80AnonymousInnerClass.js": {
+    "mtime": 1782818551.4360142,
+    "ast_hash": "b2c27faff39d3768e398508af62d38a9",
+    "semantic_hash": "b2c27faff39d3768e398508af62d38a9"
+  },
+  "src/data/core/basics/topic81AbstractAndAnonymousInnerClass.js": {
+    "mtime": 1782818551.4360142,
+    "ast_hash": "4f7678b58ac0a6eec5e8ff6fefb2691f",
+    "semantic_hash": "4f7678b58ac0a6eec5e8ff6fefb2691f"
+  },
+  "src/data/core/basics/topic82WhatIsInterface.js": {
+    "mtime": 1782818551.4370143,
+    "ast_hash": "60d6754e794432c73871f73c77f9e286",
+    "semantic_hash": "60d6754e794432c73871f73c77f9e286"
+  },
+  "src/data/core/basics/topic83MoreOnInterfaces.js": {
+    "mtime": 1782818551.4370143,
+    "ast_hash": "dd44328c1cb09015d998d17093ca2f5c",
+    "semantic_hash": "dd44328c1cb09015d998d17093ca2f5c"
+  },
+  "src/data/core/basics/topic84NeedForInterface.js": {
+    "mtime": 1782818551.4370143,
+    "ast_hash": "e125b2eb5983efdd0cc11a4b8d6fbe92",
+    "semantic_hash": "e125b2eb5983efdd0cc11a4b8d6fbe92"
+  },
+  "src/data/core/basics/topic85WhatIsEnum.js": {
+    "mtime": 1782818551.4370143,
+    "ast_hash": "fe0822bf6cbb4b8497d41f71fd85aed5",
+    "semantic_hash": "fe0822bf6cbb4b8497d41f71fd85aed5"
+  },
+  "src/data/core/basics/topic86EnumWithIfAndSwitch.js": {
+    "mtime": 1782818551.4370143,
+    "ast_hash": "b2f1d992c1f295a59140045c04781ad7",
+    "semantic_hash": "b2f1d992c1f295a59140045c04781ad7"
+  },
+  "src/data/core/basics/topic87EnumClass.js": {
+    "mtime": 1782818551.4370143,
+    "ast_hash": "3366728dfecbf791dd2481d720df4dc4",
+    "semantic_hash": "3366728dfecbf791dd2481d720df4dc4"
+  },
+  "src/data/core/basics/topic88WhatIsAnnotation.js": {
+    "mtime": 1782818551.4380143,
+    "ast_hash": "dfd3b25a978f8f73d8f9ac2e357cc417",
+    "semantic_hash": "dfd3b25a978f8f73d8f9ac2e357cc417"
+  },
+  "src/data/core/basics/topic89TypesOfInterface.js": {
+    "mtime": 1782818551.4380143,
+    "ast_hash": "72fabf954a14b758d63441e3154e25e4",
+    "semantic_hash": "72fabf954a14b758d63441e3154e25e4"
+  },
+  "src/data/core/basics/topic90NewFunctionalInterface.js": {
+    "mtime": 1782818551.4380143,
+    "ast_hash": "8e2eb951663616c91a9184fb3f347db2",
+    "semantic_hash": "8e2eb951663616c91a9184fb3f347db2"
+  },
+  "src/data/core/basics/topic91LambdaExpression.js": {
+    "mtime": 1782818551.4380143,
+    "ast_hash": "f4e819761a4ce927d132dc5209e20523",
+    "semantic_hash": "f4e819761a4ce927d132dc5209e20523"
+  },
+  "src/data/core/basics/topic92LambdaExpressionWithReturn.js": {
+    "mtime": 1782818551.4380143,
+    "ast_hash": "4ed7341cd560bf91de5a1ce5fb184688",
+    "semantic_hash": "4ed7341cd560bf91de5a1ce5fb184688"
+  },
+  "src/data/core/basics/topic93WhatIsException.js": {
+    "mtime": 1782818551.4390144,
+    "ast_hash": "59506aa425cf1bb7cba0de6d652cc053",
+    "semantic_hash": "59506aa425cf1bb7cba0de6d652cc053"
+  },
+  "src/data/core/basics/topic94ExceptionHandlingTryCatch.js": {
+    "mtime": 1782818551.4390144,
+    "ast_hash": "849a92cd7332c1fc13dfd68ba9f51aad",
+    "semantic_hash": "849a92cd7332c1fc13dfd68ba9f51aad"
+  },
+  "src/data/core/basics/topic95TryWithMultipleCatch.js": {
+    "mtime": 1782818551.4390144,
+    "ast_hash": "bd7af9ce1333c8e61e8964b6fd65967e",
+    "semantic_hash": "bd7af9ce1333c8e61e8964b6fd65967e"
+  },
+  "src/data/core/basics/topic96ExceptionHierarchy.js": {
+    "mtime": 1782818551.4390144,
+    "ast_hash": "44763c7092ccfa3635fe177c120f58de",
+    "semantic_hash": "44763c7092ccfa3635fe177c120f58de"
+  },
+  "src/data/core/basics/topic97ThrowKeyword.js": {
+    "mtime": 1782818551.4390144,
+    "ast_hash": "ab4edb53fe60cce148fcb321f74d8ea2",
+    "semantic_hash": "ab4edb53fe60cce148fcb321f74d8ea2"
+  },
+  "src/data/core/basics/topic98CustomException.js": {
+    "mtime": 1782818551.4400146,
+    "ast_hash": "0cc9db293fceb1f9a943e476cfae5fbf",
+    "semantic_hash": "0cc9db293fceb1f9a943e476cfae5fbf"
+  },
+  "src/data/core/basics/topic99DuckingExceptionsThrows.js": {
+    "mtime": 1782818551.4400146,
+    "ast_hash": "2940b3d5cd75e968ffa76438fe9b6425",
+    "semantic_hash": "2940b3d5cd75e968ffa76438fe9b6425"
+  },
+  "src/data/core/basics/variables.js": {
+    "mtime": 1782791367.6023695,
+    "ast_hash": "6d025601686215e93d3e31c584a06d73",
+    "semantic_hash": "6d025601686215e93d3e31c584a06d73"
+  },
+  "src/data/core/oop/annotations.js": {
+    "mtime": 1782792508.0466325,
+    "ast_hash": "3175a4924a366a393ed588e543060701",
+    "semantic_hash": "3175a4924a366a393ed588e543060701"
+  },
+  "src/data/core/oop/anonymousObject.js": {
+    "mtime": 1782792428.010206,
+    "ast_hash": "6ddf38f23223e47c8c20d94031e4d4cb",
+    "semantic_hash": "6ddf38f23223e47c8c20d94031e4d4cb"
+  },
+  "src/data/core/oop/innerClasses.js": {
+    "mtime": 1782792484.9614892,
+    "ast_hash": "cd09ec2f9e56412d1da596d93710124f",
+    "semantic_hash": "cd09ec2f9e56412d1da596d93710124f"
+  },
+  "src/data/core/oop/objectClass.js": {
+    "mtime": 1782792465.5673811,
+    "ast_hash": "8939d03fb47ce8ff078ca3b31dd0e7f6",
+    "semantic_hash": "8939d03fb47ce8ff078ca3b31dd0e7f6"
+  },
+  "src/data/core/oop/packages.js": {
+    "mtime": 1782792446.2272851,
+    "ast_hash": "df7fd3de7fe1dfbc0532e25e16024b50",
+    "semantic_hash": "df7fd3de7fe1dfbc0532e25e16024b50"
+  },
+  "src/data/core/oop/thisKeyword.js": {
+    "mtime": 1782792413.5131507,
+    "ast_hash": "ce1dbf4effa614b1feee40537a19f211",
+    "semantic_hash": "ce1dbf4effa614b1feee40537a19f211"
+  },
+  "src/data/devops/awsCore.js": {
+    "mtime": 1782793227.9332464,
+    "ast_hash": "8ba92a979ca5163a7a691ad411c19383",
+    "semantic_hash": "8ba92a979ca5163a7a691ad411c19383"
+  },
+  "src/data/devops/awsDeploy.js": {
+    "mtime": 1782793248.0256023,
+    "ast_hash": "4fd86707b2400e7c13df0548b8f53472",
+    "semantic_hash": "4fd86707b2400e7c13df0548b8f53472"
+  },
+  "src/data/devops/dockerBasics.js": {
+    "mtime": 1782793188.72056,
+    "ast_hash": "aff14dd1c89b11b681597ea1ade127f2",
+    "semantic_hash": "aff14dd1c89b11b681597ea1ade127f2"
+  },
+  "src/data/devops/dockerCompose.js": {
+    "mtime": 1782793206.627872,
+    "ast_hash": "58ce05ab9ffec8916a3c9019311da2ce",
+    "semantic_hash": "58ce05ab9ffec8916a3c9019311da2ce"
+  },
+  "src/data/ecosystem/gitAdvanced.js": {
+    "mtime": 1782792975.7750623,
+    "ast_hash": "10e7ed8dc70e4a2ffbe4d9b9de0c8f9b",
+    "semantic_hash": "10e7ed8dc70e4a2ffbe4d9b9de0c8f9b"
+  },
+  "src/data/ecosystem/gitBasics.js": {
+    "mtime": 1782792926.8563256,
+    "ast_hash": "4b5f30ce28115c70e0e76aec8ca92c10",
+    "semantic_hash": "4b5f30ce28115c70e0e76aec8ca92c10"
+  },
+  "src/data/ecosystem/gitBranching.js": {
+    "mtime": 1782792943.371571,
+    "ast_hash": "b936292e983fe9a7a170e46e4c41cdef",
+    "semantic_hash": "b936292e983fe9a7a170e46e4c41cdef"
+  },
+  "src/data/ecosystem/gitRemote.js": {
+    "mtime": 1782792958.505096,
+    "ast_hash": "bdd7b7c6213b903982551e195aba4dc7",
+    "semantic_hash": "bdd7b7c6213b903982551e195aba4dc7"
+  },
+  "src/data/ecosystem/jspBasics.js": {
+    "mtime": 1782793364.1757104,
+    "ast_hash": "1c4b11cd18a3472bf0fe6972f43f73e7",
+    "semantic_hash": "1c4b11cd18a3472bf0fe6972f43f73e7"
+  },
+  "src/data/ecosystem/logging.js": {
+    "mtime": 1782793101.8990831,
+    "ast_hash": "578405cbf89d503fab63870a66b09999",
+    "semantic_hash": "578405cbf89d503fab63870a66b09999"
+  },
+  "src/data/ecosystem/servletBasics.js": {
+    "mtime": 1782793064.0724604,
+    "ast_hash": "6d097b24455cf97529ab840cd06c26ea",
+    "semantic_hash": "6d097b24455cf97529ab840cd06c26ea"
+  },
+  "src/data/ecosystem/sqlAdvanced.js": {
+    "mtime": 1782793044.778148,
+    "ast_hash": "c6029b959819afa8883e08ec6dcd1160",
+    "semantic_hash": "c6029b959819afa8883e08ec6dcd1160"
+  },
+  "src/data/ecosystem/sqlAggregates.js": {
+    "mtime": 1782793026.5148556,
+    "ast_hash": "0761f70a75604b270f09995c71bdba57",
+    "semantic_hash": "0761f70a75604b270f09995c71bdba57"
+  },
+  "src/data/ecosystem/sqlBasics.js": {
+    "mtime": 1782792994.5473526,
+    "ast_hash": "911716455e48c9a731ecfa704488e62d",
+    "semantic_hash": "911716455e48c9a731ecfa704488e62d"
+  },
+  "src/data/ecosystem/sqlJoins.js": {
+    "mtime": 1782793010.0675955,
+    "ast_hash": "425c34034b1c603462c5d82577f1ffcf",
+    "semantic_hash": "425c34034b1c603462c5d82577f1ffcf"
+  },
+  "src/data/spring/jwtAuth.js": {
+    "mtime": 1782793144.5898015,
+    "ast_hash": "8f334d3f4fe14de8ea7dd205cf2848b3",
+    "semantic_hash": "8f334d3f4fe14de8ea7dd205cf2848b3"
+  },
+  "src/data/spring/oauth2.js": {
+    "mtime": 1782793163.8101301,
+    "ast_hash": "de2dca563a2a3b1a49f12525faba55a1",
+    "semantic_hash": "de2dca563a2a3b1a49f12525faba55a1"
+  },
+  "src/data/spring/securityBasics.js": {
+    "mtime": 1782793122.7720885,
+    "ast_hash": "d114a44cf7f65c41b60f7e8eb2b1e563",
+    "semantic_hash": "d114a44cf7f65c41b60f7e8eb2b1e563"
+  },
+  "src/data/spring/springAiAdvanced.js": {
+    "mtime": 1782793297.9164977,
+    "ast_hash": "aa1f931c6aea048b61565efd48ebcb24",
+    "semantic_hash": "aa1f931c6aea048b61565efd48ebcb24"
+  },
+  "src/data/spring/springAiBasics.js": {
+    "mtime": 1782793272.7010431,
+    "ast_hash": "69b6470034d96d68baeaddf94870925f",
+    "semantic_hash": "69b6470034d96d68baeaddf94870925f"
   }
 }
