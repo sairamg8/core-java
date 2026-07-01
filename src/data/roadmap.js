@@ -456,6 +456,16 @@ import topic441 from './core/basics/topic441JoinPoint'
 import topic442 from './core/basics/topic442AfterAdvice'
 import topic443 from './core/basics/topic443PerformanceMonitoringUsingAroundAdvice'
 import topic444 from './core/basics/topic444ValidatingInputUsingAroundAdvice'
+import topic445 from './core/basics/topic445ImportanceOfSecurity'
+import topic446 from './core/basics/topic446OwaspTop10'
+import topic447 from './core/basics/topic447CreatingASpringSecurityProject'
+import topic448 from './core/basics/topic448DefaultLoginForm'
+import topic449 from './core/basics/topic449SpringSecurityFilters'
+import topic450 from './core/basics/topic450SessionId'
+import topic451 from './core/basics/topic451SettingUsernameAndPassword'
+import topic452 from './core/basics/topic452BasicAuthUsingPostman'
+import topic453 from './core/basics/topic453WhatIsCsrf'
+import topic454 from './core/basics/topic454ErrorWithoutCsrfToken'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -970,7 +980,9 @@ export const STAGES = [
         step: 42, id: 'spring-security',
         title: 'Spring Security Basics',
         subtitle: 'SecurityFilterChain, UserDetailsService, BCrypt password hashing, roles and authorities.',
-        sections: [securityBasics],
+        sections: [topic445, topic446, topic447, topic448, topic449, topic450, topic451,
+          topic452, topic453, topic454,
+          securityBasics],
       },
       {
         step: 43, id: 'jwt',
