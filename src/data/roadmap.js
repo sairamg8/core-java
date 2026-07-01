@@ -518,6 +518,13 @@ import topic503 from './core/basics/topic503RunningFirstContainer'
 import topic504 from './core/basics/topic504DockerCommands'
 import topic505 from './core/basics/topic505DockerArchitecture'
 import topic506 from './core/basics/topic506RunningJdkDockerContainer'
+import topic507 from './core/basics/topic507PackingTheSpringBootWebApp'
+import topic508 from './core/basics/topic508RunningSpringBootWebAppOnDocker'
+import topic509 from './core/basics/topic509DockerfileForDockerImages'
+import topic510 from './core/basics/topic510WebAppWithPostgresql'
+import topic511 from './core/basics/topic511DockerCompose'
+import topic512 from './core/basics/topic512RunningMultipleContainers'
+import topic513 from './core/basics/topic513DockerVolumes'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -1074,6 +1081,7 @@ export const STAGES = [
         subtitle: 'Dockerfile, multi-stage builds, images, containers, Docker Compose for local dev.',
         sections: [topic497, topic498, topic499, topic500, topic501, topic502,
           topic503, topic504, topic505, topic506,
+          topic507, topic508, topic509, topic510, topic511, topic512, topic513,
           dockerBasics, dockerCompose],
       },
       {
