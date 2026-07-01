@@ -570,6 +570,16 @@ import topic555 from './core/basics/topic555RedisVectorStoreConfig'
 import topic556 from './core/basics/topic556RedisVectorStoreImplementation'
 import topic557 from './core/basics/topic557WhatIsRag'
 import topic558 from './core/basics/topic558RagImplementation'
+import topic559 from './core/basics/topic559OpenAiImageModel'
+import topic560 from './core/basics/topic560ImagePromptAndResponse'
+import topic561 from './core/basics/topic561ImageOptions'
+import topic562 from './core/basics/topic562DescribeImage'
+import topic563 from './core/basics/topic563ImplementingDescribeImage'
+import topic564 from './core/basics/topic564AudioModelsIntroduction'
+import topic565 from './core/basics/topic565AudioTranscriptionModelSttPart1'
+import topic566 from './core/basics/topic566AudioSttPart2'
+import topic567 from './core/basics/topic567AudioTranscriptionOptions'
+import topic568 from './core/basics/topic568AudioSpeechModel'
 import jdbc from './ecosystem/jdbc'
 import hibernate from './ecosystem/hibernate'
 
@@ -1162,6 +1172,8 @@ export const STAGES = [
           topic544, topic545, topic546, topic547, topic548,
           topic549, topic550, topic551, topic552, topic553,
           topic554, topic555, topic556, topic557, topic558,
+          topic559, topic560, topic561, topic562, topic563,
+          topic564, topic565, topic566, topic567, topic568,
           springAiAdvanced],
       },
     ],
